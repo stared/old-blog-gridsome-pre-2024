@@ -10,11 +10,22 @@ module.exports = function (api) {
     // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
   })
 
+  // api.createPages(({ createPage }) => {
+  //   // Use the Pages API here: https://gridsome.org/docs/pages-api/
+  //   createPage({
+  //     path: '/:year/:month/:day/:slug\.html',
+  //     component: './src/templates/BlogPost.vue',
+  //     context: {
+  //       path: 'blog/2020/03/02/types-test-typescript'
+  //     }
+  //   })
+  // })
+
   api.createPages(({ createPage }) => {
     // Use the Pages API here: https://gridsome.org/docs/pages-api/
-    // createPage({
-    //   path: '/:year/:month/:day/:slug\.html',
-    //   component: './src/templates/BlogPost.vue'
-    // })
+    createPage({
+      path: '/aaa.html',
+      component: './src/pages/About.vue'
+    })
   })
 }
