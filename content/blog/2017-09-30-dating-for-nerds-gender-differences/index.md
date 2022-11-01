@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dating for nerds (part 2): gender differences"
-date: "2017-09-30 09:42 +0100"
+date: 2017-09-30
 author: Piotr Migdał
 tags:
   - dating

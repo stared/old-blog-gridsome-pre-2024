@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "king - man + women is queen; but why?"
-date: '2016-12-30 19:30 +0100'
+date: 2016-12-30
 author: Piotr Migdał
 tags:
   - machine-learning

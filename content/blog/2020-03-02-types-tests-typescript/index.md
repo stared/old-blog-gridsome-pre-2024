@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How I Learned to Stop Worrying and Love the Types & Tests"
-date: 2020-03-02 12:00 +0100
+date: 2020-03-02
 author: Piotr Migdał
 tags:
   - programming

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "What I do or: science to data science"
-date: "2015-12-14 14:34 +0100"
+slug: sci-to-data-sci
+date: 2015-12-14
 author: Piotr Migdał
 tags:
   - data science

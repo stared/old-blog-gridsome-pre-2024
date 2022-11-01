@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "king - man + woman is queen; but why?"
-date: '2017-01-06 19:30 +0100'
+date: 2017-01-06
 author: Piotr Migdał
 tags:
   - machine-learning
@@ -23,34 +23,33 @@ I will try to explain how it works, with special emphasis on the meaning of vect
 
 If you would rather explore than read, here is an interactive exploration by my mentee Julia Bazińska, now a freshman of computer science at the University of Warsaw:
 
-* [Word2viz](https://lamyiowce.github.io/word2viz/) by using [GloVe](http://nlp.stanford.edu/projects/glove/) pre-trained vectors (it takes 30MB to load - please be patient)
+- [Word2viz](https://lamyiowce.github.io/word2viz/) by using [GloVe](http://nlp.stanford.edu/projects/glove/) pre-trained vectors (it takes 30MB to load - please be patient)
 
 [![](/imgs/2017-01-06/word2viz-queen.png)](https://lamyiowce.github.io/word2viz/)
 
-
 ## Counts, coincidences and meaning
 
-> I love letter co-occurrence in the word *co-occurrence*.
+> I love letter co-occurrence in the word _co-occurrence_.
 
 Sometimes a seemingly naive technique gives powerful results. It turns out that merely looking at word coincidences, while ignoring all grammar and context, can provide us insight into the meaning of a word.
 Consider this sentence:
 
 > A small, fluffy roosety climbed a tree.
 
-What's a *roosety*? I would say that something like a squirrel, since the two words can be easily interchanged. Such reasoning is called the [distributional hypothesis](https://en.wikipedia.org/wiki/Distributional_semantics) and can be summarized as:
+What's a _roosety_? I would say that something like a squirrel, since the two words can be easily interchanged. Such reasoning is called the [distributional hypothesis](https://en.wikipedia.org/wiki/Distributional_semantics) and can be summarized as:
 
 > a word is characterized by the company it keeps - [John Rupert Firth](https://en.wikipedia.org/wiki/John_Rupert_Firth)
 
 If we want to teach it to a computer, the simplest, approximated approach is making it look only at word pairs.
-Let *P(a|b)* be the conditional probability that given a word *b* there is a word *a* within a short distance (let's say - being spaced by no more that 2 words).
-Then we claim that two words *a* and *b* are similar if
+Let _P(a|b)_ be the conditional probability that given a word _b_ there is a word _a_ within a short distance (let's say - being spaced by no more that 2 words).
+Then we claim that two words _a_ and _b_ are similar if
 
 $$ P(w|a) = P(w|b) $$
 
-for every word *w*.
-In other words, if we have this equality, no matter if there is word *a* or *b*, all other words occur with the same frequency.
+for every word _w_.
+In other words, if we have this equality, no matter if there is word _a_ or _b_, all other words occur with the same frequency.
 
-Even simple word counts, compared by source, can give interesting results, e.g. that in lyrics of metal songs words (*cries*, *eternity* or *ashes* are popular, while words *particularly* or *approximately* are not, well, particularly common), see [Heavy Metal and Natural Language Processing](http://www.degeneratestate.org/posts/2016/Apr/20/heavy-metal-and-natural-language-processing-part-1/).
+Even simple word counts, compared by source, can give interesting results, e.g. that in lyrics of metal songs words (_cries_, _eternity_ or _ashes_ are popular, while words _particularly_ or _approximately_ are not, well, particularly common), see [Heavy Metal and Natural Language Processing](http://www.degeneratestate.org/posts/2016/Apr/20/heavy-metal-and-natural-language-processing-part-1/).
 See also [Gender Roles with Text Mining and N-grams](http://juliasilge.com/blog/Gender-Pronouns/) by Julia Silge.
 
 Looking at co-occurrences can provide much more information. For example, one of my projects, [TagOverflow](http://p.migdal.pl/tagoverflow/), gives insight into structure of programming, based only on the usage of [tags on Stack Overflow](http://stackoverflow.com/tags).
@@ -58,19 +57,18 @@ It also shows that I am in love with pointwise mutual information, which brings 
 
 [![](/imgs/2017-01-06/word2viz-tagoverflow-english.png)](http://p.migdal.pl/tagoverflow/?site=english&size=32)
 
-
 ## Pointwise mutual information and compression
 
 > The Compressors: View cognition as compression. Compressed sensing, approximate matrix factorization - [The (n) Cultures of Machine Learning - HN discussion](https://news.ycombinator.com/item?id=10954508)
 
-In principle, we can compute *P(a|b)* for every word pair.
+In principle, we can compute _P(a|b)_ for every word pair.
 But even with a small dictionary of 100 000 words (bear in mind that we need to keep all declinations, proper names and things which are not in official dictionaries, yet are in use) keeping track of all pairs would require 8 gigabytes of space.
 
 Often instead of working with conditional probabilities, we use the [pointwise mutual information](https://en.wikipedia.org/wiki/Pointwise_mutual_information) (PMI), defined as:
 
 $$ PMI(a, b) = \log \left[ \frac{P(a,b)}{P(a)P(b)} \right] = \log \left[ \frac{P(a|b)}{P(a)} \right].$$
 
-Its direct interpretation is how much more likely we get a pair than if it were [at random](https://en.wikipedia.org/wiki/Independence_(probability_theory)).
+Its direct interpretation is how much more likely we get a pair than if it were [at random](<https://en.wikipedia.org/wiki/Independence_(probability_theory)>).
 The logarithm makes it easier to work with [words appearing at frequencies](https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/) of different orders of magnitude.
 We can approximate PMI as a scalar product:
 
@@ -78,11 +76,10 @@ $$ PMI(a, b) = \vec{v}_a \cdot \vec{v}_b, $$
 
 where $$\vec{v}_i$$ are vectors, typically of 50-300 dimensions.
 
-At the first glance it may be strange that all words can be compressed to a space of much smaller dimensionality. But there are words that can be trivially interchanged (e.g. *John* to *Peter*) and there is a lot of structure in general.
+At the first glance it may be strange that all words can be compressed to a space of much smaller dimensionality. But there are words that can be trivially interchanged (e.g. _John_ to _Peter_) and there is a lot of structure in general.
 
 The fact that this compression is lossy may give it an advantage, as it can discover patterns rather than only memorize each pair.
 For example, in recommendation systems for movie ratings, each rating is approximated by a scalar product of two vectors - a movie's content and a user's preference. This is used to predict scores for as yet unseen movies, see [Matrix Factorization with TensorFlow - Katherine Bailey](http://katbailey.github.io/post/matrix-factorization-with-tensorflow/).
-
 
 ## Word similarity and vector closeness
 
@@ -93,7 +90,7 @@ The condition that $$P(w \vert a)=P(w \vert b)$$ is equivalent to
 
 $$ PMI(w, a) = PMI(w, b), $$
 
-by dividing both sides by *P(w)* and taking their logarithms.
+by dividing both sides by _P(w)_ and taking their logarithms.
 After expressing PMI with vector products, we get
 
 $$ \vec{v}_w \cdot \vec{v}_a = \vec{v}_w \cdot \vec{v}_b $$
@@ -104,8 +101,8 @@ If it needs to work for every $$ \vec{v}_w $$, then
 
 $$ \vec{v}_a = \vec{v}_b. $$
 
-Of course, in every practical case we won't get an exact equality, just words being close to each other. Words close in this space are often synonyms (e.g. *happy* and *delighted*), antonyms (e.g. *good* and *evil*) or other easily interchangeable words (e.g. *yellow* and *blue*).
-In particular most of [opposing ideas](https://en.wikipedia.org/wiki/Horseshoe_theory) (e.g. *religion* and *atheism*) will have similar context. If you want to play with that, look at this [word2sense phrase search](https://demos.explosion.ai/sense2vec/?word=machine%20learning&sense=auto).
+Of course, in every practical case we won't get an exact equality, just words being close to each other. Words close in this space are often synonyms (e.g. _happy_ and _delighted_), antonyms (e.g. _good_ and _evil_) or other easily interchangeable words (e.g. _yellow_ and _blue_).
+In particular most of [opposing ideas](https://en.wikipedia.org/wiki/Horseshoe_theory) (e.g. _religion_ and _atheism_) will have similar context. If you want to play with that, look at this [word2sense phrase search](https://demos.explosion.ai/sense2vec/?word=machine%20learning&sense=auto).
 
 What I find much more interesting is that words form a linear space. In particular, a zero vector represent a totally uncharacteristic word, occurring with every other word at the random chance level (as its scalar product with every word is zero, so is its PMI).
 
@@ -115,16 +112,15 @@ $$ \frac{\vec{v}_a \cdot \vec{v}_b}{\vert \vec{v}_a \vert \vert \vec{v}_b \vert}
 
 That is, it puts emphasis on the direction in which a given word co-occurs with other words, rather than the strength of this effect.
 
-
 ## Analogies and linear space
 
-If we want to make word analogies (*a is to b is as A is to B*), one may argue that in can be expressed as an equality of conditional probability ratios
+If we want to make word analogies (_a is to b is as A is to B_), one may argue that in can be expressed as an equality of conditional probability ratios
 
 $$ \frac{P(w|a)}{P(w|b)} = \frac{P(w|A)}{P(w|B)} $$
 
-for every word *w*. Sure, it looks (and is!) a questionable assumption, but it is still the best thing we can do with conditional probability. I will not try defending this formulation - I will show its equivalent formulations.
+for every word _w_. Sure, it looks (and is!) a questionable assumption, but it is still the best thing we can do with conditional probability. I will not try defending this formulation - I will show its equivalent formulations.
 
-For example, if we want to say *dog is to puppy as cat is to kitten*, we expect that if e.g. word *nice* co-occurs with both *dog* and *cat* (likely with different frequencies), then it co-occurs with *puppy* and *kitten* by the same factor.
+For example, if we want to say _dog is to puppy as cat is to kitten_, we expect that if e.g. word _nice_ co-occurs with both _dog_ and _cat_ (likely with different frequencies), then it co-occurs with _puppy_ and _kitten_ by the same factor.
 It appears it is true, with the factor of two favoring the cubs - compare [pairs](https://books.google.com/ngrams/graph?content=nice+cat%2Cnice+kitten%2Cnice+dog%2Cnice+puppy&year_start=1960&year_end=2008&corpus=0&smoothing=5&share=&direct_url=t1%3B%2Cnice%20cat%3B%2Cc0%3B.t1%3B%2Cnice%20kitten%3B%2Cc0%3B.t1%3B%2Cnice%20dog%3B%2Cc0%3B.t1%3B%2Cnice%20puppy%3B%2Cc0) to [words](https://books.google.com/ngrams/graph?content=cat%2Ckitten%2Cdog%2Cpuppy&year_start=1960&year_end=2008&corpus=0&smoothing=5&share=&direct_url=t1%3B%2Ccat%3B%2Cc0%3B.t1%3B%2Ckitten%3B%2Cc0%3B.t1%3B%2Cdog%3B%2Cc0%3B.t1%3B%2Cpuppy%3B%2Cc0) from [Google Books Ngram Viewer](https://books.google.com/ngrams) (while n-grams look only at adjacent words, they can be some sort of approximation).
 
 By proposing ratios for word analogies we implicitly assume that the probabilities of words can be factorized with respect to different dimensions of a word. For the discussed case it would be:
@@ -136,11 +132,10 @@ P(w\vert cat) = f(w\vert species=cat) \times f(w\vert age=adult) \times P(w\vert
 P(w\vert kitten) = f(w\vert species=cat) \times f(w\vert age=cub) \times P(w\vert is\_a\_pet) $$
 
 So, in particular:
-
-$$ \frac{P(w|dog)}{P(w|puppy)} = \frac{f(w\vert age=adult)}{f(w\vert age=cub)} = \frac{P(w|cat)}{P(w|kitten)}. $$
+$$
 
 How does the equality of conditional probability ratios translate to the word vectors?
-If we express it as mutual information (again, *P(w)* and logarithms) we get
+If we express it as mutual information (again, _P(w)_ and logarithms) we get
 
 $$ \vec{v}_w \cdot \vec{v}_a - \vec{v}_w \cdot \vec{v}_b = \vec{v}_w \cdot \vec{v}_A - \vec{v}_w \cdot \vec{v}_B, $$
 
@@ -148,16 +143,15 @@ which is the same as
 
 $$ \vec{v}_w \cdot \left( \vec{v}_a - \vec{v}_b - \vec{v}_A + \vec{v}_B \right) = 0.$$
 
-Again, if we want it to hold for any word *w*, this vector difference needs to be zero.
+Again, if we want it to hold for any word _w_, this vector difference needs to be zero.
 
 We can use analogies for meaning (e.g. changing gender with vectors), grammar (e.g. changing tenses) or other analogies (e.g. cities into their zip codes).
 It seems that analogies are not only a computational trick - we may actually use them to think all the time, see:
 
-* George Lakoff, Mark Johnson, [Metaphors We Live By](https://www.amazon.com/Metaphors-We-Live-George-Lakoff/dp/0226468011) (1980)
-* and [their list of conceptual metaphors in English (webarchive)](http://web.archive.org/web/20080718021721/http://cogsci.berkeley.edu/lakoff/metaphors/), in particular look for *X is Up*, plotted below:
+- George Lakoff, Mark Johnson, [Metaphors We Live By](https://www.amazon.com/Metaphors-We-Live-George-Lakoff/dp/0226468011) (1980)
+- and [their list of conceptual metaphors in English (webarchive)](http://web.archive.org/web/20080718021721/http://cogsci.berkeley.edu/lakoff/metaphors/), in particular look for _X is Up_, plotted below:
 
 ![](/imgs/2017-01-06/word2viz-up-down-metaphors.png)
-
 
 ## Differences and projections
 
@@ -171,7 +165,7 @@ are not words vectors by themselves.
 However, it is interesting to project a word on this axis.
 We can see that the projection
 
-$$ \vec{v}_w \cdot \left( \vec{v}_a - \vec{v}_b \right)
+$$
 = \log\left[ P(w|a) \right] - \log\left[ P(w|b) \right]$$
 
 is exactly a relative occurrence of a word within different contexts.
@@ -266,3 +260,4 @@ Though, what I like the most is to see how people interact with it:
 
 * [artistic-scientific impulsive-analytical](https://twitter.com/cesifoti/status/818672972743450624) by Cesar Hidalgo from MIT Media Lab
 * [good-evil unlawful-lawful and AD&D classes](http://imgur.com/3FzX81i) from HN comment thread :)
+$$
