@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How I Learned to Stop Worrying and Love the Types & Tests"
-date: 2020-03-02
+date: 2020-03-02 12:00 +0100
 author: Piotr Migdał
 tags:
   - programming
@@ -14,11 +14,11 @@ external:
   title: "How I Learned to Stop Worrying and Love the Types & Tests"
   href: https://medium.com/quantum-photons/how-i-learned-to-stop-worrying-and-love-the-types-tests-b6b5ee5e8ede
   status: at Quantum Tensors Medium
-  date: 2020-03-02
+  date: 2020-03-02 12:00 +0100
 slug: types-test-typescript
 ---
 
-*On TypeScript, ESlint, jest, TSDoc, Travis-CI, and VSCode (with inspirations from the Zen of Python)*
+_On TypeScript, ESlint, jest, TSDoc, Travis-CI, and VSCode (with inspirations from the Zen of Python)_
 
 It is fun to write fast without constraints, and run code in a flash. That is why I fell in love with Python and the Jupyter Notebook environment, a great tool for prototyping and interacting with data. However, interactive notebooks fall short when you want to write bigger, maintainable code. See the [What’s wrong with computational notebooks?](http://web.eecs.utk.edu/~azh/blog/notebookpainpoints.html) survey:
 
@@ -73,7 +73,7 @@ Types give built-in testing — that a given function takes arguments of particu
 So, let’s start with a few lines of [Zen of Python](https://www.python.org/dev/peps/pep-0020/):
 
 > Explicit is better than implicit.
-> 
+>
 > In the face of ambiguity, refuse the temptation to guess.
 
 ---
@@ -84,8 +84,7 @@ Still, for me, TS is a day and night difference with JavaScript.
 
 ### Further reading
 
-* [Is TypeScript worth it? - LogRocket Blog](https://blog.logrocket.com/is-typescript-worth-it/)
-
+- [Is TypeScript worth it? - LogRocket Blog](https://blog.logrocket.com/is-typescript-worth-it/)
 
 # TSDoc
 
@@ -98,15 +97,14 @@ Good comments do clarify code. [TSDoc](https://github.com/microsoft/tsdoc) is a 
 If we are clueless about what to write in the description, it may be a sign of a more fundamental problem:
 
 > If the implementation is hard to explain, it's a bad idea.
-> 
+>
 > If the implementation is easy to explain, it may be a good idea.
 
 Additionally, it is possible to create the whole documentations with [TypeDoc](https://github.com/TypeStrong/typedoc), see [Operator for Quantum Tensors](https://quantum-game.github.io/quantum-tensors/classes/_operator_.operator.html).
 
 ### Further reading
 
-* [Intro to TypeScript Documentation with TSDoc](https://coryrylan.com/blog/intro-to-typescript-documentation-with-tsdoc)
-
+- [Intro to TypeScript Documentation with TSDoc](https://coryrylan.com/blog/intro-to-typescript-documentation-with-tsdoc)
 
 # ESLint
 
@@ -128,7 +126,7 @@ The first two are a no-brainer. It may be debatable what is “risky”, but we 
 
 [![](./opressive-silence-if-assignment.jpeg)](http://oppressive-silence.com/comic/oh-no-the-robot)
 
-Source: [oppressive-silence.com/comic/oh-no-the-robots](http://oppressive-silence.com/comic/oh-no-the-robots). Using [no-cond-assign](https://eslint.org/docs/rules/no-cond-assign) would have saved their lives. 
+Source: [oppressive-silence.com/comic/oh-no-the-robots](http://oppressive-silence.com/comic/oh-no-the-robots). Using [no-cond-assign](https://eslint.org/docs/rules/no-cond-assign) would have saved their lives.
 
 The standardization is less obvious. Personally, I like setting the linter to be as strict as possible, going in line with a controversial piece of wisdom from the Zen of Python:
 
@@ -155,7 +153,6 @@ I do have a love and hate relationship with [Prettier](https://prettier.io/), an
 - [typescript-eslint/typescript-eslint](https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/README.md)
 - [Integrating Prettier + ESLint + Airbnb Style Guide in VSCode](https://blog.echobind.com/integrating-prettier-eslint-airbnb-style-guide-in-vscode-47f07b5d7d6a)
 - [Keep Code Consistent Across Developers The Easy Way — With Prettier & ESLint](https://itnext.io/keep-code-consistent-across-developers-the-easy-way-with-prettier-eslint-60bb7e91b76c)
-
 
 # jest
 
@@ -186,7 +183,6 @@ But, if you want to gamify adding tests, there is a way to go!
 ### Further reading
 
 - [Unit Testing with Typescript and Jest](https://dev.to/muhajirdev/unit-testing-with-typescript-and-jest-2gln)
-
 
 # Travis CI
 
@@ -228,11 +224,10 @@ And the gamification part! Writing tests for all functions is boring… unless I
 
 ![[https://codecov.io/gh/Quantum-Game/quantum-tensors/](https://codecov.io/gh/Quantum-Game/quantum-tensors/)](./codecov.png)
 
-
 ### Further reading:
 
-* [A first impression of GitHub Actions CI/CD](https://www.eficode.com/blog/github-actions)
-* [Migrating from TravisCI to Github Actions](https://bravelab.io/blog/migrating-from-travisci-to-github-actions-1/)
+- [A first impression of GitHub Actions CI/CD](https://www.eficode.com/blog/github-actions)
+- [Migrating from TravisCI to Github Actions](https://bravelab.io/blog/migrating-from-travisci-to-github-actions-1/)
 
 # Ending notes
 
@@ -264,4 +259,3 @@ In fact, I learned TypeScript during a hackathon! For other parts: I would use E
 #### Thanks
 
 I hope you’ve learned something — tools, or an overall approach that can be applied to any language. I would like to thank Rafał Jakubanis, Anna Karpiuk, Philippe Cochin, Marek Cichy and Klem Jankiewicz for valuable remarks on the draft.
-
