@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "king - man + woman is queen; but why?"
+slug: king-man-woman-queen-why
 date: 2017-01-06
 author: Piotr Migdał
 tags:

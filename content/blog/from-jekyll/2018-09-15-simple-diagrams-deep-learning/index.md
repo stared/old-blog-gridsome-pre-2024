@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Simple diagrams of convoluted neural networks"
+slug: simple-diagrams-deep-learning
 date: 2018-09-15
 author: Piotr Migdał
 tags:

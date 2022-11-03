@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "After PyData Warsaw 2017"
+slug: after-pydata-warsaw-2017
 date: 2017-11-15
 author: Piotr Migdał
 tags:

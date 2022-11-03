@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Exploring human vs machine learning (one blogpost at a time)"
+slug: human-machine-learning-motivation
 date: 2019-07-15
 author: Piotr Migdał
 tags:

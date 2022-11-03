@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "king - man + women is queen; but why?"
+slug: why-do-word2vec-analogies-work
 date: 2016-12-30
 author: Piotr Migdał
 tags:

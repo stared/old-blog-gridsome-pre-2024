@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Learning Deep Learning with Keras
+slug: teaching-deep-learning
 date: 2017-04-30
 author: Piotr Migdał
 tags:
