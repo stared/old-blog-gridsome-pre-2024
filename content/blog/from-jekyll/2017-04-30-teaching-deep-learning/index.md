@@ -11,7 +11,7 @@ tags:
 description: >-
   Don't be afraid of artificial neural networks - it is easy to start! An
   overview of deep learning with links to didactic materials.
-image: /imgs/2017-04-30-learning-deep-learning/deep_learning_meme_keras.png
+image: ./deep_learning_meme_keras.png
 extras:
   - text: "tweet by François Chollet (the creator of Keras) with over 140 retweets"
     href: https://twitter.com/fchollet/status/858840192261644292
@@ -30,7 +30,7 @@ I teach deep learning both for a living (as the main [deepsense.ai instructor](h
 
 Whether you want to start learning deep learning for you career, to have a nice adventure (e.g. with [detecting huggable objects](https://www.reddit.com/r/MachineLearning/comments/4casci/can_i_hug_that_i_trained_a_classifier_to_tell_you/)) or to get insight into machines before they take over[^webcomics], this post is for you! Its goal is not to teach neural networks by itself, but to provide an overview and to point to didactically useful resources.
 
-![Deep Learning Meme - What I actually do (Keras version)](/imgs/2017-04-30-learning-deep-learning/deep_learning_meme_keras.png)
+![Deep Learning Meme - What I actually do (Keras version)](./deep_learning_meme_keras.png)
 
 Don't be afraid of artificial neural networks - it is easy to start! In fact, my biggest regret is delaying learning it, because of the perceived difficulty.
 To start, all you need is really basic programming, very simple mathematics and knowledge of a few machine learning concepts.
@@ -73,7 +73,7 @@ If you are curious what neural networks are, take a look at this series of video
 
 These techniques are data-hungry. See a plot of [AUC score](https://stats.stackexchange.com/questions/132777/what-does-auc-stand-for-and-what-is-it) for [logistic regression, random forest and deep learning on Higgs dataset](https://github.com/szilard/benchm-ml/tree/master/x1-data-higgs) (data points are in millions):
 
-![Logistic Regression vs Random Forest vs Deep Learning on Higgs dataset ](/imgs/2017-04-30-learning-deep-learning/linear_random_forest_deep_learning_higgs_szilard.png)
+![Logistic Regression vs Random Forest vs Deep Learning on Higgs dataset ](./linear_random_forest_deep_learning_higgs_szilard.png)
 
 In general there is no guarantee that, even with a lot of data, deep learning does better than other techniques, for example tree-based such as random forest or [boosted trees](https://xgboost.readthedocs.io/en/latest/model.html).
 
@@ -148,7 +148,7 @@ Also, if you want to have a propaganda picture, there is a possibly biased (or [
 
 - [The state of deep learning frameworks (from GitHub metrics), April 2017. - François Chollet (Keras creator)](https://twitter.com/fchollet/status/852194634470223873)
 
-![](/imgs/2017-04-30-learning-deep-learning/deep_learning_framework_popularity_apr2017_fchollet.png)
+![](./deep_learning_framework_popularity_apr2017_fchollet.png)
 
 If you want to consult a different source, based on arXiv papers rather than GitHub activity, see [A Peek at Trends in Machine Learning](https://medium.com/@karpathy/a-peek-at-trends-in-machine-learning-ab8a1085a106) by Andrej Karpathy.
 Popularity is important - it means that if you want to search for a network architecture, googling for it (e.g. `UNet Keras`) is likely to return an example.
@@ -276,7 +276,7 @@ Creating a new neural network has a lot in common with cooking - there are typic
 The most important cooking contest is [ImageNet Large Scale Visual Recognition Challenge](http://image-net.org/challenges/LSVRC/), with recognition of hundreds of classes from half a million dataset of photos.
 Look at these [Neural Network Architectures](https://culurciello.github.io/tech/2016/06/04/nets.html), typically using 224x224x3 input (chart by Eugenio Culurciello):
 
-![Deep Learning Architectures - a scatter plot of network sizes, performances and ops per run](/imgs/2017-04-30-learning-deep-learning/deep_learning_architectures_culurciello.png)
+![Deep Learning Architectures - a scatter plot of network sizes, performances and ops per run](./deep_learning_architectures_culurciello.png)
 
 Circle size represents the number of parameters (a lot!). It doesn't mention [SqueezeNet](https://gab41.lab41.org/lab41-reading-group-squeezenet-9b9d1d754c75) though, an architecture vastly reducing the number of parameters (e.g. 50x fewer).
 

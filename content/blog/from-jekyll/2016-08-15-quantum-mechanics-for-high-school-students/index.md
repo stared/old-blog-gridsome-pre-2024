@@ -9,13 +9,13 @@ tags:
   - teaching
 mathjax: false
 description: "Outlines and materials related to my basics courses, with light polarization as the quantum information carrier."
-image: /imgs/2016-08-15-quantum-whiteboard-julia.jpg
+image: ./2016-08-15-quantum-whiteboard-julia.jpg
 extras:
   - text: "shared on r/Physics with over 300 upvotes"
     href: https://www.reddit.com/r/Physics/comments/5o3g7i/quantum_mechanics_for_highschool_students/
 ---
 
-![No-cloning theorem with Júlia Amorós Binefa in 2012](/imgs/2016-08-15-quantum-whiteboard-julia.jpg)
+![No-cloning theorem with Júlia Amorós Binefa in 2012](./2016-08-15-quantum-whiteboard-julia.jpg)
 
 _A participant, Julia Amorós Binefa, and the no-cloning theorem - ICFO, 2012._
 
@@ -73,7 +73,7 @@ For experimental stuff, it's crucial to show first, explain later - if at all (o
 
 from [When should you teach children, and when should you let them explore? - The Economist](http://www.economist.com/node/18741484).
 
-![LCD screen + plastic cup + polarizer](/imgs/2016-08-15-quantum-polarization.jpg)
+![LCD screen + plastic cup + polarizer](./2016-08-15-quantum-polarization.jpg)
 
 _An LCD screen + a plastic cup + a camera with a polarizer._
 
@@ -203,7 +203,7 @@ In 2016, I covered only 0., 1. and 2., all on-site. Because of the lack of prepa
 - how to quantize the sent information (quantum or classical), when there is noise in the channel
 - how to check if information is altered and how to fix it (check sum, Hamming codes)
 
-![Quantum Zeno effect with polarization rotation - notes by Krzysztof Lis](/imgs/2016-08-15-quantum-zeno-lis.jpg)
+![Quantum Zeno effect with polarization rotation - notes by Krzysztof Lis](./2016-08-15-quantum-zeno-lis.jpg)
 
 _The first historical drawing of "the light-twisting sugar solution as a mojito drink" - notes by Krzysztof Lis, Olsztyn, 2011._
 

@@ -10,7 +10,7 @@ tags:
   - r
 mathjax: false
 description: "Academia to data science? Learn Python (or R), machine learning and other stuff."
-image: /imgs/2016-03-15-dark-side-of-science-meme.jpg
+image: ./2016-03-15-dark-side-of-science-meme.jpg
 external:
   title: From Science to Data Science, a Comprehensive Guide for Transition
   href: http://www.kdnuggets.com/2016/04/data-science-comprehensive-guide-transition.html
@@ -18,7 +18,7 @@ external:
   date: 2016-04-12 11:03 +0800
 ---
 
-![(meme) Welcome to dark side of science - data science](/imgs/2016-03-15-dark-side-of-science-meme.jpg)
+![(meme) Welcome to dark side of science - data science](./2016-03-15-dark-side-of-science-meme.jpg)
 
 After posting [What I do or: science to data science]({{site.url}}/2015/12/14/sci-to-data-sci.html) I got a lot of emails on how to make this transition.
 
@@ -57,7 +57,7 @@ From my perspective the whole process looks that way:
 And everything needs to be done in a reproducible way - so others can interact with your code, or even run it on a server. Depending on the job, there may be more emphasis on one part or the other.
 Or even look at [this tweet](https://twitter.com/JennyBryan/status/688866722980364289) - while humorous[^6], it shows a balanced list of typical skills and activities of a data scientist:
 
-![a data scientist should be able to (by Joel Grus)](/imgs/2016-03-15-a-data-scientist-should.png)
+![a data scientist should be able to (by Joel Grus)](./2016-03-15-a-data-scientist-should.png)
 
 If you want to learn more about what is data science, look at the following links:
 

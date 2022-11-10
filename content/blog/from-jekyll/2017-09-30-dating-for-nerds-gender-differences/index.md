@@ -8,7 +8,7 @@ tags:
   - dating
 description: >-
   This part of dating for nerds series is focused on the differences between genders that may affect dating: social expectations, safety, choosiness, taking initiative.
-image: /imgs/2017-09-30-dating-for-nerds-gender-differences/dating_looks_poetry_patrizia_comino.jpg
+image: ./dating_looks_poetry_patrizia_comino.jpg
 extras:
   - text: "was even on Hacker News (but got flagged)"
     href: https://news.ycombinator.com/item?id=15372552
@@ -30,7 +30,7 @@ In most cases the differences are small (though, overblown by popular psychology
 
 Still, it is crucial to be aware of some of different motivations and preferences.
 
-[![](/imgs/2017-09-30-dating-for-nerds-gender-differences/gaussian_outrage.jpg)](https://twitter.com/sentientist/status/894959693822558209)
+[![](./gaussian_outrage.jpg)](https://twitter.com/sentientist/status/894959693822558209)
 
 > - [A handy graphic for understanding outrage at statements about average differences between groups](https://twitter.com/sentientist/status/894959693822558209) by Diana S. Fleischman‏
 
@@ -56,7 +56,7 @@ First, for most your problems there are similar or analogous ones on women’s s
 
 Second, there is a lot of social pressure on the way she behaves. Some of this is related to the value placed on women’s modesty (i.e. _“she shouldn’t be too easy”_). But it seems that the largest burden is from (often unrealistic) expectations related to beauty standards. In the worst case, she may feel that her dating prospects are entirely dependent her looks.
 
-![](/imgs/2017-09-30-dating-for-nerds-gender-differences/dating_looks_poetry_patrizia_comino.jpg)
+![](./dating_looks_poetry_patrizia_comino.jpg)
 
 - [It’s not only looks](http://66.media.tumblr.com/7050d427d3d58a7e0c6d86e4436ffb35/tumblr_oad6r4kAcr1sxo1gdo1_1280.jpg) by [Patrizia Comino](http://patriziacomino.tumblr.com/), posted with permission
 
@@ -114,7 +114,7 @@ You may say that at least when it comes to sex it is easier for women:
 
 > For men getting sex is a chore, for women getting sex is a choice
 
-[![](/imgs/2017-09-30-dating-for-nerds-gender-differences/casual_sex_yes_baranowski_hecht_2014.png)](https://skeptics.stackexchange.com/questions/43508/)
+[![](./casual_sex_yes_baranowski_hecht_2014.png)](https://skeptics.stackexchange.com/questions/43508/)
 
 And in most cases, [getting any sex as a woman is trivial, compared to the effort required of a man](https://skeptics.stackexchange.com/questions/43508/are-men-more-likely-than-women-to-accept-an-offer-for-casual-sex). So, is it cool? Not necessarily. While for some men it may be that:
 
@@ -124,7 +124,7 @@ it’s rarely the case for women. Good sex requires safety, care and effort. (If
 
 And even if a woman is up for one-night stand, most likely she doesn’t want to be treated as an object. A man using her only as a means for his pleasure will rarely put effort into pleasing her. He may not even treat her as an individual, rather than a woman (which many women find off-putting, even at the subconscious level).
 
-![](/imgs/2017-09-30-dating-for-nerds-gender-differences/casual_sex_regret.png)
+![](./casual_sex_regret.png)
 
 - Based on data from [Sexual Regret - Tests of Competing Explanations of Sex Differences](https://doi.org/10.1177/1474704916682903) by Leif Edward Ottesen Kennair, Mons Bendixen, David M. Buss in Evolutionary Psychology (2016)
 
@@ -148,7 +148,7 @@ Many places in which we spend our time have an uneven gender ratio - be it workp
 
 You are likely to spend time in places with a gender imbalance in (questionable) favor of your gender. See [Most Female and Male Occupations Since 1950](http://flowingdata.com/2017/09/11/most-female-and-male-occupations-since-1950/) by Nathan Yay:
 
-[![](/imgs/2017-09-30-dating-for-nerds-gender-differences/gender_occupations_flowingdata.png)](<(http://flowingdata.com/2017/09/11/most-female-and-male-occupations-since-1950/)>)
+[![](./gender_occupations_flowingdata.png)](<(http://flowingdata.com/2017/09/11/most-female-and-male-occupations-since-1950/)>)
 
 It also happens the other way - many liberal arts and humanities departments lack men. One of my friends complained about a party she attended:
 
@@ -209,7 +209,7 @@ Beware - places dominated by frustrated, cynical men are rarely good places for 
 
 The traditional ways to deal with that is to say that (hetero)men and women cannot be friends. What’s the problem with having friends you find attractive? (Hint: no, you don’t need to hit on everyone you find attractive.)
 
-![Bisexuals with no friends - Philosoraptor Meme](/imgs/2017-09-30-dating-for-nerds-gender-differences/bisexuals_no_friends_philosoraptor_meme.jpg)
+![Bisexuals with no friends - Philosoraptor Meme](./bisexuals_no_friends_philosoraptor_meme.jpg)
 
 > Spoiler: bi folks (and even pansexuals) are not attracted to everyone.
 
@@ -257,7 +257,7 @@ Why does it happen? Except, of course, for cultural expectations (which may be v
 
 Yet, well, it is how it works. Even if it is your least favorite part, it is worth it (at the same time complaining that things should work differently won’t help you at all). There is a silver lining - [it is advantageous to make the first contact](https://theblog.okcupid.com/a-womans-advantage-82d5074dde2d). How to ask out will go in the next episode.
 
-[![](/imgs/2017-09-30-dating-for-nerds-gender-differences/id-rather-cuddle-than-have-sex-then.jpg)](http://weknowmemes.com/2013/02/id-rather-cuddle-than-have-sex/)
+[![](./id-rather-cuddle-than-have-sex-then.jpg)](http://weknowmemes.com/2013/02/id-rather-cuddle-than-have-sex/)
 
 > Sex - those who know grammar will get it
 

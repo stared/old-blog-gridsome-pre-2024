@@ -10,12 +10,12 @@ tags:
   - d3js
 mathjax: false
 description: "Interactive data visualization for high-school students of KFnrD (24-29 Jan 2016) - materials, results."
-image: /imgs/2016-02-09-kfnrd_icm_work.jpg
+image: ./2016-02-09-kfnrd_icm_work.jpg
 ---
 
 24-29 Jan 2016 I had a workshop for gifted high-school students of the [Polish Children's Fund](https://en.wikipedia.org/wiki/Polish_Children%27s_Fund) ([Krajowy Fundusz na rzecz Dzieci](http://fundusz.org/)) entitled _Interactive Data Visualization_. It was a part of workshops in practical computer science, at [ICM, University of Warsaw](http://www.icm.edu.pl/web/guest), organized by [@bolikowski](https://twitter.com/bolikowski).
 
-![Students working in a lab](/imgs/2016-02-09-kfnrd_icm_work.jpg)
+![Students working in a lab](./2016-02-09-kfnrd_icm_work.jpg)
 
 My intent was to show data visualization so they can start with getting data, and end up with a publicly-accessible data visualization.
 
@@ -70,7 +70,7 @@ I had 5 participants (3 girls, 2 boys), who had background mostly in algorithms,
   - [Bootstrap](http://getbootstrap.com/)
   - [reddit.com/r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful)
 
-![Women can code better](/imgs/2016-02-09-kfnrd_icm_girls.jpg)
+![Women can code better](./2016-02-09-kfnrd_icm_girls.jpg)
 
 ## Fruits
 
@@ -94,4 +94,4 @@ Some projects required data wrangling, which they did in C++, C# and Perl. I was
 Force-directed graph is a black hole - once I showed it, all of the participants wanted to use it.
 I have mixed feelings about it - I love them (TagOverflow, Themes of Polish Books, etc), but it is more high-level than the core D3.js API. And projects were not as diverse as they might have been.
 
-![Informal talks in the corridor](/imgs/2016-02-09-kfnrd_icm_floor.jpg)
+![Informal talks in the corridor](./2016-02-09-kfnrd_icm_floor.jpg)

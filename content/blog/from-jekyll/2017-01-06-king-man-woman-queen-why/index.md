@@ -10,7 +10,7 @@ tags:
 mathjax: true
 description: >-
   Words, vectors, analogies and conceptual metaphors - the linear space of word2vec and GloVe. Or: how to change gender with a vector.
-image: /imgs/2017-01-06/queen-julia-vectors-facebook.jpg
+image: ./queen-julia-vectors-facebook.jpg
 extras:
   - text: "Hacker News discussion thread with over 250 upvotes"
     href: https://news.ycombinator.com/item?id=13346104
@@ -26,7 +26,7 @@ If you would rather explore than read, here is an interactive exploration by my 
 
 - [Word2viz](https://lamyiowce.github.io/word2viz/) by using [GloVe](http://nlp.stanford.edu/projects/glove/) pre-trained vectors (it takes 30MB to load - please be patient)
 
-[![](/imgs/2017-01-06/word2viz-queen.png)](https://lamyiowce.github.io/word2viz/)
+[![](./word2viz-queen.png)](https://lamyiowce.github.io/word2viz/)
 
 ## Counts, coincidences and meaning
 
@@ -56,7 +56,7 @@ See also [Gender Roles with Text Mining and N-grams](http://juliasilge.com/blog/
 Looking at co-occurrences can provide much more information. For example, one of my projects, [TagOverflow](http://p.migdal.pl/tagoverflow/), gives insight into structure of programming, based only on the usage of [tags on Stack Overflow](http://stackoverflow.com/tags).
 It also shows that I am in love with pointwise mutual information, which brings us to the next point.
 
-[![](/imgs/2017-01-06/word2viz-tagoverflow-english.png)](http://p.migdal.pl/tagoverflow/?site=english&size=32)
+[![](./word2viz-tagoverflow-english.png)](http://p.migdal.pl/tagoverflow/?site=english&size=32)
 
 ## Pointwise mutual information and compression
 
@@ -152,7 +152,7 @@ It seems that analogies are not only a computational trick - we may actually use
 - George Lakoff, Mark Johnson, [Metaphors We Live By](https://www.amazon.com/Metaphors-We-Live-George-Lakoff/dp/0226468011) (1980)
 - and [their list of conceptual metaphors in English (webarchive)](http://web.archive.org/web/20080718021721/http://cogsci.berkeley.edu/lakoff/metaphors/), in particular look for _X is Up_, plotted below:
 
-![](/imgs/2017-01-06/word2viz-up-down-metaphors.png)
+![](./word2viz-up-down-metaphors.png)
 
 ## Differences and projections
 
@@ -203,7 +203,7 @@ If you want to **learn** how it works, I recommend the following materials:
   * it's great, except for its claims for greatness, see: [GloVe vs word2vec](https://rare-technologies.com/making-sense-of-word2vec) by Radim Rehurek
 * [On Chomsky and the Two Cultures of Statistical Learning](http://norvig.com/chomsky.html) by Peter Norvig
 
-![](/imgs/2017-01-06/queen-julia-vectors.jpg)
+![](./queen-julia-vectors.jpg)
 
 > Julia Bazińska, at the rooftop garden of the [Warsaw University Library](https://en.wikipedia.org/wiki/Warsaw_University_Library) - the building in which we worked
 

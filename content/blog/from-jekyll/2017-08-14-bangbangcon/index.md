@@ -9,7 +9,7 @@ tags:
   - diversity
 description: >-
   Inclusive-inclusivity, or an awesome programming conference, attracting diverse participants and accommodating for various needs.
-image: /imgs/2017-08-14-bangbangcon-inclusivity/diy-badges.jpg
+image: ./diy-badges.jpg
 ---
 
 Widespread uproar about the Googler's memo[^google] gave me the impulse to make a small email excavation and write about an awesome experience of inclusivity I had at one conference.
@@ -50,7 +50,7 @@ Sometimes people share their ideas even if they risk being burned at a stake. Bu
 
 Organizers put a lot of thought and effort into making this event inclusive and encouraging. First, what was visible from a distance, the gender balance was much better than at typical programming events. Second, it was much more colorful (literally) - as people were happy to express themselves the way they liked (usually typical geeky events are less queer).
 
-![DIY badges at !!con](/imgs/2017-08-14-bangbangcon-inclusivity/diy-badges.jpg)
+![DIY badges at !!con](./diy-badges.jpg)
 
 Badges were self-made - a lot of color pen and star stickers.
 There was a suggestion to add preferred gender pronoun. As a [cis-by-default](https://thingofthings.wordpress.com/2015/01/28/cis-by-default/) it is not a strong topic for me, and I don't mind at all if people use my non-default option (and for salutations, I go with `Dr.` or none, if possible).
@@ -74,7 +74,7 @@ At the same time, perpetrators of unintended transgressions were not shamed or b
 
 While being a geek-nerd I am kind of mainstream on most physics and programming conferences (except for ones dominated by suits, or by people who are there only out of obligation, or for alcohol), in this case I felt as really myself. The difference is somewhat subtle (in the last years I feel generally well and accepted) - but it is about dropping one more layer/mask and just doing what I want to. This is a distinct state of mind that I experience at [Offtopicaria](http://offtopicarium.wikidot.com/en:about), [Summer Scientific School ](https://warsztatywww.pl/article/en-indie-camp-for-hs-geeks/) or some camps of [Polish Children's Fund](http://crastina.se/gifted-children-in-poland-by-piotr-migdal/). And notably, the first time I ever had that feeling was during the Polish Physics Olympiad finals :).
 
-![Piotr Migdał in Depths of Absurd t-shirt](/imgs/2017-08-14-bangbangcon-inclusivity/geeky-me.jpg)
+![Piotr Migdał in Depths of Absurd t-shirt](./geeky-me.jpg)
 
 So no, inclusivity done well is not a zero-sum game, at the cost of nerdy males. At the same time it was visible that it took a lot of care and effort from the organizers. And general good will from everyone.
 
@@ -89,7 +89,7 @@ A lot of new things stem for unexpected ideas, atypical combinations of skills, 
 
 Sure, for job openings with very concrete tasks it's reasonable to expect some well-defined skills. Things are different for conferences, which are all about dissemination of knowledge, exchange, cross-pollination of ideas, and serendipitous meetings.
 
-![Games - !!con](/imgs/2017-08-14-bangbangcon-inclusivity/games.jpg)
+![Games - !!con](./games.jpg)
 
 Here, even though I was never a Recurse Center participant, I never felt like an outsider (not even implicitly!). It felt like a nice environment for creative growth, regardless of initial level. It was great that talks were presented both by people working for over a decade on a project, as well as by those with random weekend distractions.
 
@@ -107,7 +107,7 @@ However, actions that focus solely on one dimension of hardship (while ignoring 
 
 Thanks to [Sarah Martin](https://sexcoachsarah.com/) for polishing my English and remarks on sensitive points.
 
-![Code - !!con](/imgs/2017-08-14-bangbangcon-inclusivity/code.jpg)
+![Code - !!con](./code.jpg)
 
 ## Extra stuff
 

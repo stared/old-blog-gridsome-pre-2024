@@ -9,8 +9,8 @@ tags:
   - event
 description: >-
   Links to talk and analysis of participants demographics and sign-up dynamics.
-  From PyData Warsaw Conference 2017 (19-20 Oct 2017).``
-image: /imgs/2017-11-15-after-pydatwa-warsaw-2017/photo.jpg
+  From PyData Warsaw Conference 2017 (19-20 Oct 2017).
+image: ./photo.jpg
 ---
 
 [PyData Warsaw 2017](https://pydata.org/warsaw2017/) took place on 19-20 October 2017 at the Copernicus Science Centre. This conference was heavily focused on machine learning and deep learning.
@@ -22,7 +22,7 @@ If you are interested in the talks, here they are:
 
 During this conference a few new packages were announced: [RaRe-Technologies/bounter](https://github.com/RaRe-Technologies/bounter) (`Counter` that uses a limited amount of memory regardless of data size), [CamDavidsonPilon/lifestyles](https://github.com/CamDavidsonPilon/lifestyles) (conjoint analysis), [koaning/evol](https://github.com/koaning/evol) (map-reproduce for evolutionary algorithms).
 
-![](/imgs/2017-11-15-after-pydatwa-warsaw-2017/photo.jpg)
+![](./photo.jpg)
 
 ## Ancient wisdom
 
@@ -50,7 +50,7 @@ This is a piece of information for prospective conference organizers.
 After booking a venue and persuading sponsors that we will get many attendees, it is stressful to see only a handful of sign ups.
 Don't worry - many people book things just before the deadline!
 
-![](/imgs/2017-11-15-after-pydatwa-warsaw-2017/signups_pdwc17.png)
+![](./signups_pdwc17.png)
 
 For more on this subject, see:
 
@@ -59,17 +59,17 @@ For more on this subject, see:
 
 If you are curious about the ticket types, here they are:
 
-![](/imgs/2017-11-15-after-pydatwa-warsaw-2017/tickets_pdwc17.png)
+![](./tickets_pdwc17.png)
 
 Also, there is data for check ins (91% of those who signed up). Though, it comes with a disclaimer that some people may have come in earlier, and formally checked in later.
 
-![](/imgs/2017-11-15-after-pydatwa-warsaw-2017/checkins_pdwc17.png)
+![](./checkins_pdwc17.png)
 
 ### T-Shirt
 
 As any respectable conference, we had T-shirts. The sizes were:
 
-![](/imgs/2017-11-15-after-pydatwa-warsaw-2017/tshirts_pdwc17.png)
+![](./tshirts_pdwc17.png)
 
 My girlfriend wrote [Death to the Conference T-Shirt](https://medium.com/@SexCoachSarah/death-to-the-conference-t-shirt-2438b24589d0). Yet, she liked this one. The top tip is to select a T-shirt in the correct size for you, and when in doubt, aim for a smaller size. Plus, in this case they were nice and clean, with a beautiful conference logo designed by Magdalena Grodzińska.
 
@@ -88,5 +88,5 @@ Special thanks to the **program committee**: Dominik Batorski, Michalina Bogusze
 
 ## Talks, once again :)
 
-[![](/imgs/2017-11-15-after-pydatwa-warsaw-2017/talks_1.png)](https://www.youtube.com/playlist?list=PLGVZCDnMOq0oe0eD-edj_2CuBIZ938bWT)
-[![](/imgs/2017-11-15-after-pydatwa-warsaw-2017/talks_2.png)](https://www.youtube.com/playlist?list=PLGVZCDnMOq0oe0eD-edj_2CuBIZ938bWT)
+[![](./talks_1.png)](https://www.youtube.com/playlist?list=PLGVZCDnMOq0oe0eD-edj_2CuBIZ938bWT)
+[![](./talks_2.png)](https://www.youtube.com/playlist?list=PLGVZCDnMOq0oe0eD-edj_2CuBIZ938bWT)

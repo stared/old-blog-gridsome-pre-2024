@@ -9,7 +9,7 @@ tags:
   - cognition
 description: >-
   To err is human... and machine, alike. Overfitting, adversarial examples, optical illusions, hallucinations, Freudian slips, etc.
-image: /imgs/2019-07-15-human-machine-learning-motivation/pigeon_classifier_excelnet.jpg
+image: ./pigeon_classifier_excelnet.jpg
 ---
 
 The field of Artificial Intelligence started with inspiration, and ambition, to imitate our human cognition. We create things in our image and, well, they make similar mistakes:
@@ -25,7 +25,7 @@ I think that it’s worth investigating these, as there is a lot of room for cro
 
 In this blog post, I will explain why I consider it an important, and fruitful, problem. My main point is to share my motivation for my other blog posts (existing and planned) exploring concrete aspects of human vs machine cognition.
 
-![](/imgs/2019-07-15-human-machine-learning-motivation/artifact_data_science_martaczc.jpg)
+![](./artifact_data_science_martaczc.jpg)
 
 > [Artifact in game vs in (data scientist)](https://www.deviantart.com/martaczc/art/Artifact-in-game-vs-in-data-scientist-life-609525369) life by MartaCzC (posted with permission)
 
@@ -38,7 +38,7 @@ Some of these issues are theoretical, good for neuroscientists and machine learn
 
 Except for scientific & philosophical curiosity, and ethical & safety concerns, I have also a more down-to-earth  motivation — I make my living teaching machine learning.
 
-![](/imgs/2019-07-15-human-machine-learning-motivation/teach_people_to_teach_machines.png)
+![](./teach_people_to_teach_machines.png)
 
 > “I teach people to teach machines” — [my LinkedIn post](https://www.linkedin.com/feed/update/urn:li:activity:6503583595418914816)
 
@@ -57,7 +57,7 @@ In my opinion, it is useful to compare various approaches, no matter if there ar
 
 Even when we look at classic machine learning classifiers, they differ both with their predictions and the way they arrive at such. Let's see [Scikit-learn classifier comparison](https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html): nearest neighbors, linear support vector machine (SVM), radial-basis function SVM, Gaussian process, a decision tree, Random Forest, etc.
 
-![](/imgs/2019-07-15-human-machine-learning-motivation/sklearn_classifier_comparison.png)
+![](./sklearn_classifier_comparison.png)
 
 So:
 
@@ -71,7 +71,7 @@ There is a work-in-progress [Which Machine Learning algorithm are you?](https://
 If you don’t know deep learning yet, it is a bunch of simple mathematics operations (addition, multiplication, maximal value).
 Learning about deep learning made me think that it is not deep learning doing magic… it’s our cognition that is based on heuristics, that are just good enough.
 
-![](/imgs/2019-07-15-human-machine-learning-motivation/pigeon_classifier_excelnet.jpg)
+![](./pigeon_classifier_excelnet.jpg)
 
 > From flesh to machines: pigeon learn to detect cancer tissue from images ([video](https://www.youtube.com/watch?v=flzGjnJLyS0), [paper summary](https://www.sciencemag.org/news/2015/11/pigeons-spot-cancer-well-human-experts)) or [MNIST recognition using spreadsheets](http://www.deepexcel.net/), without any macros.
 
@@ -115,7 +115,7 @@ But there are more coming!
 - Trypophobia — the fear of holes (based on this), based on [a project with Grzegorz Uriasz and Artur Puzio](https://github.com/cytadela8/trypophobia) and [a subsequent one with Piotr Woźnicki and Michał Kuźba](https://github.com/kmichael08/trypophobia-detection)
 - YOLO?! Object (mis)classification and safety
 
-![PEGI](/imgs/2019-07-15-human-machine-learning-motivation/pegi.png)
+![PEGI](./pegi.png)
 
 All in all, [Pan European Game Information](https://pegi.info/) is a checklist. We will cover most of the points.
 
