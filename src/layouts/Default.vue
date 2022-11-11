@@ -8,6 +8,7 @@
         <g-link class="nav__link" to="/">About</g-link>
         <g-link class="nav__link" to="/blog">Blog</g-link>
         <g-link class="nav__link" to="/publications">Publications</g-link>
+        <g-link class="nav__link" to="/resume">Resume</g-link>
       </nav>
     </header>
     <slot />
