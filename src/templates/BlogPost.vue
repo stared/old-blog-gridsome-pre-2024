@@ -23,20 +23,6 @@ query BlogPost ($path: String!) {
 </page-query>
 
 <style>
-.markdown a {
-  text-decoration: none;
-  color: #2a7ae2;
-}
-
-.markdown a:visited {
-  color: #1756a9
-}
-
-.markdown a:hover {
-  text-decoration: underline;
-  color: black;
-}
-
 .markdown img {
   max-width: 100%;
   margin: auto;
