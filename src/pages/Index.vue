@@ -1,15 +1,11 @@
 <template>
   <Layout>
-    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <g-image alt="Example image" src="~/favicon.png" width="135" />
-
-    <h1>Hello, world!</h1>
-
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur
-      excepturi labore tempore expedita, et iste tenetur suscipit explicabo!
-      Dolores, aperiam non officia eos quod asperiores
+      I am excited to look for new, ambitious challenges in projects combining advanced data science with end-user
+      experience.
     </p>
+    <g-image alt="A photo of Piotr Migdał by Agnieszka Cytacka (2022)"
+      src="~/imgs/piotr-migdal-direct-smiling-2022-by-cytacka-600px.jpg" width="400" />
 
   </Layout>
 </template>
@@ -23,23 +19,6 @@ export default {
 };
 </script>
 
-<page-query>
-query {
-  allBlogPost {
-    edges {
-      node {
-        id
-        title
-        description
-        path
-      }
-    }
-  }
-}
-</page-query>
-
 <style>
-.home-links a {
-  margin-right: 1rem;
-}
+
 </style>
