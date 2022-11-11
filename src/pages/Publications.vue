@@ -1,16 +1,20 @@
 <template>
   <Layout>
-    <h2>Publications</h2>
+    <h2>Research publications</h2>
+
+    <p>
+      My list of a academic publications (quantum optics & information, complex systems, mathematical psychology). See
+      also <a href="https://scholar.google.pl/citations?user=JUwBsPAAAAAJ">my Google Scholar profile</a> and <a
+        href="http://arxiv.org/a/migdal_p_1.html">arXiv account</a>.
+    </p>
 
     <ul class="publications">
       <li v-for="(publication, index) in publications" :key="index">
         <span class="authors">{{ publication.authors }}</span>,
-        <span class="title">{{ publication.title }}</span>,
+        <br>
+        <a class="title" :href="publicationHref(publication)">{{ publication.title }}</a>,
         <span class="journal">{{ publication.journal }}</span>
         <span class="year">({{ publication.year }})</span>
-        <span v-if="publication.doi" class="doi">
-          <a :href="`https://doi.org/${publication.doi}`">{{ publication.doi }} </a>
-        </span>
         <span v-if="publication.arxiv" class="arxiv">
           <a :href="`https://arxiv.org/abs/${publication.arxiv}`">arXiv:{{ publication.arxiv }}</a>
         </span>
@@ -27,19 +31,32 @@ export default {
   metaInfo: {
     title: "Research publications",
   },
-  data() { return { publications } }
+  data() { return { publications } },
+  methods: {
+    publicationHref(publication) {
+      if (publication.doi) {
+        return `https://doi.org/${publication.doi}`;
+      } else {
+        return `https://arxiv.org/abs/${publication.arxiv}`;
+      }
+    }
+  }
 };
 </script>
   
 
   
 <style>
-.home-links a {
-  margin-right: 1rem;
+li {
+  color: #828282;
+  font-size: 0.9rem;
+  list-style: none;
+  padding-bottom: 1rem;
 }
 
-.publications .title {
-  font-weight: bold;
+.journal,
+.year {
+  margin-right: 0.3rem;
 }
 </style>
   
