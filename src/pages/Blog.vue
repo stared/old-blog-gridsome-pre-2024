@@ -1,24 +1,24 @@
 <template>
   <Layout>
-    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <g-image alt="Example image" src="~/favicon.png" width="135" />
-
     <h1>Blog posts</h1>
 
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur
-      excepturi labore tempore expedita, et iste tenetur suscipit explicabo!
-      Dolores, aperiam non officia eos quod asperiores
+      Blog posts from the most recent.
+    </p>
+    <p>
+      Filter:
+      <span v-on:click="selectTag(null)">all</span>,
+      <span v-on:click="selectTag('deep-learning')">deep learning</span>,
+      <span v-on:click="selectTag('dating')">dating</span>
     </p>
 
-
     <div class="post-list">
-      <div v-for="(edge, index) in $page.allBlogPost.edges" :key="index">
+      <div v-for="(post, index) in filteredPosts" :key="index">
         <p class="title">
-          <g-link :to="edge.node.path" class="read">{{
-              edge.node.title
+          <g-link :to="post.path" class="read">{{
+              post.title
           }}</g-link><br />
-          <span class="description" v-html="edge.node.description" />
+          <span class="description" v-html="post.description" />
         </p>
       </div>
     </div>
@@ -30,6 +30,27 @@
 export default {
   metaInfo: {
     title: "Hello, world!",
+  },
+  data: function () {
+    return {
+      tagSelected: null
+    }
+  },
+  methods: {
+    selectTag(tag) {
+      console.log(tag);
+      this.tagSelected = tag;
+    }
+  },
+  computed: {
+    filteredPosts: function () {
+      const posts = this.$page.allBlogPost.edges.map((edge) => edge.node);
+      if (this.tagSelected === null) {
+        return posts;
+      } else {
+        return posts.filter((post) => !!post.tags && post.tags.includes(this.tagSelected))
+      }
+    }
   }
 };
 </script>
@@ -43,6 +64,7 @@ query {
         title
         description
         path
+        tags
       }
     }
   }
