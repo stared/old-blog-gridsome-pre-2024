@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome',
+  siteName: 'Piotr Migdał - Homepage',
   siteUrl: 'https://stared.github.io',
   pathPrefix: '/migdal-blog-gridsome',
   plugins: [
