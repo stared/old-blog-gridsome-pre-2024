@@ -12,7 +12,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Installing packages
+      - name: Installing with yarn
         run: yarn
 
       - name: Build Gridsome site
