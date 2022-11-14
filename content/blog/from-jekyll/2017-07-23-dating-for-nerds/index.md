@@ -5,6 +5,7 @@ slug: dating-for-nerds
 date: 2017-07-23
 author: Piotr Migdał
 tags:
+  - soft skills
   - dating
 description: >-
   Heterosexual male nerd dating problem - does it exist? What are the main pain points?

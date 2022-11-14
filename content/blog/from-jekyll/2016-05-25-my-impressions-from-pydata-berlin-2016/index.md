@@ -5,9 +5,8 @@ slug: my-impressions-from-pydata-berlin-2016
 date: 2016-05-25
 author: Piotr Migdał
 tags:
-  - data-science
-  - python
-  - ephemeral
+  - event
+  - data science
 mathjax: false
 description: "Was it worth it? (Yes.) Links to the best talks."
 ---

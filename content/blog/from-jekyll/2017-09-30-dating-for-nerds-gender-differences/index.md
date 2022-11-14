@@ -5,6 +5,7 @@ slug: dating-for-nerds-gender-differences
 date: 2017-09-30
 author: Piotr Migdał
 tags:
+  - soft skills
   - dating
 description: >-
   This part of dating for nerds series is focused on the differences between genders that may affect dating: social expectations, safety, choosiness, taking initiative.

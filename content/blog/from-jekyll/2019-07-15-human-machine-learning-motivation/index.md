@@ -5,7 +5,7 @@ slug: human-machine-learning-motivation
 date: 2019-07-15
 author: Piotr Migdał
 tags:
-  - deep-learning
+  - deep learning
   - cognition
 description: >-
   To err is human... and machine, alike. Overfitting, adversarial examples, optical illusions, hallucinations, Freudian slips, etc.

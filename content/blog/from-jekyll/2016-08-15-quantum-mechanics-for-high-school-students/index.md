@@ -5,8 +5,9 @@ slug: quantum-mechanics-for-high-school-students
 date: 2016-08-15
 author: Piotr Migdał
 tags:
+  - education
+  - tech
   - quantum
-  - teaching
 mathjax: false
 description: "Outlines and materials related to my basics courses, with light polarization as the quantum information carrier."
 image: ./2016-08-15-quantum-whiteboard-julia.jpg

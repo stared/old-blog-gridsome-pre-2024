@@ -5,8 +5,8 @@ slug: after-pydata-warsaw-2017
 date: 2017-11-15
 author: Piotr Migdał
 tags:
-  - data-science
   - event
+  - data science
 description: >-
   Links to talk and analysis of participants demographics and sign-up dynamics.
   From PyData Warsaw Conference 2017 (19-20 Oct 2017).

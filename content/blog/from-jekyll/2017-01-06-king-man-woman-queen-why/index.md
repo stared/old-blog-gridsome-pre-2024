@@ -5,8 +5,9 @@ slug: king-man-woman-queen-why
 date: 2017-01-06
 author: Piotr Migdał
 tags:
-  - machine-learning
-  - word2vec
+  - tech
+  - data science
+  - cognition
 mathjax: true
 description: >-
   Words, vectors, analogies and conceptual metaphors - the linear space of word2vec and GloVe. Or: how to change gender with a vector.

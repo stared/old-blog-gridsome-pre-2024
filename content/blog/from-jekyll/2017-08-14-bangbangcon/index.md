@@ -6,7 +6,7 @@ date: 2017-08-14
 author: Piotr Migdał
 tags:
   - event
-  - diversity
+  - soft skills
 description: >-
   Inclusive-inclusivity, or an awesome programming conference, attracting diverse participants and accommodating for various needs.
 image: ./diy-badges.jpg

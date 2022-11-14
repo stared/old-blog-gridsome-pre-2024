@@ -5,9 +5,9 @@ slug: d3js-icm-kfnrd
 date: 2016-02-09
 author: Piotr Migdał
 tags:
-  - kfnrd
-  - data-science
-  - d3js
+  - education
+  - event
+  - tech
 mathjax: false
 description: "Interactive data visualization for high-school students of KFnrD (24-29 Jan 2016) - materials, results."
 image: ./2016-02-09-kfnrd_icm_work.jpg

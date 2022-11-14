@@ -5,8 +5,9 @@ slug: simple-diagrams-deep-learning
 date: 2018-09-15
 author: Piotr Migdał
 tags:
-  - deep-learning
-  - data-viz
+  - tech
+  - deep learning
+  - data viz
 description: >-
   A good diagram is worth a thousand equations - let's create more of these!
 image: https://cdn-images-1.medium.com/max/2032/1*Z7X3ypVDlNGlXeVcJqICbg.png

@@ -5,9 +5,9 @@ slug: data-science-intro-for-math-phys-background
 date: 2016-03-15
 author: Piotr Migdał
 tags:
-  - data-science
-  - python
-  - r
+  - tech
+  - data science
+  - data viz
 mathjax: false
 description: "Academia to data science? Learn Python (or R), machine learning and other stuff."
 image: ./2016-03-15-dark-side-of-science-meme.jpg

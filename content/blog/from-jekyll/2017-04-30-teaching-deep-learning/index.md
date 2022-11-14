@@ -5,9 +5,9 @@ slug: teaching-deep-learning
 date: 2017-04-30
 author: Piotr Migdał
 tags:
-  - machine-learning
-  - deep-learning
-  - overview
+  - tech
+  - data science
+  - deep learning
 description: >-
   Don't be afraid of artificial neural networks - it is easy to start! An
   overview of deep learning with links to didactic materials.

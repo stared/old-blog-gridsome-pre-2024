@@ -4,7 +4,9 @@ title: "The first post: why Jekyll?"
 slug: first-post
 date: 2015-12-02
 author: Piotr Migdał
-tags: [meta, jekyll]
+tags:
+  - personal
+  - tech
 mathjax: true
 description: "Why Jekyll (and not Wordpress)? Markdown, GitHub, simplicity, LaTeX."
 ---

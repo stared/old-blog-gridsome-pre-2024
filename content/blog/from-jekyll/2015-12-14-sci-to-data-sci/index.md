@@ -6,7 +6,7 @@ date: 2015-12-14
 author: Piotr Migdał
 tags:
   - data science
-  - academia
+  - personal
 description: "Data science freelancing (vs academia): freedom, impact, meritocracy, fast pace, money."
 image: ./2015-12-10-science-data-science-goofy.png
 ---

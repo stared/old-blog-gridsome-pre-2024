@@ -5,9 +5,8 @@ slug: types-test-typescript
 date: 2020-03-02
 author: Piotr Migdał
 tags:
+  - tech
   - programming
-  - typescript
-  - tests
 description: >-
   On TypeScript, ESlint, jest, TSDoc, Travis-CI, and VSCode (with inspirations from the Zen of Python).
 image: ./jest_test_repl.png

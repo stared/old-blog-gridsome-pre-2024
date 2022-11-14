@@ -6,10 +6,9 @@
       Blog posts from the most recent.
     </p>
     <p>
-      Filter:
-      <span v-on:click="selectTag(null)">all</span>,
-      <span v-on:click="selectTag('deep-learning')">deep learning</span>,
-      <span v-on:click="selectTag('dating')">dating</span>
+      <span v-for="tag in allTagsCounted" @click="selectTag(tag.name)" class="tag"
+        :class="{ selected: tag.name === tagSelected }">{{ tag.name
+        }}</span>
     </p>
 
     <div class="post-list">
@@ -17,7 +16,10 @@
         <p class="title">
           <g-link :to="post.path" class="read">{{
               post.title
-          }}</g-link><br />
+          }}</g-link><span class="date">{{ post.date }}</span>
+          <span v-for="tagName in post.tags" @click="selectTag(tagName)" class="tag"
+            :class="{ selected: tagName === tagSelected }">{{ tagName
+            }}</span><br />
           <span class="description" v-html="post.description" />
         </p>
       </div>
@@ -33,7 +35,7 @@ export default {
   },
   data: function () {
     return {
-      tagSelected: null
+      tagSelected: 'all'
     }
   },
   methods: {
@@ -45,11 +47,23 @@ export default {
   computed: {
     filteredPosts: function () {
       const posts = this.$page.allBlogPost.edges.map((edge) => edge.node);
-      if (this.tagSelected === null) {
+      if (this.tagSelected === 'all') {
         return posts;
       } else {
         return posts.filter((post) => !!post.tags && post.tags.includes(this.tagSelected))
       }
+    },
+    allTagsCounted: function () {
+      const counter = {};
+      this.$page.allBlogPost.edges.forEach((edge) => edge.node.tags.forEach((tag) => {
+        if (tag in counter) {
+          counter[tag] += 1;
+        } else {
+          counter[tag] = 1;
+        }
+      }))
+      counter['all'] = this.$page.allBlogPost.edges.length;
+      return Object.entries(counter).map(([name, count]) => ({ name, count })).sort((a, b) => b.count - a.count);
     }
   }
 };
@@ -65,6 +79,7 @@ query {
         description
         path
         tags
+        date (format: "MMM YYYY")
       }
     }
   }
@@ -74,5 +89,32 @@ query {
 <style>
 .home-links a {
   margin-right: 1rem;
+}
+
+.post-list .date {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  color: #828282;
+}
+
+.tag {
+  background-color: #2a7ae2;
+  color: white;
+  opacity: 0.7;
+  font-size: 0.7rem;
+  padding-left: 3px;
+  padding-right: 3px;
+  margin-right: 5px;
+  cursor: pointer;
+  display: inline-block;
+
+}
+
+.tag:hover {
+  opacity: 1;
+}
+
+.tag.selected {
+  background-color: #23c390;
 }
 </style>
