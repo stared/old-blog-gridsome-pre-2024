@@ -16,11 +16,10 @@
         <p class="title">
           <g-link :to="post.path" class="read">{{
               post.title
-          }}</g-link><span class="date">{{ post.date }}</span>
+          }}</g-link><span class="date">{{ post.dateDisplay }}</span>
           <span v-for="tagName in post.tags" @click="selectTag(tagName)" class="tag"
             :class="{ selected: tagName === tagSelected }">{{ tagName
-            }}</span><br />
-          <span class="description" v-html="post.description" />
+            }}</span>
         </p>
       </div>
     </div>
@@ -46,7 +45,9 @@ export default {
   },
   computed: {
     filteredPosts: function () {
-      const posts = this.$page.allBlogPost.edges.map((edge) => edge.node);
+      const posts = this.$page.allBlogPost.edges
+        .map((edge) => edge.node)
+        .sort((a, b) => +(a.date < b.date) - 0.5);
       if (this.tagSelected === 'all') {
         return posts;
       } else {
@@ -79,7 +80,8 @@ query {
         description
         path
         tags
-        date (format: "MMM YYYY")
+        dateDisplay: date(format: "MMM YYYY")
+        date
       }
     }
   }
@@ -100,7 +102,7 @@ query {
 .tag {
   background-color: #2a7ae2;
   color: white;
-  opacity: 0.7;
+  opacity: 0.5;
   font-size: 0.7rem;
   padding-left: 3px;
   padding-right: 3px;
