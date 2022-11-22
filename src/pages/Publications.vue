@@ -24,12 +24,18 @@
 </template>
   
 <script>
+import { socialMeta } from '@/scripts/helpers';
 import publications from '@/../content/publications.json'
 
-
 export default {
-  metaInfo: {
-    title: "Research publications",
+  metaInfo() {
+    const title = "Piotr Migdał - Publications";
+    const description = `Dr. Piotr Migdał wrote ${publications.length} publications.`;
+    const baseUrl = "https://p.migdal.pl/"
+    const url = `${baseUrl}/publications/`;
+    const image = baseUrl + require("~/imgs/piotr-migdal-direct-smiling-2022-by-cytacka-600px.jpg");
+
+    return socialMeta(title, url, description, image);
   },
   data() { return { publications } },
   methods: {

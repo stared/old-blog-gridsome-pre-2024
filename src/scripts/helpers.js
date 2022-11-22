@@ -12,6 +12,7 @@ export function socialMeta(title, description, url, image) {
       { name: "twitter:url", content: url },
       { name: "og:image", content: image },
       { name: "twitter:image", content: image },
+      { name: "author", content: "Piotr Migdał" }
     ],
   };
 }

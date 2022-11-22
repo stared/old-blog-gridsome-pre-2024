@@ -49,6 +49,8 @@
 </template>
   
 <script>
+import { socialMeta } from '@/scripts/helpers';
+
 const experiences = [
     {
         period: "2019-2022",
@@ -80,9 +82,16 @@ const experiences = [
     },
 ];
 
+
 export default {
-    metaInfo: {
-        title: "Hello, world!",
+    metaInfo() {
+        const title = "Piotr Migdał - Resume";
+        const description = "Piotr Migdał's career.";
+        const baseUrl = "https://p.migdal.pl/"
+        const url = `${baseUrl}/career/`;
+        const image = baseUrl + require("~/imgs/piotr-migdal-direct-smiling-2022-by-cytacka-600px.jpg");
+
+        return socialMeta(title, url, description, image);
     },
     data: function () {
         return { experiences };
