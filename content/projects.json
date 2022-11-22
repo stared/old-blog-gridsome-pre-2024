@@ -47,15 +47,6 @@
     "hn": "https://news.ycombinator.com/item?id=19640562"
   },
   {
-    "title": "Gossiping Commons",
-    "desc": "Don't tell alike and no author please licenses.",
-    "href": "https://gossipingcommons.org/",
-    "dateStart": "2019-04-01T00:00:00.000Z",
-    "dateEnd": "2019-04-02T00:00:00.000Z",
-    "tags": ["open-source", "humor"],
-    "status": "done"
-  },
-  {
     "title": "Which Machine Learning algorithm are you?",
     "desc": "Drawing classifiers - a didactic project. In Vue.js. With Kasia Kańska.",
     "href": "https://github.com/stared/which-ml-are-you",
@@ -159,7 +150,7 @@
     "status": "done"
   },
   {
-    "title": "Nałogi: co dają, czemu zapobiegają - graf słów",
+    "title": "Nałogi: co dają, czemu zapobiegają - graf słów",
     "desc": "Addictions and motivations - a wordcloud-like coincidence graph (in Polish)",
     "href": "https://github.com/stared/nalogi-viz",
     "dateStart": "2016-07-29T00:00:00.000Z",
