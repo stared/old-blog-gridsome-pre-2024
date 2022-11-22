@@ -9,7 +9,7 @@
     </p>
 
     <ul class="publications">
-      <li v-for="(publication, index) in publications" :key="index">
+      <li v-for="(publication, index) in publications" :key="index" class="publication">
         <span class="authors">{{ publication.authors }}</span>,
         <br>
         <a class="title" :href="publicationHref(publication)">{{ publication.title }}</a>,
@@ -53,7 +53,7 @@ export default {
 
   
 <style>
-li {
+li.publication {
   color: #828282;
   font-size: 0.9rem;
   list-style: none;
