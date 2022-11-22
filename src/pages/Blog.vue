@@ -27,6 +27,7 @@
 </template>
 
 <script>
+import { socialMeta } from '@/scripts/helpers';
 
 export default {
   metaInfo() {
@@ -34,25 +35,9 @@ export default {
     const description = "Read blog posts by Piotr Migdał.";
     const baseUrl = "https://p.migdal.pl/"
     const url = `${baseUrl}/blog/`;
-
-    // quick and dirty
     const image = baseUrl + require("~/imgs/piotr-migdal-direct-smiling-2022-by-cytacka-600px.jpg");
 
-    return {
-      title: title,
-      meta: [
-        { name: "og:title", content: title },
-        { name: "twitter:title", content: title },
-        { name: "description", content: description },
-        { name: "og:description", content: description },
-        { name: "twitter:description", content: description },
-        { name: "url", content: url },
-        { name: "og:url", content: url },
-        { name: "twitter:url", content: url },
-        { name: "og:image", content: image },
-        { name: "twitter:image", content: image },
-      ],
-    };
+    return socialMeta(title, url, description, image);
   },
   data: function () {
     return {
