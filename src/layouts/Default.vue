@@ -5,8 +5,8 @@
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>
       </strong>
       <nav class="nav">
-        <g-link class="nav__link" to="/">About</g-link>
         <g-link class="nav__link" to="/blog">Blog</g-link>
+        <g-link class="nav__link" to="/projects">Projects</g-link>
         <g-link class="nav__link" to="/publications">Publications</g-link>
         <g-link class="nav__link" to="/resume">Resume</g-link>
       </nav>
