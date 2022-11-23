@@ -7,8 +7,8 @@
     </p>
     <p>
       <span v-for="tag in allTagsCounted" @click="selectTag(tag.name)" class="tag"
-        :class="{ selected: tag.name === tagSelected }">{{ tag.name
-        }}</span>
+        :class="{ selected: tag.name === tagSelected }">[{{ tag.name
+        }}]</span>
     </p>
 
     <div class="post-list">
@@ -16,10 +16,11 @@
         <p class="title">
           <g-link :to="post.path" class="read">{{
               post.title
-          }}</g-link><span class="date">{{ post.dateDisplay }}</span>
+          }}</g-link>
           <span v-for="tagName in post.tags" @click="selectTag(tagName)" class="tag"
-            :class="{ selected: tagName === tagSelected }">{{ tagName
-            }}</span>
+            :class="{ selected: tagName === tagSelected }">[{{ tagName
+            }}]</span>
+          <span class="date">{{ post.dateDisplay }}</span>
         </p>
       </div>
     </div>
@@ -100,23 +101,18 @@ query {
   margin-right: 1rem;
 }
 
-.post-list .date {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-  color: #828282;
-}
-
 .tag {
-  background-color: #2a7ae2;
-  color: white;
   opacity: 0.5;
-  font-size: 0.7rem;
-  padding-left: 3px;
-  padding-right: 3px;
-  margin-right: 5px;
+  font-size: 0.8rem;
   cursor: pointer;
   display: inline-block;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+}
 
+.post-list .date {
+  opacity: 0.5;
+  font-size: 0.8rem;
 }
 
 .tag:hover {
@@ -124,6 +120,6 @@ query {
 }
 
 .tag.selected {
-  background-color: #23c390;
+  opacity: 0.9;
 }
 </style>
