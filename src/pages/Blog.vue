@@ -12,16 +12,22 @@
     </p>
 
     <div class="post-list">
-      <div v-for="(post, index) in filteredPosts" :key="index">
-        <p class="title">
-          <g-link :to="post.path" class="read">{{
+      <div v-for="(post, index) in filteredPosts" :key="index" class="post">
+        <span v-if="!post.isExternal" class="title">
+          <g-link :to="post.path">{{
               post.title
           }}</g-link>
-          <span v-for="tagName in post.tags" @click="selectTag(tagName)" class="tag"
-            :class="{ selected: tagName === tagSelected }">[{{ tagName
-            }}]</span>
-          <span class="date">{{ post.dateDisplay }}</span>
-        </p>
+        </span>
+        <span v-else class="title">
+          <a :href="post.href">{{
+              post.title
+          }}</a>
+        </span>
+        <span v-for="tagName in post.tags" @click="selectTag(tagName)" class="tag"
+          :class="{ selected: tagName === tagSelected }">[{{ tagName
+          }}]</span>
+        <span class="date">{{ post.dateDisplay }}</span>
+        <span v-if="post.isExternal" class="source">@ {{ post.source }}</span>
       </div>
     </div>
   </Layout>
@@ -29,6 +35,7 @@
 
 <script>
 import { socialMeta } from '@/scripts/helpers';
+import externalPosts from '@/../content/external-articles.json';
 
 export default {
   metaInfo() {
@@ -54,7 +61,11 @@ export default {
   computed: {
     allPosts: function () {
       const localPosts = this.$page.allBlogPost.edges.map((edge) => edge.node);
-      return localPosts
+      const externalPostsProcessed = externalPosts.map(({ title, source, href, date, tags, hn }) => {
+        const dateDisplay = new Date(date).toLocaleDateString('en-us', { year: "numeric", month: "short" });
+        return { title, source, href, date, dateDisplay, tags, hn, isExternal: true }
+      })
+      return localPosts.concat(externalPostsProcessed);
     },
     filteredPosts: function () {
       const posts = this.allPosts
@@ -113,9 +124,22 @@ query {
   padding-right: 0.2em;
 }
 
+.post {
+  padding-bottom: 0.7em;
+}
+
 .post-list .date {
   opacity: 0.5;
   font-size: 0.8rem;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+}
+
+.post-list .source {
+  opacity: 0.5;
+  font-size: 0.8rem;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
 }
 
 .tag:hover {
