@@ -4,9 +4,10 @@ description: >-
   When I need an energy boost to start working, I open
   http://www.infinitelooper.com to listen to sounds I know well and which give
   me a…
-date: '2017-12-24T03:06:22.123Z'
-categories: []
-keywords: []
+date: "2017-12-24T03:06:22.123Z"
+tags:
+  - personal
+  - games
 slug: energizing-game-music
 medium_url: https://pmigdal.medium.com/energizing-game-music-7a8c9a24cf8d
 ---

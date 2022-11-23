@@ -4,8 +4,8 @@ description: >-
   A few tips on apps for automatic time tracking, especially for people with
   ADHD: how to get immediate feedback: for actions, not guilt.
 date: "2020-05-19T20:17:50.240Z"
-categories: []
-keywords: []
+tags:
+  - soft skills
 slug: adhd-tech-stack-auto-time-tracking
 medium_url: https://pmigdal.medium.com/adhd-tech-stack-auto-time-tracking-b8ff5b6bc888
 ---

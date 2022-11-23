@@ -2,8 +2,10 @@
 title: DALL·E 2 and transcendence
 description: "Hint: end prompts with “religious art”, “stained glass”, “esoteric art”"
 date: "2022-07-17T20:26:10.039Z"
-categories: []
-keywords: []
+tags:
+  - deep learnings
+  - arts
+  - cognition
 slug: dall-e-2-and-transcendence
 medium_url: https://pmigdal.medium.com/dall-e-2-and-transcendence-3a3a404fb609
 ---

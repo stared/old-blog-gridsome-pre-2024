@@ -6,7 +6,7 @@ date: 2019-04-01
 author: Piotr Migdał
 tags:
   - personal
-  - tech
+  - arts
 description: "Gossiping Commons - “don't tell alike” and “no author, please” open licenses."
 hn: https://news.ycombinator.com/item?id=22326169
 ---

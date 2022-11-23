@@ -2,8 +2,10 @@
 title: An edgy intro to graphs of interpersonal relationships
 description: "CW: human sexuality, maths, LaTeX, spoilers for the Game of Thrones"
 date: "2019-03-02T01:35:33.790Z"
-categories: []
-keywords: []
+tags:
+  - tech
+  - dating
+  - data viz
 slug: an-edgy-intro-to-graphs-of-interpersonal-relationships
 medium_url: https://pmigdal.medium.com/an-edgy-intro-to-graphs-of-interpersonal-relationships-ba26fa415f29
 ---

@@ -3,9 +3,10 @@ title: Tinder anecdata and Sankey diagrams
 description: >-
   I really enjoy visiting r/dataisbeautiful, both for original content [OC].
   Yesterday, I saw a post about visualizing Tinder matches for…
-date: '2019-04-26T17:12:13.030Z'
-categories: []
-keywords: []
+date: "2019-04-26T17:12:13.030Z"
+tags:
+  - dating
+  - data viz
 slug: tinder-anecdata-and-sankey-diagrams
 medium_url: https://pmigdal.medium.com/tinder-anecdata-and-sankey-diagrams-c1c0e5dfff18
 ---
@@ -16,9 +17,9 @@ I really enjoy visiting [r/dataisbeautiful](https://www.reddit.com/r/dataisbeaut
 
 I was curious if there is more online dating vis, so I searched for original content posts [mentioning Tinder](https://www.reddit.com/r/dataisbeautiful/search?q=tinder&restrict_sr=1&sort=top)… And I didn’t expect the abundance of [Sankey diagrams](https://en.wikipedia.org/wiki/Sankey_diagram)! Almost all of them used [an online Sankey diagram builder by SankeyMATIC](http://sankeymatic.com/build/) (D3.js, obviously). These flow diagrams caught my eye… and make me curious on:
 
-*   How do people categorize interactions?
-*   How many matches or initial conversations turn into positive, meaningful interactions?
-*   What is their goal? Relationships? Sex? Anything else?
+- How do people categorize interactions?
+- How many matches or initial conversations turn into positive, meaningful interactions?
+- What is their goal? Relationships? Sex? Anything else?
 
 As a small disclaimer — it is pure anecdata, not a demographic study. It is a collection of data-driven stories. Unless marked otherwise, I use the authors’ quotations (many are excerpts from much longer descriptions or conversations). Personally, I didn’t use Tinder that much (as I prefer emails to chats and intellectual conversations to first impressions; [I bemoan that OKCupid got tinderified](https://news.ycombinator.com/item?id=18739618)), yet — it was interesting to follow these stories.
 
@@ -236,7 +237,7 @@ Also, it provides a definition of terms commonly. Not that **ghosted** and **pet
 
 > I am white and 1 year removed from college graduation (big school)
 
-> I was a premium member from 4/16/2018 to 6/19/2018 ($40 total)
+> I was a premium member from 4/16/2018 to 6/19/2018 (\$40 total)
 
 ![](./14.png)
 

@@ -2,10 +2,10 @@
 title: "Perspective: capsaicin is a psychoactive substance"
 description: >-
   Capsaicing, the active substance in chili peppers, acts on vanilloid receptors
-  (TRPV1)andalters adrenaline and endorphine levels.
+  (TRPV1) and alters adrenaline and endorphine levels.
 date: "2022-10-15T14:15:15.143Z"
-categories: []
-keywords: []
+tags:
+  - cognition
 slug: perspective-capsaicin-is-a-psychoactive-substance
 medium_url: https://pmigdal.medium.com/perspective-capsaicin-is-a-psychoactive-substance-fff5507b6b7c
 ---

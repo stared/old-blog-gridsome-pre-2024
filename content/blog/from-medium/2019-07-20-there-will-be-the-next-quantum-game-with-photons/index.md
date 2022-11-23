@@ -4,8 +4,9 @@ description: >-
   More photons, an electron, so you can play with entanglement. We got invited
   by Artur Ekert to CQT in Singapore.
 date: "2019-07-20T12:03:03.627Z"
-categories: []
-keywords: []
+tags:
+  - games
+  - personal
 slug: there-will-be-the-next-quantum-game-with-photons
 medium_url: https://pmigdal.medium.com/there-will-be-the-next-quantum-game-with-photons-276568d63613
 ---

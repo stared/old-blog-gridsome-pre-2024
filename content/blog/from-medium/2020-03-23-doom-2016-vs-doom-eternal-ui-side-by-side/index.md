@@ -2,8 +2,9 @@
 title: "Doom 2016 vs Doom Eternal: UI side-by-side"
 description: A dark journey vs demon piñata. Demons invaded Earth and ruined HUD.
 date: "2020-03-23T14:09:02.339Z"
-categories: []
-keywords: []
+tags:
+  - tech
+  - games
 slug: doom-2016-vs-doom-eternal-ui-side-by-side
 medium_url: https://pmigdal.medium.com/doom-2016-vs-doom-eternal-ui-side-by-side-8058e996baae
 ---

@@ -4,8 +4,9 @@ description: >-
   SOMA, The Path, Life Is Strange, The Stanley Parable, The Vanishing of Ethan
   Carter, Amnesia: The Dark Descent, Dear Esther, Firewatch
 date: "2019-06-27T12:13:33.580Z"
-categories: []
-keywords: []
+tags:
+  - personal
+  - games
 slug: games-in-which-you-walk-and-get-immersed
 medium_url: https://pmigdal.medium.com/games-in-which-you-walk-and-get-immersed-a80ad2bcfa7f
 ---

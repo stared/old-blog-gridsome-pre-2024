@@ -4,8 +4,9 @@ description: >-
   It seems that some artifacts of artificial neural networks are eerily similar
   to our altered states of mind, be it dreams or psychedelics.
 date: "2019-07-20T15:46:18.244Z"
-categories: []
-keywords: []
+tags:
+  - deep learning
+  - cognition
 slug: dreams-drugs-convnets
 medium_url: https://pmigdal.medium.com/dreams-drugs-convnets-ae7ed6ad50a5
 ---

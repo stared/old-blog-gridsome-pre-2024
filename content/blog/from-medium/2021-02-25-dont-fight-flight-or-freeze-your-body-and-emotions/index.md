@@ -4,8 +4,8 @@ description: >-
   Procrastination is a flight response, depression is freeze, anxious attachment
   is fight.
 date: "2021-02-25T14:58:12.737Z"
-categories: []
-keywords: []
+tags:
+  - soft skills
 slug: dont-fight-flight-or-freeze-your-body-and-emotions
 medium_url: https://pmigdal.medium.com/dont-fight-flight-or-freeze-your-body-and-emotions-96f5aa30b299
 ---

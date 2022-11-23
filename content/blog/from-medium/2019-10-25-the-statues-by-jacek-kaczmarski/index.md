@@ -3,9 +3,9 @@ title: “The Statues” by Jacek Kaczmarski
 description: >-
   “Posągi” (1989) translated from Polish to English by Anna Karpiuk and Piotr
   Migdał: “What bliss when a tyrant’s tall statues are shattered”
-date: '2019-10-25T17:48:32.401Z'
-categories: []
-keywords: []
+date: "2019-10-25T17:48:32.401Z"
+tags:
+  - arts
 slug: the-statues-by-jacek-kaczmarski
 medium_url: https://pmigdal.medium.com/the-statues-by-jacek-kaczmarski-7f9bb212be28
 ---
@@ -29,12 +29,12 @@ That somewhere deep inside we all share
 
 ![](./00.jpeg)
 
-*   [Original lyrics](https://www.kaczmarski.art.pl/tworczosc/wiersze/posagi/)
-*   [Foreword + song by Jacek Kaczmarski](https://www.youtube.com/watch?v=etJDP6GBt_Q)
-*   [Declamation by Stanisław Elsner Załuski](https://www.youtube.com/watch?v=dfmmYNSaR3g)
+- [Original lyrics](https://www.kaczmarski.art.pl/tworczosc/wiersze/posagi/)
+- [Foreword + song by Jacek Kaczmarski](https://www.youtube.com/watch?v=etJDP6GBt_Q)
+- [Declamation by Stanisław Elsner Załuski](https://www.youtube.com/watch?v=dfmmYNSaR3g)
 
 Thanks to [Staszek Krawczyk](https://patronite.pl/staszek_krawczyk) and [Sarah Martin,](https://medium.com/u/39462454f46a) for helpful suggestions. Staszek translated and sung a few songs by Jacek Kaczmarski:
 
-*   [“The Walls” (“Mury”)](https://www.youtube.com/watch?v=w5p8u1QN1ro) — Solidarity movement’s anthem
-*   [“Martin Luther” (“Marcin Luter”)](https://www.youtube.com/watch?v=1zlF9HZRh84)
-*   [“A Lesson in Classical History” (“Lekcja historii klasycznej”)](https://www.youtube.com/watch?v=7PPtUZvxg8U)
+- [“The Walls” (“Mury”)](https://www.youtube.com/watch?v=w5p8u1QN1ro) — Solidarity movement’s anthem
+- [“Martin Luther” (“Marcin Luter”)](https://www.youtube.com/watch?v=1zlF9HZRh84)
+- [“A Lesson in Classical History” (“Lekcja historii klasycznej”)](https://www.youtube.com/watch?v=7PPtUZvxg8U)

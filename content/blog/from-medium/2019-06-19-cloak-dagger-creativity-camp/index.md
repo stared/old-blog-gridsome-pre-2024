@@ -3,9 +3,11 @@ title: Cloak & dagger creativity camp
 description: >-
   “You cannot create an experience, you can create [conditions] for an
   experience.” — Seth
-date: '2019-06-19T23:31:52.811Z'
-categories: []
-keywords: []
+date: "2019-06-19T23:31:52.811Z"
+tags:
+  - event
+  - personal
+  - soft skills
 slug: cloak-dagger-creativity-camp
 medium_url: https://pmigdal.medium.com/cloak-dagger-creativity-camp-ce4a24aa6528
 ---
@@ -36,21 +38,21 @@ There was a temptation to write about all the experiences. But… I tried a few 
 
 Some examples, though:
 
-*   contact improv & playfighting (I co-lead)
-*   fire dance show
-*   dynamic medication (~releasing emotions with shouts, movement, etc)
-*   relaxation room, for napping, less-dynamic medication
-*   as a random challenge, I have made a drama with a tree (shouting that they don’t love me anymore); but reconciled later!
-*   field games and quests (a trip to an island to recover words)
-*   brainstorming on creating experiences (what is an experience? what is a guided one, what is a game, what is a sandbox?)
+- contact improv & playfighting (I co-lead)
+- fire dance show
+- dynamic medication (~releasing emotions with shouts, movement, etc)
+- relaxation room, for napping, less-dynamic medication
+- as a random challenge, I have made a drama with a tree (shouting that they don’t love me anymore); but reconciled later!
+- field games and quests (a trip to an island to recover words)
+- brainstorming on creating experiences (what is an experience? what is a guided one, what is a game, what is a sandbox?)
 
 > “\[A game is a\] voluntary attempt to overcome unnecessary obstacles” — [Bernard Suits](https://en.m.wikipedia.org/w/index.php?title=Bernard_Suits&action=edit&redlink=1 "Bernard Suits (page does not exist)")
 
-*   dinner in the forest, with candles and artificial fog
-*   a 5-course dinner, in a slow and reflective mood, with carefully prompted discussions experiences (what is possible to experience, what  
-    isn’t, what is an experience; yes, I referred to _“What Is it Like to  
-    Be a Bat?”_)
-*   blindfolded experience in the forest, trippy AF
+- dinner in the forest, with candles and artificial fog
+- a 5-course dinner, in a slow and reflective mood, with carefully prompted discussions experiences (what is possible to experience, what  
+  isn’t, what is an experience; yes, I referred to _“What Is it Like to  
+  Be a Bat?”_)
+- blindfolded experience in the forest, trippy AF
 
 ![](./02.jpeg)
 ![](./03.jpeg)
@@ -101,5 +103,5 @@ It took me 2–3 days to decompress. I felt sadness and emptiness. Partly becaus
 
 ### What’s next?
 
-*   There is [a new edition 26–29 July 2019, Kaldenbroeck, Netherlands](https://stonesoup.live/)!
-*   I co-wrote (in 2012) about [an independent camp for high-school math/phys/CS geeks](https://warsztatywww.pl/article/en-indie-camp-for-hs-geeks/) I have been co-organizing for years
+- There is [a new edition 26–29 July 2019, Kaldenbroeck, Netherlands](https://stonesoup.live/)!
+- I co-wrote (in 2012) about [an independent camp for high-school math/phys/CS geeks](https://warsztatywww.pl/article/en-indie-camp-for-hs-geeks/) I have been co-organizing for years

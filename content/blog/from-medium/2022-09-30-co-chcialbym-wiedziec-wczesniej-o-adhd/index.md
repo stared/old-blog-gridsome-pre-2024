@@ -4,8 +4,9 @@ description: >-
   Wystarczy co jakiś czas wrzucić mem o ADHD i dostaję multum pytań, jakbym był
   jakimś ekspertem. Nie jestem — ale i tak staram się…
 date: "2022-09-30T18:15:39.275Z"
-categories: []
-keywords: []
+tags:
+  - soft skills
+  - po polsku
 slug: co-chcialbym-wiedziec-wczesniej-o-adhd
 medium_url: https://pmigdal.medium.com/co-chcia%C5%82bym-wiedzie%C4%87-wcze%C5%9Bniej-o-adhd-927ef8b37de6
 ---
