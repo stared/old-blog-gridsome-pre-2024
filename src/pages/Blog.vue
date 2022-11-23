@@ -52,9 +52,12 @@ export default {
     }
   },
   computed: {
+    allPosts: function () {
+      const localPosts = this.$page.allBlogPost.edges.map((edge) => edge.node);
+      return localPosts
+    },
     filteredPosts: function () {
-      const posts = this.$page.allBlogPost.edges
-        .map((edge) => edge.node)
+      const posts = this.allPosts
         .sort((a, b) => +(a.date < b.date) - 0.5);
       if (this.tagSelected === 'all') {
         return posts;
@@ -64,7 +67,7 @@ export default {
     },
     allTagsCounted: function () {
       const counter = {};
-      this.$page.allBlogPost.edges.forEach((edge) => edge.node.tags.forEach((tag) => {
+      this.allPosts.forEach((post) => post.tags.forEach((tag) => {
         if (tag in counter) {
           counter[tag] += 1;
         } else {
