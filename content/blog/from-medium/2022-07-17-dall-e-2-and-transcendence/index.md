@@ -1,5 +1,5 @@
 ---
-title: DALL·E 2 and transcendence
+title: DALL·E 2 and transcendence - generating esoteric images with AI
 description: "Hint: end prompts with “religious art”, “stained glass”, “esoteric art”"
 date: "2022-07-17T20:26:10.039Z"
 tags:

@@ -4,135 +4,56 @@
     "source": "Quantum Flytrap",
     "href": "https://quantumflytrap.com/blog/virtual-lab-updates-oct-2022",
     "date": "2022-10-19T00:00:00.000Z",
-    "tags": ["external-post"]
+    "tags": ["tech", "quantum", "data viz"]
   },
   {
     "title": "Closing Quantum Flytrap",
     "source": "Quantum Flytrap",
     "href": "https://quantumflytrap.com/blog/closing-quantum-flytrap/",
     "date": "2022-10-19T00:00:00.000Z",
-    "tags": ["external-post"]
+    "tags": ["personal", "quantum"]
   },
   {
-    "title": "DALL·E 2 and transcendence - generating esoteric images with AI",
-    "source": "Medium",
-    "href": "https://pmigdal.medium.com/dall-e-2-and-transcendence-3a3a404fb609",
-    "date": "2022-07-17T00:00:00.000Z",
-    "tags": ["external-post"]
-  },
-  {
-    "title": "Quantum Flytrap – Shaping the Future of Quantum DevTools",
+    "title": "Quantum Flytrap - Shaping the Future of Quantum DevTools",
     "source": "Interview at Startups Shaping the Future of Computing",
     "href": "https://www.future-of-computing.com/quantum-flytrap-shaping-the-future-of-quantum-devtools/",
     "date": "2022-07-01T00:00:00.000Z",
-    "tags": ["interview"]
+    "tags": ["interview", "quantum"]
   },
   {
-    "title": "Embodiment for nerds",
-    "source": "Medium",
-    "href": "https://pmigdal.medium.com/embodiment-for-nerds-27e25f295908",
-    "date": "2021-09-18T00:00:00.000Z",
-    "tags": ["external-post"],
-    "hn": "https://news.ycombinator.com/item?id=28895655"
-  },
-  {
-    "title": "Don’t fight, flight (or freeze) your body and emotions",
-    "source": "Medium",
-    "href": "https://pmigdal.medium.com/dont-fight-flight-or-freeze-your-body-and-emotions-96f5aa30b299",
-    "date": "2021-02-25T00:00:00.000Z",
-    "tags": ["external-post"],
-    "hn": "https://news.ycombinator.com/item?id=26371848"
-  },
-  {
-    "title": "ADHD tech stack: auto time tracking",
-    "source": "Medium",
-    "href": "https://medium.com/@pmigdal/adhd-tech-stack-auto-time-tracking-b8ff5b6bc888",
-    "date": "2020-05-19T00:00:00.000Z",
-    "tags": ["external-post"]
-  },
-  {
-    "title": "Doom 2016 vs Doom Eternal: UI side-by-side",
-    "source": "Medium",
-    "href": "https://medium.com/@pmigdal/doom-2016-vs-doom-eternal-ui-side-by-side-8058e996baae",
-    "date": "2020-03-23T00:00:00.000Z",
-    "tags": ["external-post"]
-  },
-  {
-    "title": "Support my open-source work and blog posts!",
+    "title": "Support my open-source work and blog posts",
     "source": "GitHub Sponsors",
     "href": "https://github.com/sponsors/stared/",
     "date": "2019-10-28T00:00:00.000Z",
-    "tags": ["external-post"]
-  },
-  {
-    "title": "“The Statues” by Jacek Kaczmarski - a translation",
-    "source": "Medium",
-    "href": "https://medium.com/@pmigdal/the-statues-by-jacek-kaczmarski-7f9bb212be28",
-    "date": "2019-10-25T00:00:00.000Z",
-    "tags": ["external-post"]
+    "tags": ["personal"]
   },
   {
     "title": "To make a cool game, you first have to play other cool games",
     "source": "Quantum Game Medium",
     "href": "https://medium.com/quantum-photons/to-make-a-cool-game-you-first-have-to-play-other-cool-games-a1a1d45e169b",
     "date": "2019-08-26T00:00:00.000Z",
-    "tags": ["external-post"]
-  },
-  {
-    "title": "There will be the next Quantum Game with Photons",
-    "source": "Quantum Game Medium",
-    "href": "https://medium.com/quantum-photons/there-will-be-the-next-quantum-game-with-photons-276568d63613",
-    "date": "2019-07-20T00:00:00.000Z",
-    "tags": ["external-post"]
-  },
-  {
-    "title": "Games in which you walk (and get immersed)",
-    "source": "Medium",
-    "href": "https://medium.com/@pmigdal/games-in-which-you-walk-and-get-immersed-a80ad2bcfa7f",
-    "date": "2019-06-27T00:00:00.000Z",
-    "tags": ["external-post"]
-  },
-  {
-    "title": "Cloak and dagger creativity camp - on Stone Soup",
-    "source": "Medium",
-    "href": "https://medium.com/@pmigdal/cloak-dagger-creativity-camp-ce4a24aa6528",
-    "date": "2019-06-20T00:00:00.000Z",
-    "tags": ["external-post"]
+    "tags": ["quantum", "games"]
   },
   {
     "title": "Does AI have a dirty mind, too?",
     "source": "Medium",
     "href": "https://medium.com/@marekkcichy/does-ai-have-a-dirty-mind-too-6948430e4b2b",
     "date": "2019-04-16T00:00:00.000Z",
-    "tags": ["external-post", "second-author"]
-  },
-  {
-    "title": "An edgy intro to graphs of interpersonal relationships",
-    "source": "Medium",
-    "href": "https://medium.com/@pmigdal/an-edgy-intro-to-graphs-of-interpersonal-relationships-ba26fa415f29",
-    "date": "2019-03-02T00:00:00.000Z",
-    "tags": ["external-post"]
+    "tags": ["tech", "deep learning", "cognition"]
   },
   {
     "title": "Keras vs. PyTorch: Alien vs. Predator recognition with transfer learning",
     "source": "deepsense.ai blog",
     "href": "https://deepsense.ai/keras-vs-pytorch-avp-transfer-learning/",
     "date": "2018-10-03T00:00:00.000Z",
-    "tags": ["external-post"]
+    "tags": ["tech", "deep learning"]
   },
   {
-    "title": "Simple diagrams of convoluted neural networks",
-    "source": "InBrowserAI - Medium",
-    "href": "https://medium.com/inbrowserai/simple-diagrams-of-convoluted-neural-networks-39c097d2925b",
-    "date": "2018-09-15T00:00:00.000Z",
-    "tags": ["external-post"]
-  },
-  {
-    "title": "From Customer Segmentation to Recommendation Systems",
+    "title": "From customer segmentation to recommendation systems",
     "source": "AI Trends",
     "href": "https://aitrends.com/machine-learning/ai-customer-targeting-levels/",
     "date": "2018-08-29T00:00:00.000Z",
-    "tags": ["external-post"]
+    "tags": ["tech", "data science"]
   },
   {
     "title": "Keras or PyTorch as your first deep learning framework",
@@ -140,7 +61,7 @@
     "source": "deepsense.ai blog",
     "href": "https://deepsense.ai/keras-or-pytorch/",
     "date": "2018-06-27T00:00:00.000Z",
-    "tags": ["external-post"],
+    "tags": ["tech", "deep learning"],
     "hn": "https://news.ycombinator.com/item?id=17415321"
   },
   {
@@ -148,42 +69,35 @@
     "source": "deepsense.ai blog",
     "href": "https://blog.deepsense.ai/deep-learning-hands-on-image-classification/",
     "date": "2017-11-20T00:00:00.000Z",
-    "tags": ["external-post"]
+    "tags": ["tech", "deep learning"]
   },
   {
     "title": "Human log loss for image classification",
     "source": "deepsense.ai blog",
     "href": "https://blog.deepsense.ai/human-log-loss-for-image-classification/",
     "date": "2017-09-12T00:00:00.000Z",
-    "tags": ["external-post"]
+    "tags": ["tech", "data science", "deep learning"]
   },
   {
     "title": "Helping exceptionally gifted children in Poland",
     "source": "Scientia Crastina",
     "href": "http://crastina.se/gifted-children-in-poland-by-piotr-migdal/",
     "date": "2016-08-11T00:00:00.000Z",
-    "tags": ["external-post"]
-  },
-  {
-    "title": "From Science to Data Science, a Comprehensive Guide for Transition",
-    "source": "KDnuggets",
-    "href": "http://www.kdnuggets.com/2016/04/data-science-comprehensive-guide-transition.html",
-    "date": "2016-04-12T00:00:00.000Z",
-    "tags": ["externap-post", "reprint"]
+    "tags": ["education", "personal"]
   },
   {
     "title": "Autistic traits, science and the nerd stereotype",
     "source": "Scientia Crastina",
     "href": "http://crastina.se/autistic-traits-science-and-the-nerd-stereotype/",
     "date": "2016-02-04T00:00:00.000Z",
-    "tags": ["external-post"]
+    "tags": ["soft skills"]
   },
   {
     "title": "There are no projects like side projects",
     "source": "Scientia Crastina",
     "href": "http://crastina.se/theres-no-projects-like-side-projects/",
     "date": "2015-01-02T00:00:00.000Z",
-    "tags": ["external-post"],
+    "tags": ["personal"],
     "hn": "https://news.ycombinator.com/item?id=8826890"
   },
   {
@@ -191,97 +105,97 @@
     "source": "Wakacyjne Warsztaty Wielodyscyplinarne",
     "href": "http://warsztatywww.wikidot.com/en:indie-camp-for-hs-geeks",
     "date": "2012-08-31T00:00:00.000Z",
-    "tags": ["external-post"]
+    "tags": ["education"]
   },
   {
     "title": "Open Science and Science 2.0",
     "source": "Offtopicarium",
     "href": "http://offtopicarium.wikidot.com/v1:open-science-2-0",
     "date": "2012-08-11T00:00:00.000Z",
-    "tags": ["external-post"]
+    "tags": ["academia"]
   },
   {
     "title": "Why are papers without code but with results accepted?",
     "source": "Academia Stack Exchange",
     "href": "http://academia.stackexchange.com/a/23238",
     "date": "2014-06-11T00:00:00.000Z",
-    "tags": ["stackexchange"]
+    "tags": ["academia", "tech"]
   },
   {
     "title": "How to stop feeling guilty about the unfinished work?",
     "source": "Academia Stack Exchange",
     "href": "http://academia.stackexchange.com/a/18009",
     "date": "2014-03-10T00:00:00.000Z",
-    "tags": ["stackexchange"]
+    "tags": ["academia", "soft skills"]
   },
   {
     "title": "What is the role of the logarithm in Shannon entropy?",
     "source": "Cross Validated Stack Exchange",
     "href": "http://stats.stackexchange.com/a/87194",
     "date": "2015-03-25T00:00:00.000Z",
-    "tags": ["stackexchange"]
+    "tags": ["data sciece", "maths"]
   },
   {
     "title": "Why use version control systems for writing a paper?",
     "source": "Academia Stack Exchange",
     "href": "http://academia.stackexchange.com/a/5286",
     "date": "2013-02-22T00:00:00.000Z",
-    "tags": ["stackexchange"]
+    "tags": ["academia", "tech"]
   },
   {
     "title": "How to improve myself as a lecturer?",
     "source": "Academia Stack Exchange",
     "href": "http://academia.stackexchange.com/a/5249",
     "date": "2014-08-26T00:00:00.000Z",
-    "tags": ["stackexchange"]
+    "tags": ["education", "academia"]
   },
   {
     "title": "arXiv vs MathOverflow - popularity of disciplines",
     "source": "MathOverflow Meta",
     "href": "http://meta.mathoverflow.net/questions/2363/arxiv-vs-mathoverflow-popularity-of-disciplines",
     "date": "2015-07-22T00:00:00.000Z",
-    "tags": ["stackexchange"]
+    "tags": ["data viz", "data science", "programming"]
   },
   {
     "title": "Mafia, zdradziecka parzystość oraz pi",
     "source": "Popularnonaukowy miesięcznika \"Delta\"",
     "href": "http://www.mimuw.edu.pl/delta/artykuly/delta2010-07/2010-07-6.pdf",
     "date": "2010-07-06T00:00:00.000Z",
-    "tags": ["maths", "polish"]
+    "tags": ["maths", "po polsku"]
   },
   {
     "title": "Drogowskaz Pasjonata",
     "source": "Wakacyjne Warsztaty Wielodyscyplinarne",
     "href": "http://warsztatywww.wikidot.com/drogowskaz-pasjonata",
     "date": "2011-02-21T00:00:00.000Z",
-    "tags": ["external-post", "education", "polish"]
+    "tags": ["education", "po polsku"]
   },
   {
     "title": "Two heads are better than one. How about more?",
     "source": "Theory, Evolution, and Games Group",
     "href": "https://egtheory.wordpress.com/2014/01/30/two-heads-are-better-than-one-how-about-more/",
     "date": "2014-01-30T00:00:00.000Z",
-    "tags": ["external-post"]
+    "tags": ["cognition", "maths"]
   },
   {
     "title": "Quantum Superposition",
     "source": "Azimuth, John Baez's blog",
     "href": "https://johncarlosbaez.wordpress.com/2015/03/13/quantum-superposition/",
     "date": "2015-03-13T00:00:00.000Z",
-    "tags": ["external-post"]
+    "tags": ["quantum"]
   },
   {
     "title": "Prawdopodobieństwo a informacja",
     "source": "Popularnonaukowy miesięcznika \"Delta\"",
     "href": "http://www.deltami.edu.pl/temat/matematyka/rachunek_prawdopodobienstwa/2015/10/23/Prawdopodobienstwo_a_informacja/",
     "date": "2015-11-01T00:00:00.000Z",
-    "tags": ["maths", "polish"]
+    "tags": ["maths", "po polsku"]
   },
   {
     "title": "Zapaleńcy i wypaleńcy, czyli o utracie pasji w trakcie studiów",
     "source": "migdal.wikidot.com",
     "href": "http://migdal.wikidot.com/zapalency-i-wypalency",
     "date": "2010-02-26T00:00:00.000Z",
-    "tags": ["my-previous-site"]
+    "tags": ["soft skills", "academia", "personal"]
   }
 ]

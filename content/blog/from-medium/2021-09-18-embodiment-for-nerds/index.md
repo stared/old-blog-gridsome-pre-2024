@@ -7,6 +7,9 @@ tags:
   - personal
 slug: embodiment-for-nerds
 medium_url: https://pmigdal.medium.com/embodiment-for-nerds-27e25f295908
+extra:
+  - text: Hacker News front page
+    href: https://news.ycombinator.com/item?id=28895655
 ---
 
 Or how you can learn to get in touch with your body and emotions.
