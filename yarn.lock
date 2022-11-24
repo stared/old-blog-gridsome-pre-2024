@@ -4477,6 +4477,11 @@ gridsome-remark-figure-caption@^1.2.1:
     unist-util-remove "^2.0.0"
     unist-util-visit "^2.0.2"
 
+gridsome-remark-unwrap-images@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/gridsome-remark-unwrap-images/-/gridsome-remark-unwrap-images-1.0.0.tgz#e20fde683b870efaf8ad8c2ba54fcfcf98153ddd"
+  integrity sha512-vuzDTBuwYPj8VPlMrZFT+X6bGyid5NEUwC2yT4iXnVGnnJkSM7LhgteFwFgO18DVFTYuJz3u49k7IzhB4i+vJw==
+
 gridsome@^0.7.0:
   version "0.7.23"
   resolved "https://registry.yarnpkg.com/gridsome/-/gridsome-0.7.23.tgz#d8b06bdf6b4ed06411be3ec3696324f29c83063e"

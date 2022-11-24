@@ -33,7 +33,7 @@ module.exports = {
     }
   ],
   templates: {
-    BlogPost: '/blog/:year/:month/:day/:slug'
+    BlogPost: '/:year/:slug'
   },
   transformers: {
     remark: {
@@ -47,6 +47,7 @@ module.exports = {
             captionClassName: "md-figure-caption",
           },
         ],
+        'gridsome-remark-unwrap-images'
       ],
     },
   },

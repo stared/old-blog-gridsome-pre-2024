@@ -45,7 +45,7 @@ query BlogPost ($path: String!) {
 .markdown img {
   max-width: 100%;
   margin: auto;
-  display: block
+  display: block;
 }
 
 .markdown blockquote {

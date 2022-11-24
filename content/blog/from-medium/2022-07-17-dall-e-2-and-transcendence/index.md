@@ -250,7 +250,9 @@ After his exile to the very Eastern Europe, and torturing his liver with vodka, 
 Themis, while blind, deserves fancy eyeglasses. I love the depiction of eyes that have never seen.
 
 ![](./60.jpg)
+
 ![](./61.jpg)
+
 ![](./62.jpg)
 
 #### Tolkien
@@ -258,7 +260,9 @@ Themis, while blind, deserves fancy eyeglasses. I love the depiction of eyes tha
 Let’s not forget about Middle-earth. Not many know that Sauron's private life differs from his public image. Also — what if Galadriel took the ring?
 
 ![](./63.jpg)
+
 ![](./64.jpg)
+
 ![](./65.jpg)
 
 #### Gender
