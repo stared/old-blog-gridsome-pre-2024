@@ -19,9 +19,9 @@ export default {
     const description = this.$page.blogPost.description;
     const baseUrl = "https://p.migdal.pl"
     const url = `${baseUrl}${this.$page.blogPost.path}`;
-    const image = baseUrl + require("~/imgs/piotr-migdal-direct-smiling-2022-by-cytacka-600px.jpg");
+    const imgRelPath = !!this.$page.blogPost.image ? this.$page.blogPost.image.src : require("~/imgs/piotr-migdal-direct-smiling-2022-by-cytacka-600px.jpg");
 
-    return socialMeta(title, url, description, image);
+    return socialMeta(title, url, description, baseUrl + imgRelPath);
   }
 }
 </script>
@@ -36,6 +36,7 @@ query BlogPost ($path: String!) {
     content
     date (format: "D MMMM YYYY")
     timeToRead
+    image
   }
 }
 </page-query>
