@@ -22,6 +22,14 @@ module.exports = {
         typeName: 'TextComponent',
         path: './content/text-components/**/*.md',
       }
+    },
+    ,
+    {
+      use: 'gridsome-plugin-plausible-analytics',
+      options: {
+        dataDomain: 'p.migdal.pl',
+        outboundLinkTracking: true
+      }
     }
   ],
   templates: {
