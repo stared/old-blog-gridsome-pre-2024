@@ -1,12 +1,6 @@
 <template>
   <Layout>
-    <h2>Research publications</h2>
-
-    <p>
-      My list of a academic publications (quantum optics & information, complex systems, mathematical psychology). See
-      also <a href="https://scholar.google.pl/citations?user=JUwBsPAAAAAJ">my Google Scholar profile</a> and <a
-        href="http://arxiv.org/a/migdal_p_1.html">arXiv account</a>.
-    </p>
+    <div class="markdown" v-html="mdText"></div>
 
     <ul class="publications">
       <li v-for="(publication, index) in publications" :key="index" class="publication">
@@ -38,6 +32,13 @@ export default {
     return socialMeta(title, url, description, image);
   },
   data() { return { publications } },
+  computed: {
+    mdText() {
+      return this.$page.allTextComponent.edges
+        .map((edge) => edge.node)
+        .filter((node) => node.name === 'publications')[0].content;
+    }
+  },
   methods: {
     publicationHref(publication) {
       if (publication.doi) {
@@ -50,7 +51,29 @@ export default {
 };
 </script>
   
+<page-query>
+query {
+  allTextComponent {
+    edges {
+      node {
+        id
+        name
+        content
+      }
+    }
+  }
+}
+</page-query>
 
+<!-- <page-query>
+  # no idea what this does not work - no name or content in textComponents
+  query TextComponent ($name: String!) {
+     textComponent (name: "publications") {
+      name
+      content
+    }
+  }
+  </page-query> -->
   
 <style>
 li.publication {

@@ -15,6 +15,13 @@ module.exports = {
         typeName: 'BlogPost',
         path: './content/blog/**/*.md',
       }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'TextComponent',
+        path: './content/text-components/**/*.md',
+      }
     }
   ],
   templates: {
