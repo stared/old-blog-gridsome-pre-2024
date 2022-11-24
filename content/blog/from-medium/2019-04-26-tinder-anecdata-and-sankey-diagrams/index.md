@@ -289,6 +289,7 @@ Moreover, the set of people creating and sharing such diagrams may be different 
 If you intend to [create a Sankey flow chart](http://sankeymatic.com/build/) (by all means I encourage you to do so!), make sure you won’t create [worthless bottlenecks](https://www.reddit.com/r/dataisbeautiful/comments/7s6vam/comparing_flow_charts_with_and_without_worthless/). Also, at least to my taste, it is cleaner to make fail branches (“no response” or “didn’t reply”) shorter.
 
 ![](./18.png)
+
 ![](./19.png)
 
 Piotr is an author of [Dating for nerds series](https://p.migdal.pl/2017/07/23/dating-for-nerds.html) and mentored [Does AI have a dirty mind, too?](https://medium.com/@marekkcichy/does-ai-have-a-dirty-mind-too-6948430e4b2b) project by [Marek K. Cichy](https://medium.com/u/5bf0995463b). And creates [D3.js and Vue.js data visualizations](https://p.migdal.pl/projects/).

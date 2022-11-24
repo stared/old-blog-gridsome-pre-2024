@@ -32,6 +32,7 @@ It will be a drag&drop puzzle game. So, what’s coming in the new version?
 And more? Well, we have quite a few ideas. As in any creative process, we need to see what fits it. From tensor diagrams, through Bell inequality to Everett many-world interpretation. Or multiplayer, LaTeX quantum state visualization packet. Or NPM package for quantum optics. Or dedicated apps for iPhone and Android. Or an automatic level design with Generative Adversarial Networks.
 
 ![](./01.jpg)
+
 ![](./02.jpg)
 
 At the same time, we really want to:

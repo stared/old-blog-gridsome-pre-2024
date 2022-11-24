@@ -55,6 +55,7 @@ Some examples, though:
 - blindfolded experience in the forest, trippy AF
 
 ![](./02.jpeg)
+
 ![](./03.jpeg)
 
 ### Tastes
@@ -64,6 +65,7 @@ Some examples, though:
 In most settings, (rightfully or not) I feel that I am one of the most creative and accomplished participants. Here… well, I felt humbled. It gave me some sense of unease… but then, it turned into appreciation and gratitude.
 
 ![](./04.jpeg)
+
 ![](./05.jpeg)
 
 #### Love of missing out
@@ -75,6 +77,7 @@ We all know that. FOMO is the (attention) locust of our times.
 Creative chaos meant that a lot of workshops were either called off or took place in an unpredictable time or place. Combined with the lack of the Internet (there was a bit, but unreliable) first it was uneasy… then I embraced that. Without distractions, focusing on the quality of experience, wandering in the forest, or… (what was the most profound) a time when I don’t have do \*anything\* yet I am not distracted.
 
 ![](./06.jpeg)
+
 ![](./07.jpeg)
 
 #### The introverts that flourish
@@ -87,6 +90,7 @@ But what I find more interesting, is the introverts who flourish. I mean, I ador
 about being authentic, closeness and connection.)
 
 ![](./08.jpeg)
+
 ![](./09.jpeg)
 
 #### Cloak & dagger creativity
@@ -95,6 +99,7 @@ Most of the experiences (especially not workshop-style) work the best when
 there is an element of surprise. Since we organized things on the spot, in impromptu squads, conspiring with co-creators. Gathering new creators, people knowing something-but-not all, and people being purposefully unaware, yet — sensing that there is something going on.
 
 ![](./10.jpeg)
+
 ![](./11.jpeg)
 
 ### Afterglow

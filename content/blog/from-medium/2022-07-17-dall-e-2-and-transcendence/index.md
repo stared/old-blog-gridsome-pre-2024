@@ -17,6 +17,7 @@ There is a common misconception that machines are good with dry facts and logic,
 Hopefully, symbolism and spirituality are our last human frontiers, right?
 
 ![](./00.jpg)
+
 ![](./01.jpg)
 
 This prompt was inspired by [a tweet by hardmaru](https://twitter.com/hardmaru/status/1531974184578207746) (1 June 2022):
@@ -51,16 +52,20 @@ Octopodes are smart and lone predators, attacking each other on sight (unless du
 
 Here is an all-knowing octopus, showing us the path to enlightenment:
 
-![a](./04.jpg)
-![b](./05.jpg)
-![c](./06.jpg)
+![](./04.jpg)
+
+![](./05.jpg)
+
+![](./06.jpg)
 
 #### Priests
 
 And how about priests among various species?
 
 ![](./07.jpg)
+
 ![](./08.jpg)
+
 ![](./09.jpg)
 
 #### Meaning
@@ -68,7 +73,9 @@ And how about priests among various species?
 Who knows more: one who knows the answer to the meaning of Life, Universe, and Everything: a mouse, [Noam Chomsky](https://en.wikipedia.org/wiki/Colorless_green_ideas_sleep_furiously) (here’s a check-mate for you), or Microsoft Word Paperclip?
 
 ![](./10.jpg)
+
 ![](./11.jpg)
+
 ![](./12.jpg)
 
 #### Fruit of knowledge
@@ -78,7 +85,9 @@ In my headcanon, it does not matter what was the fruit of knowledge. What matter
 However, if you want to know which fruit— there are not many things more tempting than good lemonade on a warm day. And I don’t think that being tempted is a bad thing. I share my value system with Eve and Pandora — [curiosity is worth pain](https://xkcd.com/242/).
 
 ![](./13.jpg)
+
 ![](./14.jpg)
+
 ![](./15.jpg)
 
 #### Venus Flytraps at the Gates of Paradise
@@ -86,11 +95,15 @@ However, if you want to know which fruit— there are not many things more tempt
 Lemons ([it rhymes with “demons”](https://www.gocomics.com/jim-benton-cartoons/2015/09/28)) and malicious apples are one thing. What is important is that it was humans who learned from the Tree, a plant, not the other way. And now you know who guards the Garden of Eden.
 
 ![](./16.jpg)
+
 ![](./17.jpg)
+
 ![](./18.jpg)
 
 ![](./19.jpg)
+
 ![](./20.jpg)
+
 ![](./21.jpg)
 
 #### Cosmic flora and fauna
@@ -98,7 +111,9 @@ Lemons ([it rhymes with “demons”](https://www.gocomics.com/jim-benton-cartoo
 Speaking about Venus Flytraps, let’s see what cosmic ones look like. And the same for ferrets. The ferret prompt idea by Philippe Cochin.
 
 ![](./22.jpg)
+
 ![](./23.jpg)
+
 ![](./24.jpg)
 
 #### Hawaiian pizza Tarot cards
@@ -110,7 +125,9 @@ So well, how about a pizza with pineapple? I guess it is a lesser-known minor ar
 Prompt idea by Maja Ratyńska.
 
 ![](./25.jpg)
+
 ![](./26.jpg)
+
 ![](./27.jpg)
 
 #### Solaris Ocean
@@ -122,7 +139,9 @@ The Ocean from “[Solaris](https://en.wikipedia.org/wiki/Solaris_%28novel%29)�
 So, here goes “The Mind of the Lem’s Solaris Ocean” as digital art, Beksiński-art, and psychedelic art.
 
 ![](./28.jpg)
+
 ![](./29.jpg)
+
 ![](./30.jpg)
 
 #### Lovecraftian geometry
@@ -134,6 +153,7 @@ As H.P. Lovecraft wrote in “At the Mountains of Madness”:
 If you want to experience the hyperbolic geometry of the sunken city of R’Lyeh, play [HyperRogue](https://www.roguetemple.com/z/hyper/). Here we use the M.C. Escher style:
 
 ![](./31.jpg)
+
 ![](./32.jpg)
 
 #### Eldritch horrors
@@ -141,7 +161,9 @@ If you want to experience the hyperbolic geometry of the sunken city of R’Lyeh
 Lovecraftian eldritch horrors as drawings from Necronomicon and religious art. Unsettling.
 
 ![](./33.jpg)
+
 ![](./34.jpg)
+
 ![](./35.jpg)
 
 #### Great Old Ones
@@ -153,7 +175,9 @@ From H.P. Lovecraft again:
 Here we have Yog-Sothoth {transcending space and time, who is the gate and the key, the god of spacetime} as religious art.
 
 ![](./36.jpg)
+
 ![](./37.jpg)
+
 ![](./38.jpg)
 
 #### End of all things
@@ -171,7 +195,9 @@ Maybe the isn’t an end, but an eternal cycle.
 Like in their story [“The Egg”](http://www.galactanet.com/oneoff/theegg_mod.html) by Andy Weir (also [animated by Kurzgesagt](https://www.youtube.com/watch?v=h6fcK_fRYaI)), which kind of resembles the quantum field theory-like views of beings, especially in the spirit of the [one-electron universe](https://en.wikipedia.org/wiki/One-electron_universe). Or one of my recently favored songs, [“Night 13” by Auri](https://www.youtube.com/watch?v=sAnZUKoOSL8).
 
 ![](./42.jpg)
+
 ![](./43.jpg)
+
 ![](./44.jpg)
 
 #### Judeo-Christian God
@@ -179,6 +205,7 @@ Like in their story [“The Egg”](http://www.galactanet.com/oneoff/theegg_mod.
 So, let’s see how THEY present themselves as a pillar of flame. Well… darker than you may have imagined.
 
 ![](./45.jpg)
+
 ![](./46.jpg)
 ![](./47.jpg)
 
@@ -189,21 +216,29 @@ It saddens me that at some point angels became presented as cupids. Let’s see 
 UTF8 trivia: ‘ꙮ’ is a rare Cyrillic ‘o’, as in “серафими многоꙮчитїи” (multi-eyed seraphim).
 
 ![](./48.jpg)
+
 ![](./49.jpg)
+
 ![](./50.jpg)
 
 More on angels, or rather — many-eyed celestial beings, from Ezekiel’s vision.
 
 ![](./51.jpg)
+
 ![](./52.jpg)
+
 ![](./53.jpg)
 
 ![](./54.jpg)
+
 ![](./55.jpg)
+
 ![](./56.jpg)
 
 ![](./57.jpg)
+
 ![](./58.jpg)
+
 ![](./59.jpg)
 
 #### Greek mythology
@@ -231,7 +266,9 @@ Let’s not forget about Middle-earth. Not many know that Sauron's private life 
 Personally, I am far from any kind of spiritual male/female essentialism. When it comes to anything related to the psyche, [while there are gender differences on average, the overlap is enormous](https://thingofthings.wordpress.com/2017/05/05/the-cluster-structure-of-genderspace/). Still, it was interesting to play with the idea. Or rather — how does AI perceive it.
 
 ![](./66.jpg)
+
 ![](./67.jpg)
+
 ![](./68.jpg)
 
 #### Spirits
@@ -251,19 +288,27 @@ Speaking about spirits in nature, I wanted to generate something for the Summer 
 Quite a few stories mention that people need to collect this flower naked… Well, it is likely that young men and women knew that the quest for a non-existing flower is futile, so it won’t distract from other activities.
 
 ![](./71.jpg)
+
 ![](./72.jpg)
+
 ![](./73.jpg)
 
 ![](./74.jpg)
+
 ![](./75.jpg)
+
 ![](./76.jpg)
 
 ![](./77.jpg)
+
 ![](./78.jpg)
+
 ![](./79.jpg)
 
 ![](./80.jpg)
+
 ![](./81.jpg)
+
 ![](./82.jpg)
 
 #### A few extra
@@ -271,13 +316,17 @@ Quite a few stories mention that people need to collect this flower naked… Wel
 Here is Cthulhu’s romantic side, a concept of a qubit, and once again venus flytrap, this time — a photorealistic one. Believe me or not, this plant is my “spirit ‘animal’”.
 
 ![](./83.jpg)
+
 ![](./84.jpg)
+
 ![](./85.jpg)
 
 I went a bit over the edge with the last one, with a version for Pride Month 2022:
 
 ![](./86.jpg)
+
 ![](./87.jpg)
+
 ![](./88.jpg)
 
 I even got [a wonderful review](https://www.reddit.com/r/dalle2/comments/v44mn5/joyful_anthropomorphic_venus_flytrap_studio/) on the last one:
