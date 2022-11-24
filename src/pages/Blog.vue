@@ -3,12 +3,17 @@
     <h1>Blog posts</h1>
 
     <p>
-      Blog posts from the most recent.
+      Filter posts by selecting a relevant tag. (Beware - as a serious tagsonomist, I may retag things at some point!)
     </p>
     <p>
       <span v-for="tag in allTagsCounted" @click="selectTag(tag.name)" class="tag"
         :class="{ selected: tag.name === tagSelected }">[{{ tag.name
         }}]</span>
+    </p>
+
+    <p>
+      Sort by: newest, best (according to my subjective views), recommended (by my hand-crafted formula). TO BE
+      IMPLEMENTED
     </p>
 
     <div class="post-list">
