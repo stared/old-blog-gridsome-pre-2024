@@ -185,7 +185,9 @@ Here we have Yog-Sothoth {transcending space and time, who is the gate and the k
 And what does the end look like?
 
 ![](./39.jpg)
+
 ![](./40.jpg)
+
 ![](./41.jpg)
 
 #### Life and death
@@ -207,6 +209,7 @@ So, let’s see how THEY present themselves as a pillar of flame. Well… darker
 ![](./45.jpg)
 
 ![](./46.jpg)
+
 ![](./47.jpg)
 
 #### Seraphim and others
