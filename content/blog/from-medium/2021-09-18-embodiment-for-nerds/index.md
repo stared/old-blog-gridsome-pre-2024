@@ -7,7 +7,7 @@ tags:
   - personal
 slug: embodiment-for-nerds
 medium_url: https://pmigdal.medium.com/embodiment-for-nerds-27e25f295908
-extra:
+extras:
   - text: Hacker News front page
     href: https://news.ycombinator.com/item?id=28895655
 ---

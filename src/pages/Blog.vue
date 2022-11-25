@@ -31,6 +31,7 @@
         <span v-for="tagName in post.tags" @click="selectTag(tagName)" class="tag"
           :class="{ selected: tagName === tagSelected }">[{{ tagName
           }}]</span>
+        <span v-if="post.hn" class="hn">[HN]</span>
         <span class="date">{{ post.dateDisplay }}</span>
         <span v-if="post.isExternal" class="source">@ {{ post.source }}</span>
       </div>
@@ -41,6 +42,10 @@
 <script>
 import { socialMeta } from '@/scripts/helpers';
 import externalPosts from '@/../content/external-articles.json';
+
+const isHN = (extras) => {
+  return !!extras && extras.some((extras) => extras.href.includes("news.ycombinator"));
+};
 
 export default {
   metaInfo() {
@@ -59,16 +64,19 @@ export default {
   },
   methods: {
     selectTag(tag) {
-      console.log(tag);
       this.tagSelected = tag;
     }
   },
   computed: {
     allPosts: function () {
-      const localPosts = this.$page.allBlogPost.edges.map((edge) => edge.node);
-      const externalPostsProcessed = externalPosts.map(({ title, source, href, date, tags, hn }) => {
+      const localPosts = this.$page.allBlogPost.edges.map((edge) => edge.node).map(({ title, path, tags, date, dateDisplay, extras }) => {
+        const hn = isHN(extras);
+        return { title, path, date, dateDisplay, hn, tags, isExternal: false };
+      });
+      const externalPostsProcessed = externalPosts.map(({ title, source, href, date, tags, extras }) => {
+        const hn = isHN(extras);
         const dateDisplay = new Date(date).toLocaleDateString('en-us', { year: "numeric", month: "short" });
-        return { title, source, href, date, dateDisplay, tags, hn, isExternal: true }
+        return { title, source, href, date, dateDisplay, tags, hn, isExternal: true };
       })
       return localPosts.concat(externalPostsProcessed);
     },
@@ -102,13 +110,14 @@ query {
   allBlogPost {
     edges {
       node {
-        id
         title
-        description
         path
         tags
         dateDisplay: date(format: "MMM YYYY")
         date
+        extras {
+          href
+        }
       }
     }
   }
@@ -143,6 +152,13 @@ query {
 .post-list .source {
   opacity: 0.5;
   font-size: 0.8rem;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+}
+
+.post-list .hn {
+  font-size: 0.8em;
+  color: #ff6600;
   padding-left: 0.2em;
   padding-right: 0.2em;
 }

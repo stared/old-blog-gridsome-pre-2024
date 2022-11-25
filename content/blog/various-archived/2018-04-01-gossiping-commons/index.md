@@ -8,7 +8,9 @@ tags:
   - personal
   - arts
 description: "Gossiping Commons - “don't tell alike” and “no author, please” open licenses."
-hn: https://news.ycombinator.com/item?id=22326169
+extras:
+  - text: Hacker News front page
+    href: https://news.ycombinator.com/item?id=22326169
 ---
 
 # Gossiping Commons

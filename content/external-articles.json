@@ -62,7 +62,12 @@
     "href": "https://deepsense.ai/keras-or-pytorch/",
     "date": "2018-06-27T00:00:00.000Z",
     "tags": ["tech", "deep learning"],
-    "hn": "https://news.ycombinator.com/item?id=17415321"
+    "extras": [
+      {
+        "title": "Hacker News front page",
+        "href": "https://news.ycombinator.com/item?id=17415321"
+      }
+    ]
   },
   {
     "title": "Starting deep learning hands-on: image classification on CIFAR-10",
@@ -98,7 +103,12 @@
     "href": "http://crastina.se/theres-no-projects-like-side-projects/",
     "date": "2015-01-02T00:00:00.000Z",
     "tags": ["personal"],
-    "hn": "https://news.ycombinator.com/item?id=8826890"
+    "extras": [
+      {
+        "title": "Hacker News front page",
+        "href": "https://news.ycombinator.com/item?id=8826890"
+      }
+    ]
   },
   {
     "title": "An independent camp for high school geeks",
