@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How I Learned to Stop Worrying and Love the Types & Tests"
+title: "How I learned to stop worrying and love the types & tests"
 slug: types-test-typescript
 date: 2020-03-02
 author: Piotr Migdał
@@ -11,7 +11,7 @@ description: >-
   On TypeScript, ESlint, jest, TSDoc, Travis-CI, and VSCode (with inspirations from the Zen of Python).
 image: ./jest_test_repl.png
 external:
-  title: "How I Learned to Stop Worrying and Love the Types & Tests"
+  title: "How I learned to stop worrying and love the types & test"
   href: https://medium.com/quantum-photons/how-i-learned-to-stop-worrying-and-love-the-types-tests-b6b5ee5e8ede
   status: at Quantum Tensors Medium
   date: 2020-03-02 12:00 +0100
