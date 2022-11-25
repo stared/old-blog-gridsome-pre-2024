@@ -11,11 +11,7 @@ tags:
 description: >-
   A good diagram is worth a thousand equations - let's create more of these!
 image: https://cdn-images-1.medium.com/max/2032/1*Z7X3ypVDlNGlXeVcJqICbg.png
-external:
-  title: "Simple diagrams of convoluted neural networks"
-  href: https://medium.com/inbrowserai/simple-diagrams-of-convoluted-neural-networks-39c097d2925b
-  status: originally published on Medium
-  date: 2018-09-15 12:00 +0100
+medium_url: https://medium.com/inbrowserai/simple-diagrams-of-convoluted-neural-networks-39c097d2925b
 ---
 
 > A good diagram is worth a thousand equations — let’s create more of these!

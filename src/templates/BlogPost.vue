@@ -3,7 +3,11 @@
     <div class="markdown-header">
       <h1>{{ $page.blogPost.title }}</h1>
       <p class="post-date">
-        {{ $page.blogPost.date }} | {{ $page.blogPost.timeToRead }} min read
+        {{ $page.blogPost.date }} | by {{ author($page.blogPost) }}
+        <span v-if="$page.blogPost.medium_url">
+          &nbsp;| <a :href="$page.blogPost.medium_url">orginally posted at Medium</a>
+        </span>
+        | {{ $page.blogPost.timeToRead }} min read
       </p>
     </div>
     <div class="markdown" v-html="htmlCollectedImages"></div>
@@ -31,6 +35,12 @@ export default {
       return this.$page.blogPost.content
         .replaceAll(/<img(?:(?!<p>)(?!<h\d).*\n)+/g, '<div class="images">\n$&</div>');
     }
+  },
+  methods: {
+    author(post) {
+      // the default author
+      return post.author || "Piotr Migdał";
+    }
   }
 }
 </script>
@@ -46,6 +56,8 @@ query BlogPost ($path: String!) {
     date (format: "D MMMM YYYY")
     timeToRead
     image
+    author
+    medium_url
   }
 }
 </page-query>
