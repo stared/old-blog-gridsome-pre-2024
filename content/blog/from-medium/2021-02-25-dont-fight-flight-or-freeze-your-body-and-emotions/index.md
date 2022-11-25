@@ -9,7 +9,7 @@ tags:
 slug: dont-fight-flight-or-freeze-your-body-and-emotions
 medium_url: https://pmigdal.medium.com/dont-fight-flight-or-freeze-your-body-and-emotions-96f5aa30b299
 extras:
-  - title: Hacker News front page
+  - text: Hacker News front page
     href: https://news.ycombinator.com/item?id=26371848
 ---
 

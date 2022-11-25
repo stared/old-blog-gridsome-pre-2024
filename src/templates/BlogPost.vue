@@ -2,12 +2,17 @@
   <Layout>
     <div class="markdown-header">
       <h1>{{ $page.blogPost.title }}</h1>
-      <p class="post-date">
+      <p class="header-information">
         {{ $page.blogPost.date }} | by {{ author($page.blogPost) }}
         <span v-if="$page.blogPost.medium_url">
           &nbsp;| <a :href="$page.blogPost.medium_url">orginally posted at Medium</a>
         </span>
         | {{ $page.blogPost.timeToRead }} min read
+      <ul v-if="$page.blogPost.extras.length > 0" class="header-extras">
+        <li v-for="extra in $page.blogPost.extras">
+          <a :href="extra.href">{{ extra.text }}</a>
+        </li>
+      </ul>
       </p>
     </div>
     <div class="markdown" v-html="htmlCollectedImages"></div>
@@ -58,11 +63,19 @@ query BlogPost ($path: String!) {
     image
     author
     medium_url
+    extras {
+      text
+      href
+    }
   }
 }
 </page-query>
 
 <style>
+.markdown-header .header-extras {
+  font-size: 0.8em;
+}
+
 .markdown blockquote {
   font-style: italic;
 }
