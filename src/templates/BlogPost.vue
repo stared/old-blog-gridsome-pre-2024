@@ -6,7 +6,7 @@
         {{ $page.blogPost.date }} | {{ $page.blogPost.timeToRead }} min read
       </p>
     </div>
-    <div class="markdown" v-html="$page.blogPost.content"></div>
+    <div class="markdown" v-html="htmlCollectedImages"></div>
   </Layout>
 </template>
 
@@ -22,6 +22,15 @@ export default {
     const imgRelPath = !!this.$page.blogPost.image ? this.$page.blogPost.image.src : require("~/imgs/piotr-migdal-direct-smiling-2022-by-cytacka-600px.jpg");
 
     return socialMeta(title, url, description, baseUrl + imgRelPath);
+  },
+  computed: {
+    htmlCollectedImages() {
+      // this is dirty and I am aware of that
+      // it wraps all consequtive images in an div.images block
+      // a cilvilized way is my writing a remark plugin
+      return this.$page.blogPost.content
+        .replaceAll(/<img(?:(?!<p>)(?!<h\d).*\n)+/g, '<div class="images">\n$&</div>');
+    }
   }
 }
 </script>
@@ -42,13 +51,17 @@ query BlogPost ($path: String!) {
 </page-query>
 
 <style>
-.markdown img {
-  max-width: 100%;
-  margin: auto;
-  display: block;
-}
-
 .markdown blockquote {
   font-style: italic;
+}
+
+.markdown .images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.markdown .images img {
+  flex-shrink: 1;
 }
 </style>
