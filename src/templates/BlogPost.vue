@@ -64,4 +64,12 @@ query BlogPost ($path: String!) {
 .markdown .images img {
   flex-shrink: 1;
 }
+
+.markdown .images img.width-max-half {
+  max-width: 50%;
+}
+
+.markdown .images img.width-max-third {
+  max-width: 33.33%;
+}
 </style>

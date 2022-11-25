@@ -16,9 +16,9 @@ There is a common misconception that machines are good with dry facts and logic,
 
 Hopefully, symbolism and spirituality are our last human frontiers, right?
 
-![](./00.jpg)
+![](./00.jpg){ class=width-max-half }
 
-![](./01.jpg)
+![](./01.jpg){ class=width-max-half }
 
 This prompt was inspired by [a tweet by hardmaru](https://twitter.com/hardmaru/status/1531974184578207746) (1 June 2022):
 
@@ -34,7 +34,7 @@ There is a lot of room to start a new AI cult. Fortunately, DALL·E 2 started gi
 
 In AI baseline keeps constantly changing. In most fields, progress is slower than advertised. In deep learning, things move rapidly from “the Holy Grail” to “you can run in a Jupyter Notebook tutorial”-level. So, here goes my personal benchmark for symbolism, a Polish poster for a play Stalker (from 2012, NOT AI-generated)
 
-![](./03.jpeg)
+![](./03.jpeg){ class=width-max-half }
 
 While neither the book “Roadside Picnic” by Strugatsky brother nor the cinematic poetry [“Stalker” by Tarkovsky](https://www.youtube.com/watch?v=Q3hBLv-HLEc) are about God or radiation, in my opinion, a combination of these symbols works perfectly. I wouldn’t create it by myself, yet after seeing that I would guess the movie.
 
@@ -52,31 +52,31 @@ Octopodes are smart and lone predators, attacking each other on sight (unless du
 
 Here is an all-knowing octopus, showing us the path to enlightenment:
 
-![](./04.jpg)
+![](./04.jpg){ class=width-max-third }
 
-![](./05.jpg)
+![](./05.jpg){ class=width-max-third }
 
-![](./06.jpg)
+![](./06.jpg){ class=width-max-third }
 
 #### Priests
 
 And how about priests among various species?
 
-![](./07.jpg)
+![](./07.jpg){ class=width-max-third }
 
-![](./08.jpg)
+![](./08.jpg){ class=width-max-third }
 
-![](./09.jpg)
+![](./09.jpg){ class=width-max-third }
 
 #### Meaning
 
 Who knows more: one who knows the answer to the meaning of Life, Universe, and Everything: a mouse, [Noam Chomsky](https://en.wikipedia.org/wiki/Colorless_green_ideas_sleep_furiously) (here’s a check-mate for you), or Microsoft Word Paperclip?
 
-![](./10.jpg)
+![](./10.jpg){ class=width-max-third }
 
-![](./11.jpg)
+![](./11.jpg){ class=width-max-third }
 
-![](./12.jpg)
+![](./12.jpg){ class=width-max-third }
 
 #### Fruit of knowledge
 
@@ -84,37 +84,37 @@ In my headcanon, it does not matter what was the fruit of knowledge. What matter
 
 However, if you want to know which fruit— there are not many things more tempting than good lemonade on a warm day. And I don’t think that being tempted is a bad thing. I share my value system with Eve and Pandora — [curiosity is worth pain](https://xkcd.com/242/).
 
-![](./13.jpg)
+![](./13.jpg){ class=width-max-third }
 
-![](./14.jpg)
+![](./14.jpg){ class=width-max-third }
 
-![](./15.jpg)
+![](./15.jpg){ class=width-max-third }
 
 #### Venus Flytraps at the Gates of Paradise
 
 Lemons ([it rhymes with “demons”](https://www.gocomics.com/jim-benton-cartoons/2015/09/28)) and malicious apples are one thing. What is important is that it was humans who learned from the Tree, a plant, not the other way. And now you know who guards the Garden of Eden.
 
-![](./16.jpg)
+![](./16.jpg){ class=width-max-third }
 
-![](./17.jpg)
+![](./17.jpg){ class=width-max-third }
 
-![](./18.jpg)
+![](./18.jpg){ class=width-max-third }
 
-![](./19.jpg)
+![](./19.jpg){ class=width-max-third }
 
-![](./20.jpg)
+![](./20.jpg){ class=width-max-third }
 
-![](./21.jpg)
+![](./21.jpg){ class=width-max-third }
 
 #### Cosmic flora and fauna
 
 Speaking about Venus Flytraps, let’s see what cosmic ones look like. And the same for ferrets. The ferret prompt idea by Philippe Cochin.
 
-![](./22.jpg)
+![](./22.jpg){ class=width-max-third }
 
-![](./23.jpg)
+![](./23.jpg){ class=width-max-third }
 
-![](./24.jpg)
+![](./24.jpg){ class=width-max-third }
 
 #### Hawaiian pizza Tarot cards
 
@@ -124,11 +124,11 @@ So well, how about a pizza with pineapple? I guess it is a lesser-known minor ar
 
 Prompt idea by Maja Ratyńska.
 
-![](./25.jpg)
+![](./25.jpg){ class=width-max-third }
 
-![](./26.jpg)
+![](./26.jpg){ class=width-max-third }
 
-![](./27.jpg)
+![](./27.jpg){ class=width-max-third }
 
 #### Solaris Ocean
 
@@ -138,11 +138,11 @@ The Ocean from “[Solaris](https://en.wikipedia.org/wiki/Solaris_%28novel%29)�
 
 So, here goes “The Mind of the Lem’s Solaris Ocean” as digital art, Beksiński-art, and psychedelic art.
 
-![](./28.jpg)
+![](./28.jpg){ class=width-max-third }
 
-![](./29.jpg)
+![](./29.jpg){ class=width-max-third }
 
-![](./30.jpg)
+![](./30.jpg){ class=width-max-third }
 
 #### Lovecraftian geometry
 
@@ -152,19 +152,19 @@ As H.P. Lovecraft wrote in “At the Mountains of Madness”:
 
 If you want to experience the hyperbolic geometry of the sunken city of R’Lyeh, play [HyperRogue](https://www.roguetemple.com/z/hyper/). Here we use the M.C. Escher style:
 
-![](./31.jpg)
+![](./31.jpg){ class=width-max-third }
 
-![](./32.jpg)
+![](./32.jpg){ class=width-max-third }
 
 #### Eldritch horrors
 
 Lovecraftian eldritch horrors as drawings from Necronomicon and religious art. Unsettling.
 
-![](./33.jpg)
+![](./33.jpg){ class=width-max-third }
 
-![](./34.jpg)
+![](./34.jpg){ class=width-max-third }
 
-![](./35.jpg)
+![](./35.jpg){ class=width-max-third }
 
 #### Great Old Ones
 
@@ -174,21 +174,21 @@ From H.P. Lovecraft again:
 
 Here we have Yog-Sothoth {transcending space and time, who is the gate and the key, the god of spacetime} as religious art.
 
-![](./36.jpg)
+![](./36.jpg){ class=width-max-third }
 
-![](./37.jpg)
+![](./37.jpg){ class=width-max-third }
 
-![](./38.jpg)
+![](./38.jpg){ class=width-max-third }
 
 #### End of all things
 
 And what does the end look like?
 
-![](./39.jpg)
+![](./39.jpg){ class=width-max-third }
 
-![](./40.jpg)
+![](./40.jpg){ class=width-max-third }
 
-![](./41.jpg)
+![](./41.jpg){ class=width-max-third }
 
 #### Life and death
 
@@ -196,21 +196,21 @@ Maybe the isn’t an end, but an eternal cycle.
 
 Like in their story [“The Egg”](http://www.galactanet.com/oneoff/theegg_mod.html) by Andy Weir (also [animated by Kurzgesagt](https://www.youtube.com/watch?v=h6fcK_fRYaI)), which kind of resembles the quantum field theory-like views of beings, especially in the spirit of the [one-electron universe](https://en.wikipedia.org/wiki/One-electron_universe). Or one of my recently favored songs, [“Night 13” by Auri](https://www.youtube.com/watch?v=sAnZUKoOSL8).
 
-![](./42.jpg)
+![](./42.jpg){ class=width-max-third }
 
-![](./43.jpg)
+![](./43.jpg){ class=width-max-third }
 
-![](./44.jpg)
+![](./44.jpg){ class=width-max-third }
 
 #### Judeo-Christian God
 
 So, let’s see how THEY present themselves as a pillar of flame. Well… darker than you may have imagined.
 
-![](./45.jpg)
+![](./45.jpg){ class=width-max-third }
 
-![](./46.jpg)
+![](./46.jpg){ class=width-max-third }
 
-![](./47.jpg)
+![](./47.jpg){ class=width-max-third }
 
 #### Seraphim and others
 
@@ -218,31 +218,31 @@ It saddens me that at some point angels became presented as cupids. Let’s see 
 
 UTF8 trivia: ‘ꙮ’ is a rare Cyrillic ‘o’, as in “серафими многоꙮчитїи” (multi-eyed seraphim).
 
-![](./48.jpg)
+![](./48.jpg){ class=width-max-third }
 
-![](./49.jpg)
+![](./49.jpg){ class=width-max-third }
 
-![](./50.jpg)
+![](./50.jpg){ class=width-max-third }
 
 More on angels, or rather — many-eyed celestial beings, from Ezekiel’s vision.
 
-![](./51.jpg)
+![](./51.jpg){ class=width-max-third }
 
-![](./52.jpg)
+![](./52.jpg){ class=width-max-third }
 
-![](./53.jpg)
+![](./53.jpg){ class=width-max-third }
 
-![](./54.jpg)
+![](./54.jpg){ class=width-max-third }
 
-![](./55.jpg)
+![](./55.jpg){ class=width-max-third }
 
-![](./56.jpg)
+![](./56.jpg){ class=width-max-third }
 
-![](./57.jpg)
+![](./57.jpg){ class=width-max-third }
 
-![](./58.jpg)
+![](./58.jpg){ class=width-max-third }
 
-![](./59.jpg)
+![](./59.jpg){ class=width-max-third }
 
 #### Greek mythology
 
@@ -252,37 +252,37 @@ After his exile to the very Eastern Europe, and torturing his liver with vodka, 
 
 Themis, while blind, deserves fancy eyeglasses. I love the depiction of eyes that have never seen.
 
-![](./60.jpg)
+![](./60.jpg){ class=width-max-third }
 
-![](./61.jpg)
+![](./61.jpg){ class=width-max-third }
 
-![](./62.jpg)
+![](./62.jpg){ class=width-max-third }
 
 #### Tolkien
 
 Let’s not forget about Middle-earth. Not many know that Sauron's private life differs from his public image. Also — what if Galadriel took the ring?
 
-![](./63.jpg)
+![](./63.jpg){ class=width-max-third }
 
-![](./64.jpg)
+![](./64.jpg){ class=width-max-third }
 
-![](./65.jpg)
+![](./65.jpg){ class=width-max-third }
 
 #### Gender
 
 Personally, I am far from any kind of spiritual male/female essentialism. When it comes to anything related to the psyche, [while there are gender differences on average, the overlap is enormous](https://thingofthings.wordpress.com/2017/05/05/the-cluster-structure-of-genderspace/). Still, it was interesting to play with the idea. Or rather — how does AI perceive it.
 
-![](./66.jpg)
+![](./66.jpg){ class=width-max-third }
 
-![](./67.jpg)
+![](./67.jpg){ class=width-max-third }
 
-![](./68.jpg)
+![](./68.jpg){ class=width-max-third }
 
 #### Spirits
 
 So, what set me on the path of generating such images? I got curious about how DALL·E 2 melds ideas and asked to generate “A spirit in a waterfall of hearts”, specifying that it should be “digital art”. I got something I really liked:
 
-![](./69.jpg)
+![](./69.jpg){ class=width-max-third }
 
 Moreover, all other creations were both on point and interesting. I was both impressed and mesmerized.
 
@@ -294,47 +294,47 @@ Speaking about spirits in nature, I wanted to generate something for the Summer 
 
 Quite a few stories mention that people need to collect this flower naked… Well, it is likely that young men and women knew that the quest for a non-existing flower is futile, so it won’t distract from other activities.
 
-![](./71.jpg)
+![](./71.jpg){ class=width-max-third }
 
-![](./72.jpg)
+![](./72.jpg){ class=width-max-third }
 
-![](./73.jpg)
+![](./73.jpg){ class=width-max-third }
 
-![](./74.jpg)
+![](./74.jpg){ class=width-max-third }
 
-![](./75.jpg)
+![](./75.jpg){ class=width-max-third }
 
-![](./76.jpg)
+![](./76.jpg){ class=width-max-third }
 
-![](./77.jpg)
+![](./77.jpg){ class=width-max-third }
 
-![](./78.jpg)
+![](./78.jpg){ class=width-max-third }
 
-![](./79.jpg)
+![](./79.jpg){ class=width-max-third }
 
-![](./80.jpg)
+![](./80.jpg){ class=width-max-third }
 
-![](./81.jpg)
+![](./81.jpg){ class=width-max-third }
 
-![](./82.jpg)
+![](./82.jpg){ class=width-max-third }
 
 #### A few extra
 
 Here is Cthulhu’s romantic side, a concept of a qubit, and once again venus flytrap, this time — a photorealistic one. Believe me or not, this plant is my “spirit ‘animal’”.
 
-![](./83.jpg)
+![](./83.jpg){ class=width-max-third }
 
-![](./84.jpg)
+![](./84.jpg){ class=width-max-third }
 
-![](./85.jpg)
+![](./85.jpg){ class=width-max-third }
 
 I went a bit over the edge with the last one, with a version for Pride Month 2022:
 
-![](./86.jpg)
+![](./86.jpg){ class=width-max-third }
 
-![](./87.jpg)
+![](./87.jpg){ class=width-max-third }
 
-![](./88.jpg)
+![](./88.jpg){ class=width-max-third }
 
 I even got [a wonderful review](https://www.reddit.com/r/dalle2/comments/v44mn5/joyful_anthropomorphic_venus_flytrap_studio/) on the last one:
 

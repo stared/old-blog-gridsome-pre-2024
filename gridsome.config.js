@@ -47,7 +47,8 @@ module.exports = {
             captionClassName: "md-figure-caption",
           },
         ],
-        'gridsome-remark-unwrap-images'
+        'gridsome-remark-unwrap-images',
+        'remark-attr',
       ],
     },
   },
