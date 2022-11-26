@@ -11,6 +11,10 @@
           experience. More in <g-link to="/resume">my resume</g-link>.
         </p>
         <p>
+          <b>Previously:</b> Co-founder & CTO of <a href="https://quantumflytrap.com/">Quantum Flytrap</a>, deep
+          learning consultant, data viz specialist, and quantum physics PhD.
+        </p>
+        <p>
           <b>Personally:</b> I dance balfolk and
           fusion (<i>pretending to dance but actually doing contact improv</i>). I do weekly sauna rituals, among trees,
           ponds and streams.
