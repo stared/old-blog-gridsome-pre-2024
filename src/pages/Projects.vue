@@ -4,7 +4,8 @@
 
         <p>
             My public projects with a certain overrepresentation of data visualizations (easy to share, easy to explain,
-            eye-candy).
+            eye-candy). For more open-source projects, see <a href="https://github.com/stared/">my repos at
+                github.com/stared</a>. My professional projects are <g-link to="/resume">here</g-link>.
         </p>
 
         <p>
