@@ -6,26 +6,34 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = function (api) {
-  api.loadSource(({ addCollection }) => {
-    // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
-  })
+  api.createPages(async ({ graphql, createPage }) => {
+    const { data } = await graphql(`{
+      allBlogPost {
+        edges {
+          node {
+            slug
+            path
+            year: date(format: "YYYY")
+            month: date(format: "MM")
+            day: date(format: "DD")
+          }
+        }
+      }
+    }`);
 
-  // api.createPages(({ createPage }) => {
-  //   // Use the Pages API here: https://gridsome.org/docs/pages-api/
-  //   createPage({
-  //     path: '/:year/:month/:day/:slug\.html',
-  //     component: './src/templates/BlogPost.vue',
-  //     context: {
-  //       path: 'blog/2020/03/02/types-test-typescript'
-  //     }
-  //   })
-  // })
+    data.allBlogPost.edges.forEach(({ node }) => {
+      // without HTML it works also in gridsome develop
+      // with HTML it works only after build
+      createPage({
+        path: `/${node.year}/${node.month}/${node.day}/${node.slug}.html`,
+        component: './src/templates/BlogPost.vue',
+        context: {
+          id: node.id,
+          path: node.path
+        }
+      });
 
-  api.createPages(({ createPage }) => {
-    // Use the Pages API here: https://gridsome.org/docs/pages-api/
-    createPage({
-      path: '/aaa.html',
-      component: './src/pages/Index.vue'
     })
-  })
-}
+  });
+};
+
