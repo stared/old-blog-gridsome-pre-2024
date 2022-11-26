@@ -33,7 +33,7 @@ module.exports = {
     }
   ],
   templates: {
-    BlogPost: '/:year/:slug'
+    BlogPost: '/:year/:month/:slug'
   },
   transformers: {
     remark: {
