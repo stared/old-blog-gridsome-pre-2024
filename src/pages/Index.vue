@@ -35,8 +35,8 @@
         </p>
       </div>
       <div class="flex-column image">
-        <g-image alt="A photo of Piotr Migdał by Agnieszka Cytacka (2022)"
-          src="~/imgs/piotr-migdal-direct-smiling-2022-by-cytacka-600px.jpg" width="400" />
+        <g-image class="main-img" alt="A photo of Piotr Migdał by Agnieszka Cytacka (2022)"
+          src="~/imgs/piotr-migdal-direct-smiling-2022-by-cytacka-600px.jpg" />
       </div>
     </div>
   </Layout>
@@ -61,11 +61,16 @@ export default {
 .flex {
   display: flex;
   flex-wrap: wrap;
+  gap: 10px;
 }
 
 .flex-column {
   flex-grow: 1;
   flex-shrink: 1;
-  flex-basis: 160px;
+  flex-basis: 300px;
+}
+
+.main-img {
+  max-width: 100%;
 }
 </style>
