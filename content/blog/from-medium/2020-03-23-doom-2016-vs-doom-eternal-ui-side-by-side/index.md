@@ -7,6 +7,7 @@ tags:
   - games
 slug: doom-2016-vs-doom-eternal-ui-side-by-side
 medium_url: https://pmigdal.medium.com/doom-2016-vs-doom-eternal-ui-side-by-side-8058e996baae
+views_k: 5
 ---
 
 Demons invaded Earth and ruined Doom HUD. Some alternative titles:

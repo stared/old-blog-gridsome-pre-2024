@@ -10,6 +10,7 @@ medium_url: https://pmigdal.medium.com/embodiment-for-nerds-27e25f295908
 extras:
   - text: Hacker News front page
     href: https://news.ycombinator.com/item?id=28895655
+views_k: 3
 ---
 
 Or how you can learn to get in touch with your body and emotions.

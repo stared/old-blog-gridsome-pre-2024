@@ -11,6 +11,7 @@ medium_url: https://pmigdal.medium.com/dont-fight-flight-or-freeze-your-body-and
 extras:
   - text: Hacker News front page as "Procrastination is flight, deadline is fight, freeze is staring at the screen"
     href: https://news.ycombinator.com/item?id=26371848
+views_k: 42
 ---
 
 When a deer sees an incoming car, it freezes. For us, it looks stupid. But for the deer, this instinctive reaction seems to be the best. And it would be the best reaction if the car were a predator: too big to fight, too fast to outrun. By freezing it hopes that the beast fails to spot it, or gets distracted.

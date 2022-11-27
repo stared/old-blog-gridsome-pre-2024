@@ -14,6 +14,7 @@ image: ./2016-08-15-quantum-whiteboard-julia.jpg
 extras:
   - text: "shared on r/Physics with over 300 upvotes"
     href: https://www.reddit.com/r/Physics/comments/5o3g7i/quantum_mechanics_for_highschool_students/
+views_k: 16
 ---
 
 ![No-cloning theorem with Júlia Amorós Binefa in 2012](./2016-08-15-quantum-whiteboard-julia.jpg)

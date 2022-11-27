@@ -8,6 +8,7 @@ tags:
   - soft skills
 slug: adhd-tech-stack-auto-time-tracking
 medium_url: https://pmigdal.medium.com/adhd-tech-stack-auto-time-tracking-b8ff5b6bc888
+views_k: 9
 ---
 
 _A few tips on automatic time tracking, especially for people with ADHD: how to get immediate feedback, for actions, not guilt._

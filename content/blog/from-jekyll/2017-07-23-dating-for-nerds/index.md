@@ -13,6 +13,7 @@ image: ./i_love_nerds_part.jpg
 #extras:
 #  - text: "Hacker News discussion thread" # only 28 upvotes
 #    href: https://news.ycombinator.com/item?id=14834641
+views_k: 20
 ---
 
 # Dating for nerds (part 1): problem diagnosis

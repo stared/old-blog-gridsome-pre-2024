@@ -21,6 +21,7 @@ extras:
     href: https://news.ycombinator.com/item?id=15999578
   - text: reprinted to KDnuggets
     href: http://www.kdnuggets.com/2017/08/first-steps-learning-deep-learning-image-classification-keras.html
+views_k: 63
 ---
 
 I teach deep learning both for a living (as the main [deepsense.ai instructor](http://deepsense.ai/), in a Kaggle-winning team[^deepsense]) and as a part of my volunteering with the [Polish Children's Fund](http://crastina.se/gifted-children-in-poland-by-piotr-migdal/) giving workshops to gifted high-school students[^trypophobia]. I want to share a few things I've learnt about teaching (and learning) deep learning.

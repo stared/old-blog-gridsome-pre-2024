@@ -11,6 +11,7 @@ description: >-
   Links to talk and analysis of participants demographics and sign-up dynamics.
   From PyData Warsaw Conference 2017 (19-20 Oct 2017).
 image: ./photo.jpg
+views_k: 2
 ---
 
 [PyData Warsaw 2017](https://pydata.org/warsaw2017/) took place on 19-20 October 2017 at the Copernicus Science Centre. This conference was heavily focused on machine learning and deep learning.

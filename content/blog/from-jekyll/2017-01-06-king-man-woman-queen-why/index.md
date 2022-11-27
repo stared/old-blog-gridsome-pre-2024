@@ -15,6 +15,7 @@ image: ./queen-julia-vectors-facebook.jpg
 extras:
   - text: "Hacker News discussion thread with over 250 upvotes"
     href: https://news.ycombinator.com/item?id=13346104
+views_k: 90
 ---
 
 ## Intro

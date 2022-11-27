@@ -13,6 +13,7 @@ image: ./dating_looks_poetry_patrizia_comino.jpg
 extras:
   - text: "was even on Hacker News (but got flagged)"
     href: https://news.ycombinator.com/item?id=15372552
+views_k: 19
 ---
 
 A typical metaphor for dating is a hunt, or a competitive game. It shouldn’t be! A much more fruitful metaphor is a collaborative project - you may bring different skills and have different priorities, but work on a common goal. Conversely, if you treat your dates as adversaries, they are likely to reciprocate the same way.
