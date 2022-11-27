@@ -6,8 +6,6 @@
 
 module.exports = {
   siteName: 'Piotr Migdał - Homepage',
-  siteUrl: 'https://stared.github.io',
-  pathPrefix: '/migdal-blog-gridsome',
   plugins: [
     {
       use: '@gridsome/source-filesystem',
