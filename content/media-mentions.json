@@ -1,5 +1,19 @@
 [
   {
+    "href": "https://www.gazetaprawna.pl/podcasty/eureka/wideo/8566918,dr-piotr-migdal-naszym-celem-jest-stworzenie-takiego-interfejsu-uzytkownika-zeby-uzywanie-komputerow-kwantowych-nie-wymagalo-doktoratu-z-fizyki-kwantowej-podcast.html",
+    "title": "Dr Piotr Migdał: Naszym celem jest stworzenie takiego interfejsu użytkownika, żeby używanie komputerów kwantowych nie wymagało doktoratu z fizyki kwantowej",
+    "tags": ["interview", "quantum", "deep learning", "po polsku"],
+    "medium": "Dziennik Gazeta Prawna",
+    "date": "2022-010-12T00:00:00.000Z"
+  },
+  {
+    "href": "https://www.datasciencerobie.pl/obliczenia-kwantowe-tak-samo-dostepne-jak-praca-w-excelu/",
+    "title": "Obliczenia kwantowe tak samo dostępne jak praca w Excelu ",
+    "tags": ["interview", "quantum", "po polsku"],
+    "medium": "Data Science Robię",
+    "date": "2022-03-23T00:00:00.000Z"
+  },
+  {
     "href": "https://www.vice.com/en_us/article/qv7bxw/machine-learning-map-reddit-sexual-fetish-kink-subreddits",
     "title": "This Quantum Physicist Used Machine Learning to Map Reddit’s Sexual Fetishes",
     "tags": ["interview", "project", "data-viz"],
