@@ -7,6 +7,7 @@ author: Piotr Migdał
 tags:
   - soft skills
   - dating
+  - neurodiversity
 description: >-
   This part of dating for nerds series is focused on the differences between genders that may affect dating: social expectations, safety, choosiness, taking initiative.
 image: ./dating_looks_poetry_patrizia_comino.jpg

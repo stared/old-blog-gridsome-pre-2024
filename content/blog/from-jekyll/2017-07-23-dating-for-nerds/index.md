@@ -7,6 +7,7 @@ author: Piotr Migdał
 tags:
   - soft skills
   - dating
+  - neurodiversity
 description: >-
   Heterosexual male nerd dating problem - does it exist? What are the main pain points?
 image: ./i_love_nerds_part.jpg

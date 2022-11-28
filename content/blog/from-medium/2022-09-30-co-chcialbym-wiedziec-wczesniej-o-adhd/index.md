@@ -6,6 +6,7 @@ description: >-
 date: "2022-09-30T18:15:39.275Z"
 tags:
   - soft skills
+  - neurodiversity
   - po polsku
 slug: co-chcialbym-wiedziec-wczesniej-o-adhd
 medium_url: https://pmigdal.medium.com/co-chcia%C5%82bym-wiedzie%C4%87-wcze%C5%9Bniej-o-adhd-927ef8b37de6

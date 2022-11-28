@@ -6,6 +6,7 @@ description: >-
 date: "2020-05-19T20:17:50.240Z"
 tags:
   - soft skills
+  - neurodiversity
 slug: adhd-tech-stack-auto-time-tracking
 medium_url: https://pmigdal.medium.com/adhd-tech-stack-auto-time-tracking-b8ff5b6bc888
 views_k: 9

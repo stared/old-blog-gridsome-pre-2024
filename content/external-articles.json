@@ -15,7 +15,7 @@
   },
   {
     "title": "Quantum Flytrap - Shaping the Future of Quantum DevTools",
-    "source": "Interview at Startups Shaping the Future of Computing",
+    "source": "Startups Shaping the Future of Computing",
     "href": "https://www.future-of-computing.com/quantum-flytrap-shaping-the-future-of-quantum-devtools/",
     "date": "2022-07-01T00:00:00.000Z",
     "tags": ["interview", "quantum"]
@@ -57,14 +57,14 @@
   },
   {
     "title": "Keras or PyTorch as your first deep learning framework",
-    "old_title": "Don’t learn TensorFlow! Start with Keras or PyTorch instead",
+    "old_title": "Don't learn TensorFlow! Start with Keras or PyTorch instead",
     "source": "deepsense.ai blog",
     "href": "https://deepsense.ai/keras-or-pytorch/",
     "date": "2018-06-27T00:00:00.000Z",
     "tags": ["tech", "deep learning"],
     "extras": [
       {
-        "title": "Hacker News front page",
+        "title": "Hacker News front page with an inflamatory title \"Don't learn TensorFlow! Start with Keras or PyTorch instead\"",
         "href": "https://news.ycombinator.com/item?id=17415321"
       }
     ]
@@ -95,7 +95,7 @@
     "source": "Scientia Crastina",
     "href": "http://crastina.se/autistic-traits-science-and-the-nerd-stereotype/",
     "date": "2016-02-04T00:00:00.000Z",
-    "tags": ["soft skills"]
+    "tags": ["soft skills", "neurodiversity"]
   },
   {
     "title": "There are no projects like side projects",
@@ -108,12 +108,13 @@
         "title": "Hacker News front page",
         "href": "https://news.ycombinator.com/item?id=8826890"
       }
-    ]
+    ],
+    "views_k": 30
   },
   {
     "title": "An independent camp for high school geeks",
     "source": "Wakacyjne Warsztaty Wielodyscyplinarne",
-    "href": "http://warsztatywww.wikidot.com/en:indie-camp-for-hs-geeks",
+    "href": "https://warsztatywww.pl/article/en-indie-camp-for-hs-geeks/",
     "date": "2012-08-31T00:00:00.000Z",
     "tags": ["education"]
   },
@@ -143,7 +144,8 @@
     "source": "Cross Validated Stack Exchange",
     "href": "http://stats.stackexchange.com/a/87194",
     "date": "2015-03-25T00:00:00.000Z",
-    "tags": ["data sciece", "maths"]
+    "tags": ["data sciece", "maths"],
+    "views_k": 45
   },
   {
     "title": "Why use version control systems for writing a paper?",
@@ -176,7 +178,7 @@
   {
     "title": "Drogowskaz Pasjonata",
     "source": "Wakacyjne Warsztaty Wielodyscyplinarne",
-    "href": "http://warsztatywww.wikidot.com/drogowskaz-pasjonata",
+    "href": "https://warsztatywww.pl/article/drogowskaz/",
     "date": "2011-02-21T00:00:00.000Z",
     "tags": ["education", "po polsku"]
   },

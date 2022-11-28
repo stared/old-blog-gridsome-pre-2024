@@ -14,6 +14,10 @@ image: ./2016-08-15-quantum-whiteboard-julia.jpg
 extras:
   - text: "shared on r/Physics with over 300 upvotes"
     href: https://www.reddit.com/r/Physics/comments/5o3g7i/quantum_mechanics_for_highschool_students/
+  - text: Listed in QTEdu Quantum Flagship resources
+    href: https://qtedu.eu/material-and-tools/primary-and-secondary-school
+  - text: https://www.spiedigitallibrary.org/journals/optical-engineering/volume-61/issue-08/081809/Quantum-games-and-interactive-tools-for-quantum-technologies-outreach-and/10.1117/1.OE.61.8.081809.full
+    href: Cited in "Quantum games and interactive tools for quantum technologies outreach and education"
 views_k: 16
 ---
 
