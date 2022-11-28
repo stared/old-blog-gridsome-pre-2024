@@ -12,8 +12,7 @@
     </p>
 
     <p>
-      Sort by: newest, best (according to my subjective views), recommended (by my hand-crafted formula). TO BE
-      IMPLEMENTED
+      Sort by a custom combination of date, popularity, and mentions.
     </p>
 
     <div class="post-list">
@@ -69,20 +68,29 @@ export default {
   },
   computed: {
     allPosts: function () {
-      const localPosts = this.$page.allBlogPost.edges.map((edge) => edge.node).map(({ title, path, tags, date, dateDisplay, extras }) => {
+      const localPosts = this.$page.allBlogPost.edges.map((edge) => edge.node).map(({ title, path, tags, date, dateDisplay, extras, views_k }) => {
         const hn = isHN(extras);
-        return { title, path, date, dateDisplay, hn, tags, isExternal: false };
+        return { title, path, date, dateDisplay, hn, tags, views_k, isExternal: false };
       });
-      const externalPostsProcessed = externalPosts.map(({ title, source, href, date, tags, extras }) => {
+      const externalPostsProcessed = externalPosts.map(({ title, source, href, date, tags, extras, views_k }) => {
         const hn = isHN(extras);
         const dateDisplay = new Date(date).toLocaleDateString('en-us', { year: "numeric", month: "short" });
-        return { title, source, href, date, dateDisplay, tags, hn, isExternal: true };
+        return { title, source, href, date, dateDisplay, tags, hn, views_k, isExternal: true };
       })
       return localPosts.concat(externalPostsProcessed);
     },
     filteredPosts: function () {
+      const postValue = (post) => {
+        const popularity = post.views_k ? Math.log2(post.views_k) : 0;
+        const mentions = post.extras ? post.extras?.length : 0;
+        const now = new Date();
+        const postDate = new Date(post.date);
+        const yearsSince = (now - postDate) / (1000 * 60 * 60 * 24 * 365.25);
+        const age = Math.log2(yearsSince);
+        return popularity + mentions - 2 * age;
+      }
       const posts = this.allPosts
-        .sort((a, b) => +(a.date < b.date) - 0.5);
+        .sort((a, b) => +(postValue(a) < postValue(b)) - 0.5);
       if (this.tagSelected === 'all') {
         return posts;
       } else {
@@ -118,6 +126,7 @@ query {
         extras {
           href
         }
+        views_k
       }
     }
   }
