@@ -37,7 +37,7 @@ As for some other psychoactive substances, there is tolerance growth. Hopefully,
 
 LD50 for humans is estimated to be 0.5–5g/kg. It would take around 100g of pure capsaicin to be deadly — but good luck with taking as much! So the ratio of deadly to active dose is around 1000000x. For caffeine, it is around 100x (coffee ~ 100mg, LD50 ~ 10g). As a side remark, in 1830s, Honoré de Balzac wrote with great passion about [The Pleasures and Pains of Coffee](https://urbigenous.net/library/pleasures_pains_coffee.html).
 
-A recent paper [A Neglected Link Between the Psychoactive Effects of Dietary Ingredients and Consciousness-Altering Drugs](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6706955/) considers eating normal amounts of spicy food microdosing of capsaicin.
+A recent paper [A Neglected Link Between the Psychoactive Effects of Dietary Ingredients and Consciousness-Altering Drugs](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6706955/) considers eating normal amounts of spicy food microdosing of capsaicin. Another paper shows that preferece for spicy food is related to sensation-seeking, see [Personality factors predict spicy food liking and intake](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3607321/).
 
 Oh, capsaicin is a mechanism to ward off mammals. But then appeared homo sapiens, the apex predator of pain fruits.
 
