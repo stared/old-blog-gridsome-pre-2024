@@ -39,7 +39,14 @@
     "source": "Medium",
     "href": "https://medium.com/@marekkcichy/does-ai-have-a-dirty-mind-too-6948430e4b2b",
     "date": "2019-04-16T00:00:00.000Z",
-    "tags": ["tech", "deep learning", "cognition"]
+    "tags": ["tech", "deep learning", "cognition"],
+    "extras": [
+      {
+        "title": "On Reddit r/learningmachinelearning",
+        "href": "https://www.reddit.com/r/learnmachinelearning/comments/bdts7u/does_ai_have_a_dirty_mind_too/"
+      }
+    ],
+    "view_k": 17
   },
   {
     "title": "Keras vs. PyTorch: Alien vs. Predator recognition with transfer learning",
@@ -194,7 +201,7 @@
     "source": "Azimuth, John Baez's blog",
     "href": "https://johncarlosbaez.wordpress.com/2015/03/13/quantum-superposition/",
     "date": "2015-03-13T00:00:00.000Z",
-    "tags": ["quantum"]
+    "tags": ["quantum", "maths", "tech"]
   },
   {
     "title": "Prawdopodobieństwo a informacja",
