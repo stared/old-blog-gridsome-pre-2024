@@ -3,7 +3,8 @@
     <div class="flex">
       <div class="flex-column text">
         <p>
-          A doctor of sorcery.
+          Piotr Migdał /<a href="https://en.wiktionary.org/wiki/Piotr">pjɔtr</a>&nbsp;<a
+            href="https://en.wiktionary.org/wiki/migda%C5%82">ˈmig.daw</a>/ - a curious being, doctor of sorcery.
         </p>
         <p>
           <b>Profesionally:</b> I am looking for ambitious challenges combining advanced data
@@ -12,12 +13,12 @@
         </p>
         <p>
           <b>Previously:</b> Co-founder & CTO of <a href="https://quantumflytrap.com/">Quantum Flytrap</a>, deep
-          learning consultant, data viz specialist, and quantum physics PhD.
+          learning consultant, data viz specialist, quantum physics PhD.
         </p>
         <p>
           <b>Personally:</b> I dance balfolk and
           fusion (<i>pretending to dance but actually doing contact improv</i>). I do weekly sauna rituals, among trees,
-          ponds and streams.
+          ponds and streams. A bit more in <g-link to="/blog/2021/09/embodiment-for-nerds/">this post</g-link>.
         </p>
         <p>
           <b>Here:</b> I invite you to read <g-link to="/blog">my stuff</g-link>, take a look at <g-link to="/projects">
@@ -28,9 +29,10 @@
           GitHub is my favorite social network, and here are <a href="https://github.com/stared/">my repos</a>. See also
           my other accounts:
           personal
-          <a href="https://www.facebook.com/piotr.migdal.9/">Facebook</a>, semi-used <a
-            href="https://twitter.com/pmigdal">Twitter</a>, professional <a
-            href="https://www.linkedin.com/in/piotrmigdal/">LinkedIn</a>, and link-hoarding <a
+          <a href="https://www.facebook.com/piotr.migdal.9/">Facebook</a>, professional <a
+            href="https://www.linkedin.com/in/piotrmigdal/">LinkedIn</a>, semi-used <a
+            href="https://twitter.com/pmigdal">Twitter</a>, freshly-created <a
+            href="https://mathstodon.xyz/@pmigdal">Mastodon</a>, and link-hoarding <a
             href="https://pinboard.in/u:pmigdal/">Pinboard</a>.
         </p>
       </div>
