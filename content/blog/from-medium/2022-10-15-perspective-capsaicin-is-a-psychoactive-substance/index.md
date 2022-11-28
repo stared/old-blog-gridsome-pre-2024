@@ -1,7 +1,7 @@
 ---
 title: "Perspective: capsaicin is a psychoactive substance"
 description: >-
-  Capsaicing, the active substance in chili peppers, acts on vanilloid receptors
+  Capsaicin, the active substance in chili peppers, acts on vanilloid receptors
   (TRPV1) and alters adrenaline and endorphine levels.
 date: "2022-10-15T14:15:15.143Z"
 tags:
@@ -9,6 +9,9 @@ tags:
 slug: perspective-capsaicin-is-a-psychoactive-substance
 image: ./01.jpg
 medium_url: https://pmigdal.medium.com/perspective-capsaicin-is-a-psychoactive-substance-fff5507b6b7c
+extras:
+  - text: Hacker News front page (now!)
+    href: https://news.ycombinator.com/item?id=33774386
 ---
 
 Capsaicin (8-methyl-N-vanillyl-6-nonenamide) is a substance found in chili peppers that causes a burning sensation. It binds to the vanilloid receptor subtype 1 (TRPV1), responsible for burning pain stimuli.
