@@ -85,7 +85,7 @@ const experiences = [
 
 export default {
     metaInfo() {
-        const title = "Piotr Migdał - Resume";
+        const title = "Resume";
         const description = "Piotr Migdał's career.";
         const baseUrl = "https://p.migdal.pl/"
         const url = `${baseUrl}/career/`;

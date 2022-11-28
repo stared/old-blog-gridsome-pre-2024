@@ -23,7 +23,7 @@ import publications from '@/../content/publications.json'
 
 export default {
   metaInfo() {
-    const title = "Piotr Migdał - Publications";
+    const title = "Publications";
     const description = `Dr. Piotr Migdał wrote ${publications.length} publications.`;
     const baseUrl = "https://p.migdal.pl/"
     const url = `${baseUrl}/publications/`;

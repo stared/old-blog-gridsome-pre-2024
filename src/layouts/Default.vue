@@ -2,7 +2,7 @@
   <div class="layout">
     <header class="header">
       <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
+        <g-link to="/">Piotr Migdał</g-link>
       </strong>
       <nav class="nav">
         <g-link class="nav__link" to="/blog">Blog</g-link>
@@ -14,14 +14,6 @@
     <slot />
   </div>
 </template>
-
-<static-query>
-query {
-  metadata {
-    siteName
-  }
-}
-</static-query>
 
 <style>
 body {

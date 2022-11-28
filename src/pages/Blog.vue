@@ -48,7 +48,7 @@ const isHN = (extras) => {
 
 export default {
   metaInfo() {
-    const title = "Piotr Migdał - Blog";
+    const title = "Blog";
     const description = "Read blog posts by Piotr Migdał.";
     const baseUrl = "https://p.migdal.pl/"
     const url = `${baseUrl}/blog/`;

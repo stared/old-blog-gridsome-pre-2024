@@ -49,7 +49,7 @@ import { socialMeta } from '@/scripts/helpers';
 
 export default {
   metaInfo() {
-    const title = "Piotr Migdał - Homepage";
+    const title = "Homepage";
     const description = "Piotr Migdał - blog posts and stuff.";
     const baseUrl = "https://p.migdal.pl/"
     const image = baseUrl + require("~/imgs/piotr-migdal-direct-smiling-2022-by-cytacka-600px.jpg");

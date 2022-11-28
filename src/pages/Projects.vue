@@ -39,7 +39,7 @@ import projects from '@/../content/projects.json'
 
 export default {
     metaInfo() {
-        const title = "Piotr Migdał - Projects";
+        const title = "Projects";
         const description = `Numerous projects by Piotr Migdał.`;
         const baseUrl = "https://p.migdal.pl/"
         const url = `${baseUrl}/projects/`;
