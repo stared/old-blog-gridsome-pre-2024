@@ -35,7 +35,7 @@ As for some other psychoactive substances, there is tolerance growth. Hopefully,
 - [Capsaicinoids Content in Habanero Pepper (Capsicum chinense Jacq.): Hottest Known Cultivars](https://journals.ashs.org/hortsci/view/journals/hortsci/43/5/article-p1344.xml)
 - [Determination of Capsaicin and Dihydrocapsaicin in Capsicum Fruit Samples using High Performance Liquid Chromatography](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6264681/)
 
-LD50 for humans is estimated to be 0.5–5g/kg. It would take around 100g of pure capsaicin to be deadly — but good luck with taking as much! So the ratio of deadly to active dose is around 1000000x. For caffeine, it is around 100x (coffee ~ 100mg, LD50 ~ 10g).
+LD50 for humans is estimated to be 0.5–5g/kg. It would take around 100g of pure capsaicin to be deadly — but good luck with taking as much! So the ratio of deadly to active dose is around 1000000x. For caffeine, it is around 100x (coffee ~ 100mg, LD50 ~ 10g). As a side remark, in 1830s, Honoré de Balzac wrote with great passion about [The Pleasures and Pains of Coffee](https://urbigenous.net/library/pleasures_pains_coffee.html).
 
 A recent paper [A Neglected Link Between the Psychoactive Effects of Dietary Ingredients and Consciousness-Altering Drugs](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6706955/) considers eating normal amounts of spicy food microdosing of capsaicin.
 
