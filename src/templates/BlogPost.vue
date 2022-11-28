@@ -30,7 +30,7 @@ export default {
     const url = `${baseUrl}${this.$page.blogPost.path}`;
     const imgRelPath = !!this.$page.blogPost.image ? this.$page.blogPost.image.src : require("~/imgs/piotr-migdal-direct-smiling-2022-by-cytacka-600px.jpg");
 
-    return socialMeta(title, url, description, baseUrl + imgRelPath);
+    return socialMeta(title, description, url, baseUrl + imgRelPath);
   },
   computed: {
     htmlCollectedImages() {

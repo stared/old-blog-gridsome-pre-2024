@@ -54,7 +54,7 @@ export default {
     const baseUrl = "https://p.migdal.pl/"
     const image = baseUrl + require("~/imgs/piotr-migdal-direct-smiling-2022-by-cytacka-600px.jpg");
 
-    return socialMeta(title, baseUrl, description, image);
+    return socialMeta(title, description, baseUrl, image);
   },
 }
 </script>

@@ -52,30 +52,28 @@
 import { socialMeta } from '@/scripts/helpers';
 
 const experiences = [
-    {
-        period: "2019-2022",
-        position: "co-founder & CTO",
-        company: "Quantum Flytrap",
-        description: "A startup making quantum easy for business - by developing a quantum computing IDE.",
-        stack: "Basecamp, Linear.app, TypeScript, Vue, Rust",
+      {
+            period: "2019-2022",
+            position: "co-founder & CTO",
+            company: "Quantum Flytrap",
+            description: "A startup making quantum easy for business - by developing a quantum computing IDE.",
+            stack: "Basecamp, Linear.app, TypeScript, Vue, Rust",
     },
-    {
-        period: "2015-2019",
-        position: "machine and deep learning consulting",
-        company: "self-employed",
-        description: "Selected clients: Intel, Nielsen, Samsung Research, and BCG.",
-        stack: "Python, Jupyter Notebook, Scikit Learn, PyTorch, Keras",
-    },
-    {
-        period: "2014-2015",
-        position: "data science and data viz freelancing",
-        company: "self-employed",
-        description: "Selected clients: Data4Cure, deepsense.ai, Startup Compass.",
-        stack: "Python, Pandas, NumPy, SciPy, JavaScript, D3.js",
-    },
-    {
-        period: "2011-2014",
-        position: "PhD in quantum optics theory",
+        {
+          period: "2015-2019",
+          position: "machine and deep learning consulting",
+            company: "self-employed",
+              description: "Selected clients: Intel, Nielsen, Samsung Research, and BCG.",
+              stack: "Python, Jupyter Notebook, Scikit Learn, PyTorch, Keras",
+            
+                            period: "2014-2015",
+            position: "data science and data viz freelancing",
+          company: "self-employed",
+          description: "Selected clients: Data4Cure, deepsense.ai, Startup Compass.",
+            stack: "Python, Pandas, NumPy, SciPy, JavaScript, D3.js",
+            
+                        period: "2011-2014",
+          position: "PhD in quantum optics theory",
         company: "ICFO",
         description: 'Thesis: "Symmetries and self-similarity of many-body wavefunctions"; advisors: Maciej Lewenstein, Javier Rodriguez-Laguna; reviewers: Seth Lloyd (MIT), Karol Życzkowski (Jagiellonian Univ.).',
         stack: "Mathematica, LaTeX, Python",
@@ -91,7 +89,7 @@ export default {
         const url = `${baseUrl}/career/`;
         const image = baseUrl + require("~/imgs/piotr-migdal-direct-smiling-2022-by-cytacka-600px.jpg");
 
-        return socialMeta(title, url, description, image);
+        return socialMeta(title, description, url, image);
     },
     data: function () {
         return { experiences };
