@@ -2,15 +2,19 @@
     <Layout>
         <h1>Resume (kind of)</h1>
 
-        <p>I am excited to look for new, ambitious challenges in projects combining advanced data science with end-user
-            experience. As a data science visionary, I will drive your product from 0 to 1!</p>
+        <p>I am looking for ambitious challenges combining advanced data
+            science with end-user
+            experience. As a technical visionary, I will drive your product from 0 to 1!</p>
 
-        <p>I am most interested in impactful projects combining advanced science and technology with AI ad data viz.
+        <p>While most of my experience is in machine learning, deep learning, data viz and quantum computing - these
+            tools, as useful as they help our clients.
             Industries I would happily consider include medtech, biotech, and user-centric AI. Ideal roles include
             Technical Product Manager, CTO, and Data Science Tech Lead.</p>
 
+        <p>If there is a match, contact me at <code>pmigdal@gmail.com</code>.</p>
+
         <p>See more on my <a href="https://www.linkedin.com/in/piotrmigdal/">LinkedIn profile</a>. A few highlights
-            below:</p>
+            below.</p>
 
         <h2>Recent experience</h2>
 
