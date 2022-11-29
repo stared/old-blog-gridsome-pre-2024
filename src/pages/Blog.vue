@@ -73,7 +73,7 @@ export default {
     const description = "Read blog posts by Piotr Migdał.";
     const baseUrl = "https://p.migdal.pl/"
     const url = `${baseUrl}/blog/`;
-    const image = baseUrl + require("~/imgs/piotr-migdal-direct-smiling-2022-by-cytacka-600px.jpg");
+    const image = baseUrl + require("~/imgs/piotr-migdal-direct-smiling-2022-by-cytacka-thumbnail.jpg");
 
     return socialMeta(title, description, url, image);
   },

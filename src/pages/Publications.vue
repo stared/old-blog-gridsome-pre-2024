@@ -27,7 +27,7 @@ export default {
     const description = `Dr. Piotr Migdał wrote ${publications.length} publications.`;
     const baseUrl = "https://p.migdal.pl/"
     const url = `${baseUrl}/publications/`;
-    const image = baseUrl + require("~/imgs/piotr-migdal-direct-smiling-2022-by-cytacka-600px.jpg");
+    const image = baseUrl + require("~/imgs/piotr-migdal-direct-smiling-2022-by-cytacka-thumbnail.jpg");
 
     return socialMeta(title, description, url, image);
   },
