@@ -10,8 +10,9 @@ slug: perspective-capsaicin-is-a-psychoactive-substance
 image: ./01.jpg
 medium_url: https://pmigdal.medium.com/perspective-capsaicin-is-a-psychoactive-substance-fff5507b6b7c
 extras:
-  - text: Hacker News front page (now!)
+  - text: Hacker News front page
     href: https://news.ycombinator.com/item?id=33774386
+views_k: 10
 ---
 
 Capsaicin (8-methyl-N-vanillyl-6-nonenamide) is a substance found in chili peppers that causes a burning sensation. It binds to the [vanilloid receptor subtype 1 (TRPV1)](https://en.wikipedia.org/wiki/TRPV1), responsible for burning pain stimuli.
