@@ -27,28 +27,8 @@
             </li>
         </ul>
 
-        <h2>A few highlights</h2>
+        <div class="markdown" v-html="mdText"></div>
 
-        <ul>
-            <li>
-                <a href="https://github.com/stared/livelossplot">livelossplot</a>, a Python library for visualizing deep
-                learning model training, got over 1M installations.
-            </li>
-            <li>
-                over 12 of my projects and posts ended up on the Hacker News front page
-            </li>
-            <li>
-                created <a href="https://www.facebook.com/groups/datasciencepl/">Data Science PL</a>, the largest data
-                science community in Poland, over 20k members
-            </li>
-            <li>
-                Research Science Institute at MIT alumnus, bronze medal in the International Physics Olympiad
-            </li>
-            <li>
-                my research publications span from quantum physics, through mathematical psychology, to educational
-                games and data viz
-            </li>
-        </ul>
     </Layout>
 </template>
   
@@ -97,10 +77,32 @@ export default {
     },
     data: function () {
         return { experiences };
-    }
+    },
+    computed: {
+        mdText() {
+            return this.$page.allTextComponent.edges
+                .map((edge) => edge.node)
+                .filter((node) => node.name === 'resume-highlights')[0].content;
+        }
+    },
 };
 </script>
   
+
+<page-query>
+query {
+  allTextComponent {
+    edges {
+      node {
+        id
+        name
+        content
+      }
+    }
+  }
+}
+</page-query>
+
 <style>
 .experiences li {
     list-style: none;
