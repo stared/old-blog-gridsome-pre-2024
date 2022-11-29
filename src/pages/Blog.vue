@@ -19,7 +19,7 @@
       </div>
       <div class="slider">
         <span class="slider-label">log(age)</span>
-        <vue-slider v-model="weigthAge" :min="-5" :max="5" width="150px" :process="sliderLine" />
+        <vue-slider v-model="weigthAge" :min="-10" :max="10" width="150px" :process="sliderLine" />
       </div>
     </div>
     </p>
