@@ -16,6 +16,7 @@
     "gridsome-plugin-plausible-analytics": "^1.1.0",
     "gridsome-remark-figure-caption": "^1.2.1",
     "gridsome-remark-unwrap-images": "^1.0.0",
-    "remark-attr": "^0.11.1"
+    "remark-attr": "^0.11.1",
+    "vue-slider-component": "^3.2.23"
   }
 }

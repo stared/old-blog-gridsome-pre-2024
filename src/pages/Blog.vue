@@ -3,16 +3,31 @@
     <h1>Blog posts</h1>
 
     <p>
-      Filter posts by selecting a relevant tag. (Beware - as a serious tagsonomist, I may retag things at some point!)
+      Sort and filter posts according to your preferences.
     </p>
+
+    <p>
+
+    <div class="slider-flexbox">
+      <div class="slider">
+        <span class="slider-label">log(popularity)</span>
+        <vue-slider v-model="weigthPopularity" :min="-5" :max="5" width="150px" :process="sliderLine" />
+      </div>
+      <div class="slider">
+        <span class="slider-label">mentions</span>
+        <vue-slider v-model="weigthMentions" :min="-5" :max="5" width="150px" :process="sliderLine" />
+      </div>
+      <div class="slider">
+        <span class="slider-label">log(age)</span>
+        <vue-slider v-model="weigthAge" :min="-5" :max="5" width="150px" :process="sliderLine" />
+      </div>
+    </div>
+    </p>
+
     <p>
       <span v-for="tag in allTagsCounted" @click="selectTag(tag.name)" class="tag"
         :class="{ selected: tag.name === tagSelected }">[{{ tag.name
         }}]</span>
-    </p>
-
-    <p>
-      Sort by a custom combination of date, popularity, and mentions.
     </p>
 
     <div class="post-list">
@@ -39,6 +54,9 @@
 </template>
 
 <script>
+import VueSlider from 'vue-slider-component'
+import 'vue-slider-component/theme/antd.css'
+
 import { socialMeta } from '@/scripts/helpers';
 import externalPosts from '@/../content/external-articles.json';
 
@@ -47,6 +65,9 @@ const isHN = (extras) => {
 };
 
 export default {
+  components: {
+    VueSlider,
+  },
   metaInfo() {
     const title = "Blog";
     const description = "Read blog posts by Piotr Migdał.";
@@ -58,7 +79,11 @@ export default {
   },
   data: function () {
     return {
-      tagSelected: 'all'
+      tagSelected: 'all',
+      weigthPopularity: 2,
+      weigthMentions: 2,
+      weigthAge: -3,
+      sliderLine: (dotPos) => [[50, dotPos[0], { backgroundColor: dotPos[0] < 50 ? 'pink' : '' }]],
     }
   },
   methods: {
@@ -87,7 +112,7 @@ export default {
         const postDate = new Date(post.date);
         const yearsSince = (now - postDate) / (1000 * 60 * 60 * 24 * 365.25);
         const age = Math.log2(yearsSince);
-        return popularity + mentions - 2 * age;
+        return this.weigthPopularity * popularity + this.weigthMentions * mentions + this.weigthAge * age;
       }
       const posts = this.allPosts
         .sort((a, b) => +(postValue(a) < postValue(b)) - 0.5);
@@ -178,5 +203,19 @@ query {
 
 .tag.selected {
   opacity: 0.9;
+}
+
+.slider-flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.slider {
+  flex-shrink: 1;
+}
+
+.slider-label {
+  font-size: 0.8em;
 }
 </style>
