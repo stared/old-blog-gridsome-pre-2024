@@ -96,12 +96,12 @@ export default {
     allPosts: function () {
       const localPosts = this.$page.allBlogPost.edges.map((edge) => edge.node).map(({ title, path, tags, date, dateDisplay, extras, views_k }) => {
         const hn = isHN(extras);
-        return { title, path, date, dateDisplay, hn, tags, views_k, isExternal: false };
+        return { title, path, date, dateDisplay, hn, tags, views_k, extras, isExternal: false };
       });
       const externalPostsProcessed = externalPosts.map(({ title, source, href, date, tags, extras, views_k }) => {
         const hn = isHN(extras);
         const dateDisplay = new Date(date).toLocaleDateString('en-us', { year: "numeric", month: "short" });
-        return { title, source, href, date, dateDisplay, tags, hn, views_k, isExternal: true };
+        return { title, source, href, date, dateDisplay, tags, hn, views_k, extras, isExternal: true };
       })
       return localPosts.concat(externalPostsProcessed);
     },
