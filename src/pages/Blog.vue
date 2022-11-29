@@ -14,7 +14,7 @@
         <vue-slider v-model="weigthPopularity" :min="-5" :max="5" width="150px" :process="sliderLine" />
       </div>
       <div class="slider">
-        <span class="slider-label">mentions</span>
+        <span class="slider-label">sqrt(mentions)</span>
         <vue-slider v-model="weigthMentions" :min="-5" :max="5" width="150px" :process="sliderLine" />
       </div>
       <div class="slider">
@@ -82,8 +82,8 @@ export default {
     return {
       tagSelected: 'all',
       weigthPopularity: 2,
-      weigthMentions: 2,
-      weigthAge: -3,
+      weigthMentions: 1,
+      weigthAge: -4,
       sliderLine: (dotPos) => [[50, dotPos[0], { backgroundColor: dotPos[0] < 50 ? 'pink' : '' }]],
     }
   },
@@ -108,7 +108,7 @@ export default {
     filteredPosts: function () {
       const postValue = (post) => {
         const popularity = post.views_k ? Math.log2(post.views_k) : 0;
-        const mentions = post.extras ? post.extras?.length : 0;
+        const mentions = Math.sqrt(post.extras ? post.extras?.length : 0);
         const now = new Date();
         const postDate = new Date(post.date);
         const yearsSince = (now - postDate) / (1000 * 60 * 60 * 24 * 365.25);
