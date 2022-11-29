@@ -44,6 +44,13 @@ const experiences = [
         stack: "Basecamp, Linear.app, TypeScript, Vue, Rust",
     },
     {
+        period: "2020-2021",
+        position: "AI researcher",
+        company: "ECC Games",
+        description: "Deep learning models for simulating racing car physics & unsupervised image segmentation.",
+        stack: "Python, PyTorch",
+    },
+    {
         period: "2015-2019",
         position: "machine and deep learning consulting",
         company: "self-employed",
