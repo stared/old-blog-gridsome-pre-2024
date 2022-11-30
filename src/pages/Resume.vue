@@ -8,12 +8,11 @@
 
         <p>While most of my experience is in machine learning, deep learning, data viz and quantum computing - these
             tools, as useful as they help our clients.
-            Industries I would happily consider include medtech, biotech, and user-centric AI. Ideal roles include
+            I would happily consider industries such as medtech, biotech, and user-centric AI. Ideal roles include
             Technical Product Manager, CTO, and Data Science Tech Lead.</p>
 
-        <p>If there is a match, contact me at <code>pmigdal@gmail.com</code>.</p>
-
-        <p>See more on my <a href="https://www.linkedin.com/in/piotrmigdal/">LinkedIn profile</a>. A few highlights
+        <p>If there is a match, contact me at <code>pmigdal@gmail.com</code>. See more on my <a
+                href="https://www.linkedin.com/in/piotrmigdal/">LinkedIn profile</a>. A few highlights
             below.</p>
 
         <h2>Recent experience</h2>
