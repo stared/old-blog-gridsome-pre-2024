@@ -10,6 +10,7 @@ tags:
 slug: an-edgy-intro-to-graphs-of-interpersonal-relationships
 medium_url: https://pmigdal.medium.com/an-edgy-intro-to-graphs-of-interpersonal-relationships-ba26fa415f29
 views_k: 7
+migdal_score: 1
 ---
 
 (CW: human sexuality, maths, LaTeX, spoilers for the Game of Thrones; based on a talk I gave with [Michał Kaftanowicz](https://kaftanowicz.com/))

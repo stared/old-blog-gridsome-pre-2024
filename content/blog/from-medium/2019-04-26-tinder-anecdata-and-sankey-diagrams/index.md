@@ -10,6 +10,7 @@ tags:
 slug: tinder-anecdata-and-sankey-diagrams
 medium_url: https://pmigdal.medium.com/tinder-anecdata-and-sankey-diagrams-c1c0e5dfff18
 views_k: 7
+migdal_score: 0
 ---
 
 I really enjoy visiting [r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful). Yesterday, I saw a post about visualizing Tinder matches for AI-generated faces:

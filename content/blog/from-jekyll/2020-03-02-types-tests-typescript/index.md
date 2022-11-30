@@ -12,6 +12,7 @@ description: >-
 image: ./jest_test_repl.png
 medium_url: https://medium.com/quantum-photons/how-i-learned-to-stop-worrying-and-love-the-types-tests-b6b5ee5e8ede
 views_k: 3
+migdal_score: 2
 ---
 
 _On TypeScript, ESlint, jest, TSDoc, Travis-CI, and VSCode (with inspirations from the Zen of Python)_

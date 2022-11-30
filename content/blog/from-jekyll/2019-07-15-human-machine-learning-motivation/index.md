@@ -10,6 +10,7 @@ tags:
 description: >-
   To err is human... and machine, alike. Overfitting, adversarial examples, optical illusions, hallucinations, Freudian slips, etc.
 image: ./pigeon_classifier_excelnet.jpg
+migdal_score: 1
 ---
 
 The field of Artificial Intelligence started with inspiration, and ambition, to imitate our human cognition. We create things in our image and, well, they make similar mistakes:

@@ -21,6 +21,10 @@
         <span class="slider-label">log(age)</span>
         <vue-slider v-model="weigthAge" :min="-10" :max="10" width="150px" :process="sliderLine" />
       </div>
+      <div class="slider">
+        <span class="slider-label">author's bias</span>
+        <vue-slider v-model="migdalWeigth" :min="-5" :max="5" width="150px" :process="sliderLine" />
+      </div>
     </div>
     </p>
 
@@ -84,6 +88,7 @@ export default {
       weigthPopularity: 2,
       weigthMentions: 1,
       weigthAge: -4,
+      migdalWeigth: 1,
       sliderLine: (dotPos) => [[50, dotPos[0], { backgroundColor: dotPos[0] < 50 ? 'pink' : '' }]],
     }
   },
@@ -94,26 +99,28 @@ export default {
   },
   computed: {
     allPosts: function () {
-      const localPosts = this.$page.allBlogPost.edges.map((edge) => edge.node).map(({ title, path, tags, date, dateDisplay, extras, views_k }) => {
+      const localPosts = this.$page.allBlogPost.edges.map((edge) => edge.node).map(({ title, path, tags, date, dateDisplay, extras, views_k, migdal_score }) => {
         const hn = isHN(extras);
-        return { title, path, date, dateDisplay, hn, tags, views_k, extras, isExternal: false };
+        return { title, path, date, dateDisplay, hn, tags, views_k, extras, migdal_score, isExternal: false };
       });
-      const externalPostsProcessed = externalPosts.map(({ title, source, href, date, tags, extras, views_k }) => {
+      const externalPostsProcessed = externalPosts.map(({ title, source, href, date, tags, extras, views_k, migdal_score }) => {
         const hn = isHN(extras);
         const dateDisplay = new Date(date).toLocaleDateString('en-us', { year: "numeric", month: "short" });
-        return { title, source, href, date, dateDisplay, tags, hn, views_k, extras, isExternal: true };
+        return { title, source, href, date, dateDisplay, tags, hn, views_k, extras, migdal_score, isExternal: true };
       })
       return localPosts.concat(externalPostsProcessed);
     },
     filteredPosts: function () {
       const postValue = (post) => {
+        console.log(post);
         const popularity = post.views_k ? Math.log2(post.views_k) : 0;
         const mentions = Math.sqrt(post.extras ? post.extras?.length : 0);
         const now = new Date();
         const postDate = new Date(post.date);
         const yearsSince = (now - postDate) / (1000 * 60 * 60 * 24 * 365.25);
         const age = Math.log2(yearsSince);
-        return this.weigthPopularity * popularity + this.weigthMentions * mentions + this.weigthAge * age;
+        const migdalBias = post.migdal_score ? post.migdal_score : 0;
+        return this.weigthPopularity * popularity + this.weigthMentions * mentions + this.weigthAge * age + this.migdalWeigth * migdalBias;
       }
       const posts = this.allPosts
         .sort((a, b) => +(postValue(a) < postValue(b)) - 0.5);
@@ -153,6 +160,7 @@ query {
           href
         }
         views_k
+        migdal_score
       }
     }
   }

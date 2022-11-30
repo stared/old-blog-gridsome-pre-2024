@@ -11,6 +11,7 @@ description: "Gossiping Commons - “don't tell alike” and “no author, pleas
 extras:
   - text: Hacker News front page
     href: https://news.ycombinator.com/item?id=22326169
+migdal_score: 1
 ---
 
 # Gossiping Commons

@@ -9,6 +9,7 @@ tags:
   - tech
 mathjax: true
 description: "Why Jekyll (and not Wordpress)? Markdown, GitHub, simplicity, LaTeX."
+migdal_score: 0
 ---
 
 ## Why a blog?

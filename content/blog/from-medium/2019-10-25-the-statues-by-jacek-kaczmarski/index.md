@@ -8,6 +8,7 @@ tags:
   - arts
 slug: the-statues-by-jacek-kaczmarski
 medium_url: https://pmigdal.medium.com/the-statues-by-jacek-kaczmarski-7f9bb212be28
+migdal_score: 1
 ---
 
 “Posągi” (1989) translated from Polish by Anna Karpiuk and Piotr Migdał

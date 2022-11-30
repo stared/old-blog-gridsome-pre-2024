@@ -15,6 +15,7 @@ extras:
   - text: reprinted to KDnuggets
     href: http://www.kdnuggets.com/2016/04/data-science-comprehensive-guide-transition.html
 views_k: 31
+migdal_score: 4
 ---
 
 ![(meme) Welcome to dark side of science - data science](./2016-03-15-dark-side-of-science-meme.jpg)

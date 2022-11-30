@@ -12,6 +12,7 @@ mathjax: false
 description: "Interactive data visualization for high-school students of KFnrD (24-29 Jan 2016) - materials, results."
 image: ./2016-02-09-kfnrd_icm_work.jpg
 views_k: 4
+migdal_score: 1
 ---
 
 24-29 Jan 2016 I had a workshop for gifted high-school students of the [Polish Children's Fund](https://en.wikipedia.org/wiki/Polish_Children%27s_Fund) ([Krajowy Fundusz na rzecz Dzieci](http://fundusz.org/)) entitled _Interactive Data Visualization_. It was a part of workshops in practical computer science, at [ICM, University of Warsaw](http://www.icm.edu.pl/web/guest), organized by [@bolikowski](https://twitter.com/bolikowski).

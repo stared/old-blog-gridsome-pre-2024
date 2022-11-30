@@ -8,6 +8,7 @@ tags:
   - cognition
 slug: dall-e-2-and-transcendence
 medium_url: https://pmigdal.medium.com/dall-e-2-and-transcendence-3a3a404fb609
+migdal_score: 2
 ---
 
 Hint: end prompts with “religious art”, “stained glass”, “esoteric art”

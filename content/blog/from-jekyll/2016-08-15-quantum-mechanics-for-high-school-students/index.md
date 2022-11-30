@@ -19,6 +19,7 @@ extras:
   - text: Cited in "Quantum games and interactive tools for quantum technologies outreach and education"
     href: https://www.spiedigitallibrary.org/journals/optical-engineering/volume-61/issue-08/081809/Quantum-games-and-interactive-tools-for-quantum-technologies-outreach-and/10.1117/1.OE.61.8.081809.full
 views_k: 16
+migdal_score: 2
 ---
 
 ![No-cloning theorem with Júlia Amorós Binefa in 2012](./2016-08-15-quantum-whiteboard-julia.jpg)

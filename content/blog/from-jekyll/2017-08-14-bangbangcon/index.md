@@ -10,6 +10,7 @@ tags:
 description: >-
   Inclusive-inclusivity, or an awesome programming conference, attracting diverse participants and accommodating for various needs.
 image: ./diy-badges.jpg
+migdal_score: 2
 ---
 
 Widespread uproar about the Googler's memo[^google] gave me the impulse to make a small email excavation and write about an awesome experience of inclusivity I had at one conference.

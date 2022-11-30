@@ -9,6 +9,7 @@ tags:
   - personal
 description: "Data science freelancing (vs academia): freedom, impact, meritocracy, fast pace, money."
 image: ./2015-12-10-science-data-science-goofy.png
+migdal_score: 1
 ---
 
 ![Science to Data Science (goofy)](./science-data-science-goofy.png)
