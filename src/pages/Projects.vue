@@ -9,8 +9,9 @@
                 <span class="status">({{ project.status }})</span>
                 <br />
                 <span class="description">{{ project.desc }}</span>
-                <span v-if="project.hn" class="hn">
-                    see <a :href="project.hn">HN discussion</a>
+                <span v-if="!!project.mentions" class="mentions">
+                    <a v-for="mention in project.mentions" :href="mention.href" class="mention">[{{ mention.text
+                    }}]</a>
                 </span>
             </li>
         </ul>
@@ -66,6 +67,13 @@ li.project {
 .post-meta {
     font-size: 14px;
     color: #828282;
+}
+
+a.mention {
+    font-size: 0.8em;
+    color: #ff6600;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
 }
 </style>
     

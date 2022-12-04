@@ -6,7 +6,12 @@
     "dateStart": "2019-08-26T00:00:00.000Z",
     "dateEnd": "2022-08-29T00:00:00.000Z",
     "tags": ["rust", "typescript", "quantum", "simulation"],
-    "hn": "https://news.ycombinator.com/item?id=31968280",
+    "mentions": [
+      {
+        "text": "HN",
+        "href": "https://news.ycombinator.com/item?id=31968280"
+      }
+    ],
     "status": "released, maintained"
   },
   {
@@ -43,8 +48,13 @@
     "dateStart": "2019-04-10T00:00:00.000Z",
     "dateEnd": "2019-04-10T00:00:00.000Z",
     "tags": ["javascript", "reddit", "sexuality"],
-    "status": "done",
-    "hn": "https://news.ycombinator.com/item?id=19640562"
+    "mentions": [
+      {
+        "text": "HN",
+        "href": "https://news.ycombinator.com/item?id=19640562"
+      }
+    ],
+    "status": "done"
   },
   {
     "title": "Which Machine Learning algorithm are you?",
@@ -71,7 +81,12 @@
     "dateStart": "2018-05-15T00:00:00.000Z",
     "dateEnd": "2018-12-27T00:00:00.000Z",
     "tags": ["d3js"],
-    "hn": "https://news.ycombinator.com/item?id=19857798",
+    "mentions": [
+      {
+        "text": "HN",
+        "href": "https://news.ycombinator.com/item?id=19857798"
+      }
+    ],
     "status": "done"
   },
   {
@@ -81,8 +96,13 @@
     "dateStart": "2015-01-25T00:00:00.000Z",
     "dateEnd": "2018-08-23T00:00:00.000Z",
     "tags": ["fun", "javascript"],
-    "status": "done",
-    "hn": "https://news.ycombinator.com/item?id=17826188"
+    "mentions": [
+      {
+        "text": "HN",
+        "href": "https://news.ycombinator.com/item?id=17826188"
+      }
+    ],
+    "status": "done"
   },
   {
     "title": "Interactive Machine Learning List",
@@ -118,8 +138,13 @@
     "dateStart": "2014-07-20T00:00:00.000Z",
     "dateEnd": "2016-07-21T00:00:00.000Z",
     "tags": ["game", "physics"],
-    "status": "done",
-    "hn": "https://news.ycombinator.com/item?id=14432176"
+    "mentions": [
+      {
+        "text": "HN",
+        "href": "https://news.ycombinator.com/item?id=14432176"
+      }
+    ],
+    "status": "done"
   },
   {
     "title": "Science-based games",
@@ -128,8 +153,13 @@
     "dateStart": "2017-06-28T00:00:00.000Z",
     "dateEnd": null,
     "tags": ["game", "list"],
-    "status": "kind of hibernated",
-    "hn": "https://news.ycombinator.com/item?id=14661813"
+    "mentions": [
+      {
+        "text": "HN",
+        "href": "https://news.ycombinator.com/item?id=14661813"
+      }
+    ],
+    "status": "kind of hibernated"
   },
   {
     "title": "3DFlu - CENT, University of Warsaw",
@@ -192,8 +222,13 @@
     "dateStart": "2013-09-29T00:00:00.000Z",
     "dateEnd": "2015-03-01T00:00:00.000Z",
     "tags": ["visualization"],
-    "status": "done",
-    "hn": "https://news.ycombinator.com/item?id=10243873"
+    "mentions": [
+      {
+        "text": "HN",
+        "href": "https://news.ycombinator.com/item?id=10243873"
+      }
+    ],
+    "status": "done"
   },
   {
     "title": "Fellows and alumni of the Polish Children's Fund",
