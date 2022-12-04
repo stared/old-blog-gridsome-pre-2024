@@ -6,8 +6,8 @@
 
         <ul class="experiences">
             <li v-for="exp in experiences">
-                <span class="period">{{ exp.period }}</span> <span class="position">{{ exp.position }}</span> <span
-                    class="company">{{ exp.company }}</span> <br />
+                <span class="period">{{ exp.period }}</span> <span class="position">{{ exp.position }}</span> <a
+                    :href="exp.href" class="company">{{ exp.company }}</a> <br />
                 <span class="describtion">{{ exp.description }}</span> <br />
                 <span v-if="!!exp.mentions" class="mentions">
                     • <span v-for="mention in exp.mentions" class="mention"><a :href="mention.href">{{ mention.text
@@ -32,6 +32,7 @@ const experiences = [
         period: "2019-2022",
         position: "co-founder & CTO",
         company: "Quantum Flytrap",
+        href: "https://quantumflytrap.com",
         description: "A startup making quantum easy for business - by developing a quantum computing IDE.",
         stack: "Basecamp, Linear.app, TypeScript, Vue, Rust",
         mentions: [
@@ -49,6 +50,7 @@ const experiences = [
         period: "2020-2021",
         position: "AI researcher",
         company: "ECC Games",
+        href: "https://eccgames.com/en/",
         description: "Deep learning models for simulating racing car physics & unsupervised image segmentation.",
         stack: "Python, PyTorch",
         mentions: [
@@ -62,6 +64,7 @@ const experiences = [
         period: "2015-2019",
         position: "machine and deep learning consulting",
         company: "self-employed",
+        href: "https://p.migdal.pl",
         description: "Selected clients: deepsense.ai, Intel, Nielsen, Samsung Research, and BCG.",
         stack: "Python, Jupyter Notebook, Scikit Learn, PyTorch, Keras",
         mentions: [
@@ -74,12 +77,14 @@ const experiences = [
         period: "2014-2015",
         position: "data science and data viz freelancing",
         company: "self-employed",
+        href: "https://p.migdal.pl",
         description: "Selected clients: Data4Cure, Startup Compass, Laboratorium EE.",
         stack: "Python, Pandas, NumPy, SciPy, JavaScript, D3.js",
     }, {
         period: "2011-2014",
         position: "PhD in quantum optics theory",
         company: "ICFO - The Institute of Photonic Sciences",
+        href: "https://www.icfo.eu/",
         description: 'Advisors: Maciej Lewenstein, Javier Rodriguez-Laguna; reviewers: Seth Lloyd (MIT), Karol Życzkowski (UJ).',
         stack: "Mathematica, LaTeX, Python",
         mentions: [
