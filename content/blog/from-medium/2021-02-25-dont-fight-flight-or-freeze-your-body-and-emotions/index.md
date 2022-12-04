@@ -31,9 +31,11 @@ From a distance, procrastination looks like a time management problem. There is 
 - FLIGHT: procrastination (“let’s keep it at a temporal distance!”)
 - FREEZE: staring at the “chapter 1” of an unwritten report, piece of code, or email
 
-![](./00.jpg)
+![](./00.jpg){ class=width-max-half }
 
-![](./01.jpg)
+![](./01.jpg){ class=width-max-half }
+
+> Flight and freeze at their best. From [PhD Comics](http://phdcomics.com/comics/archive.php?comicid=1350) and BoJack Horseman.
 
 If procrastination is a fear response, guilt-tripping is not helpful. Self-flagellation intensifies the problem. Fighting with procrastination, if works, will bring you to the fight or freeze zone (as the underlying fear is still there). Self-compassion may help, as it reduces the root cause.
 
@@ -52,7 +54,7 @@ What are you afraid more of — loneliness or being in chains? Do you under-
 - FLIGHT: needing space, avoiding difficult subjects, ghosting (avoidant-dismissive attachment style)
 - FREEZE: learned helplessness, hopelessness, or depression
 
-![](./02.jpg)
+![From [Attachment Theory — How Your Childhood Affects Your Love Style](https://www.youtube.com/watch?v=QP-nPJbTgTs&ab_channel=CharismaonCommand) by Charisma on Command](./02.jpg)
 
 As we all know, there is the Fountain of (Relationship) Life, secure attachment style. Feeling secure enough that we are fine with the ups and downs of relationships — reacting, but not overreacting. It is not easy, as a combination of our wiring, upbringing, and the current situation is likely to head us in one (or more) unhealthy directions. Sure, we have our inclinations — but the secure attachment style is a direction for growth.
 
@@ -75,7 +77,7 @@ Next time try to… focus on the sensation. In a mindfulness way, observing and 
 
 I don’t recommend hitting yourself with a hammer — neither healthy nor safe! I do recommend experimenting with other stimuli and stressors: tired muscles after an exercise, burning sensation from chili peppers, the heat of sauna — to name a few.
 
-![](./03.jpeg)
+![Thanks to Jeziorko Czerniakowskie and Naturalne Morsy Warszawa, I am where I am — in cold water! Thanks to Stefan (from W Gruncie Ruchu), I am able to embrace it better.](./03.jpeg)
 
 Personally, I do ice swimming. I started it in Nov 2020. Had I started it earlier — I would have gone in the “resist!” mode, proving to myself (if not others) how much cold can I bear. It didn’t save me from another fear reaction, though. During my second time in the water, I got drawn into a conversation. Instead of spending 2–3 minutes (as planned), I spent 12 minutes. Sure, I spent longer, but by fleeing from the sensation. A few weeks later I met a skinny woman, who just started ice swimming, yet was able to stay 15 min. First, I thought that she has superhuman mind & body control skills. Later, I learned that she is dissociated from the body — a common pattern for nerds, who had fled from their flesh to their heads.
 
@@ -94,6 +96,8 @@ Similarly as with our body — what do you do with difficult emotions? From 
 It took me a lot of time that my intellectualism and objectivity were a flight response. Instead of addressing the problem, I avoided it, by distancing it from myself. It was not (as I claimed, and believed) a more advanced, rational approach. Sure, rational analysis helps (here I agree with stoics) — especially in frameworks such as [Nonviolent Communication by Marshall Rosenberg](https://www.goodreads.com/book/show/26203640-nonviolent-communication), which combines emotions with objectivity (the book is wonderful; for a teaser, I recommend [How to Deliver Constructive Feedback in Difficult Situations](https://medium.com/s/please-advise/the-essential-guide-to-difficult-conversations-41f736e63ccf)). If we subtract emotions — it is a flight or freeze response, and it is not helpful in the long run.
 
 Processing hard emotions is often about accepting them, integrating them. It might happen gradually, and you fail to notice it. Other times it is a moment of insight, impossible to miss. This intense, somewhat strange, calming feeling of reconnection — of once-a-horror, now something seen in detail, with full awareness, but not causing you an emotional cascade. It feels as if you were again one, reassembled from splinters.
+
+![Now I read one of my favorite childhood games more metaphorically - [watch this scene on YouTube](https://www.youtube.com/watch?v=b36eDbvRGE0).](./prince_of_persia_mirror_shadow.jpg)
 
 It does not mean that you suddenly start enjoying your pain (as with the hammer and the finger), or turning suffering into some mystical masochism. It’s about accepting that you are who you are. One example of such integration is the [5 Stages of Grief](https://en.wikipedia.org/wiki/Five_stages_of_grief) model. While it might be not a universal one, it turns out that these stages map beautifully into fear responses:
 
@@ -126,7 +130,7 @@ Being aware of one’s reactions is the first step. Whenever you feel distressed
 
 Reintegrating parts of yourself takes time. Self-compassion is crucial, as well as kindness, warmth, and acceptance towards oneself. The environment in which we feel secure makes a day-and-night difference. Think of your broken parts as of a wounded kitten. They need time and care to recover. Pushing it to recover right now, or to walk despite wounds, would be cruel. Don’t do to yourself what you wouldn’t do to a cute kitten.
 
-![](./04.jpg)
+![“Don’t be afraid Mithrandir, you are not alone” — [one of the most beautiful scenes from the Hobbit (movie)](https://www.youtube.com/watch?v=MU5_-lLjhQw).](./04.jpg)
 
 I would like to thank Joanna Jasińska, Marcin Kotowski, Kasia Kańska, and Sarah Martin for valuable feedback on the draft. While it benefited from many inspirations, it was prompted by recent discussions with Agata Klinger, Meggy Peplanova, Krzysztof “Stefan” Stefanek, Anna Kubasiak, Agata Strojnowska, Ernesta Malina, and well, Pola Gościńska, my therapist (who reminds me well too often that I use rationality to distance myself from emotions).
 

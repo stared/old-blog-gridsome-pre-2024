@@ -17,7 +17,7 @@ migdal_score: 3
 
 Or how you can learn to get in touch with your body and emotions.
 
-![](./00.jpeg)
+![When we chilled in a nerdy company, photo by Krzyś Niemkiewicz.](./00.jpeg)
 
 During my first free improv workshop, I was asked what motivated me to participate.
 
@@ -29,7 +29,7 @@ But… my body felt as if it were something external. I felt like a ghost contro
 
 Earlier during my best days, I felt as a _“spirit hovering over the waters”_ from Genesis, pure thought and will. On gloomier days I felt like a lich — an undead sorcerer, who choose endless loneliness to pursue knowledge and power. Both of these were highly intellectual, and ghastly disembodied.
 
-![](./01.jpg)
+![Taken on a Californian desert — credits go to Marta Cz-C, a single exposure.](./01.jpg)
 
 Now it is very much different. I didn’t need to give up anything from my cerebral site to connect with my body. Quite opposite — this connection allows experiencing the world more as if I gained new senses. Here’s what my process was (**My story**), with a few general pieces (**Lessons and takeaways**).
 
@@ -41,9 +41,9 @@ I had been a stereotypical “cave nerd” — preferring to spend time indo
 
 It does not mean that I avoided all physical activities. I did a lot of walking and a bit of swimming, running, lake sailing, and rock climbing. But above all — I enjoyed mountain hiking. However, the experience was centered around fighting with oneself — resisting temporary discomfort to reach a peak. I looked down at idle activities such as sunbathing — as they neither provided a clear goal, nor a challenge, nor a dopamine kick.
 
-![](./02.jpeg)
+![](./02.jpeg){ class=width-max-half }
 
-![](./03.jpeg)
+![](./03.jpeg){ class=width-max-half }
 
 #### The fountain
 
@@ -51,7 +51,7 @@ The first big moment came when I was walking in Barcelona with my friend and lov
 
 I entered the fountain as well, immersing in the experience. For a moment I was living in “now”. And the ability to be in the present stayed with me forever.
 
-![](./04.jpeg)
+![This person, this fountain.](./04.jpeg)
 
 It fits the chorus of [“Kiss the Night” by Various Manx](https://www.youtube.com/watch?v=Xby1imQDs3E&ab_channel=VariusManxTVVEVO) (translated from Polish by Staszek Krawczyk and me):
 
@@ -109,7 +109,7 @@ I started dancing. To some extent, dancing was much harder mentally than BDSM wo
 
 However, the Balfolk community of [Chata Numinosum in Warsaw](https://www.facebook.com/ChataNuminosum/) turned out to be particularly warm and inviting. There are always a few people dancing for the first time, joining a group from the spectrum of beginners to seasoned dancers. Balfolk is a modern version of dances from Brittanny, along with other regions of France and Europe in general. These are mostly danced in circles and chains, the setting is casual (usually t-shirts) and the focus is on moving together rather than a performance.
 
-![](./05.jpeg)
+![Lovembal in Poznań — credits go to [Marianna Łakomy](https://www.facebook.com/mikromomenty/).](./05.jpeg)
 
 A much higher bar was for blues dance. It is very soft, cuddly & improvised, focused on non-verbal communication, and relaxed body. Not my main skills, so that’s what makes it an interesting challenge & exploration. However, during the first classes, it turned out that all participants (some visibly nerdy) worked in IT. It seems that I am not the only one going that route.
 
@@ -119,13 +119,13 @@ And what’s now?
 
 Well, I keep regularly dancing Balfolk, including a cuddly Mazurka. I started feeling good in my own, naked skin — not ashamed or stressed, but natural and immersed in sensations ([a post in Polish on my path there](https://www.facebook.com/piotr.migdal.9/posts/10165195985655360), happy to translate it there is a need; for context: in Poland, we are raised with antinudity mindset, unlike Germany or Czechia). I learn giving experiences in Russian banyas as a sauna master. Each ritual is different, mixes an overall plan with a lot of improvisation of stimulating senses of heat, cold, smell, touch, and sometimes — taste.
 
-![](./06.jpeg)
+![Chilling in hot.](./06.jpeg)
 
 I try to massage and get a massage — mostly intuitively, using hands, peeling, or branches.
 
 To my surprise, relaxing some parts of my body went way beyond affecting my body. Tension in the neck relates (in me) to a barrier between mind and body. Relaxing the neck brings a tingling sensation in the whole body, making it more open, more receptive, and less stressed. Relaxing the lower back (loin and sacrum; seriously no pun there) unites my sensual and sexual energies. Releasing this tension makes one open to touch and tactile sensations but without expectations or frustration.
 
-![](./07.jpg)
+![Lucjan doing wonders with an oak venik— photo by Krzyś Niemkiewicz.](./07.jpg)
 
 ### Lessons and takeaways
 
