@@ -10,6 +10,10 @@
       {
         "text": "HN",
         "href": "https://news.ycombinator.com/item?id=31968280"
+      },
+      {
+        "text": "r/Physics",
+        "href": "https://www.reddit.com/r/Physics/comments/tqicf5/visualizing_quantum_mechanics_in_an_interactive/"
       }
     ],
     "status": "released, maintained"
@@ -17,7 +21,7 @@
   {
     "title": "Quantum Tensors JS",
     "desc": "TypeScript package for sparse tensor operations on complex numbers. With Philippe Cochin.",
-    "href": "https://github.com/Quantum-Game/quantum-tensors",
+    "href": "https://github.com/Quantum-Flytrap/quantum-tensors",
     "dateStart": "2019-09-01T00:00:00.000Z",
     "dateEnd": "2022-05-30T00:00:00.000Z",
     "tags": ["javascript", "quantum", "tensor", "npm"],
@@ -26,7 +30,7 @@
   {
     "title": "bra-ket-vue",
     "desc": "A Vue-based visualization of quantum states and operations. With Klem Jankiewicz.",
-    "href": "https://github.com/Quantum-Game/bra-ket-vue",
+    "href": "https://github.com/Quantum-Flytrap/bra-ket-vue",
     "dateStart": "2020-01-19T00:00:00.000Z",
     "dateEnd": "2020-04-15T00:00:00.000Z",
     "tags": ["javascript", "quantum", "game"],
@@ -52,6 +56,10 @@
       {
         "text": "HN",
         "href": "https://news.ycombinator.com/item?id=19640562"
+      },
+      {
+        "text": "VICE",
+        "href": "https://www.vice.com/en_us/article/qv7bxw/machine-learning-map-reddit-sexual-fetish-kink-subreddits"
       }
     ],
     "status": "done"
@@ -129,7 +137,7 @@
     "dateStart": "2017-09-03T00:00:00.000Z",
     "dateEnd": "2017-12-05T00:00:00.000Z",
     "tags": ["deep-learning", "cognitive-science"],
-    "status": "kind of hibernated"
+    "status": "as it is"
   },
   {
     "title": "Quantum Game with Photons",
@@ -142,6 +150,14 @@
       {
         "text": "HN",
         "href": "https://news.ycombinator.com/item?id=14432176"
+      },
+      {
+        "text": "Doctorow",
+        "href": "https://boingboing.net/2017/12/15/schroedingers-browser.html"
+      },
+      {
+        "text": "VICE",
+        "href": "https://www.vice.com/en_us/article/a3jkya/quantum-game-physics-computer-puzzle"
       }
     ],
     "status": "done"

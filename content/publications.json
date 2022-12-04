@@ -6,7 +6,13 @@
     "link": "https://arxiv.org/abs/2203.13300",
     "year": 2022,
     "arxiv": "2203.13300",
-    "doi": "10.1117/1.OE.61.8.081808"
+    "doi": "10.1117/1.OE.61.8.081808",
+    "mentions": [
+      {
+        "text": "r/Physics",
+        "href": "https://www.reddit.com/r/Physics/comments/tqicf5/visualizing_quantum_mechanics_in_an_interactive/"
+      }
+    ]
   },
   {
     "authors": "Zeki C. Seskir, Piotr Migdał, Carrie Weidner, Aditya Anupam, Nicky Case, Noah Davis, Chiara Decaroli, İlke Ercan, Caterina Foti, Paweł Gora, Klementyna Jankiewicz, Brian R. La Cour, Jorge Yago Malo, Sabrina Maniscalco, Azad Naeemi, Laurentiu Nita, Nassim Parvin, Fabio Scafirimuto, Jacob F. Sherson, Elif Surer, James Wootton, Lia Yeh, Olga Zabello, Marilù Chiofalo",
@@ -15,7 +21,13 @@
     "link": "https://arxiv.org/abs/2202.07756",
     "year": 2022,
     "arxiv": "2202.07756",
-    "doi": "10.1117/1.OE.61.8.081809"
+    "doi": "10.1117/1.OE.61.8.081809",
+    "mentions": [
+      {
+        "text": "r/Physics",
+        "href": "https://www.reddit.com/r/Physics/comments/ulqnih/colorcoded_description_of_the_discrete_fourier/"
+      }
+    ]
   },
   {
     "authors": "P. Migdał, B. Olechno, B. Podgórski",
