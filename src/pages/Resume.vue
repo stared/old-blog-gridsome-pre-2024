@@ -1,19 +1,6 @@
 <template>
     <Layout>
-        <h1>Resume (kind of)</h1>
-
-        <p>I am looking for ambitious challenges combining advanced data
-            science with end-user
-            experience. As a technical visionary, I will drive your product from 0 to 1!</p>
-
-        <p>While most of my experience is in machine learning, deep learning, data viz and quantum computing - these
-            tools, as useful as they help our clients.
-            I would happily consider industries such as medtech, biotech, and user-centric AI. Ideal roles include
-            Technical Product Manager, CTO, and Data Science Tech Lead.</p>
-
-        <p>If there is a match, contact me at <code>pmigdal@gmail.com</code>. See more on my <a
-                href="https://www.linkedin.com/in/piotrmigdal/">LinkedIn profile</a>. A few highlights
-            below.</p>
+        <div class="markdown" v-html="$page.intro.content"></div>
 
         <h2>Recent experience</h2>
 
@@ -26,7 +13,7 @@
             </li>
         </ul>
 
-        <div class="markdown" v-html="$page.textComponent.content"></div>
+        <div class="markdown" v-html="$page.highlights.content"></div>
 
     </Layout>
 </template>
@@ -88,8 +75,12 @@ export default {
 </script>
 
 <page-query>
-query TextComponent {
-    textComponent (id: "resume-highlights") {
+query {
+    intro: textComponent (id: "resume-intro") {
+        id
+        content
+    }
+    highlights: textComponent (id: "resume-highlights") {
         id
         content
     }
