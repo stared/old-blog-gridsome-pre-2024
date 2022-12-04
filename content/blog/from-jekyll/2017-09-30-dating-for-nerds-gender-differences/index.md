@@ -11,7 +11,7 @@ tags:
 description: >-
   This part of dating for nerds series is focused on the differences between genders that may affect dating: social expectations, safety, choosiness, taking initiative.
 image: ./dating_looks_poetry_patrizia_comino.jpg
-extras:
+mentions:
   - text: "was even on Hacker News (but got flagged)"
     href: https://news.ycombinator.com/item?id=15372552
 views_k: 19

@@ -8,7 +8,7 @@ tags:
   - soft skills
   - po polsku
 description: "O tym jak saunowanie otwiera na akceptację siebie i komfort bycia we własnej skórze."
-extras:
+mentions:
   - text: "FB post with >300 likes and >20 shares"
     href: https://www.facebook.com/piotr.migdal.9/posts/pfbid0tS8aJ72yF8U3PtYP4sbdGFZVQxiBnmytJ6KYDs2Cs5HxGmNoZcazni1aRtxJzQuDl
 views_k: 6 # a guess

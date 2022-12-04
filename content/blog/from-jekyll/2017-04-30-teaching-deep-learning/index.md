@@ -12,7 +12,7 @@ description: >-
   Don't be afraid of artificial neural networks - it is easy to start! An
   overview of deep learning with links to didactic materials.
 image: ./deep_learning_meme_keras.png
-extras:
+mentions:
   - text: "tweet by François Chollet (the creator of Keras) with over 140 retweets"
     href: https://twitter.com/fchollet/status/858840192261644292
   - text: "Facebook post by Kaggle with over 200 shares"

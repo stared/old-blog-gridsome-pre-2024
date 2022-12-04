@@ -45,7 +45,7 @@
     "href": "https://medium.com/@marekkcichy/does-ai-have-a-dirty-mind-too-6948430e4b2b",
     "date": "2019-04-16T00:00:00.000Z",
     "tags": ["tech", "deep learning", "cognition"],
-    "extras": [
+    "mentions": [
       {
         "title": "On Reddit r/learningmachinelearning",
         "href": "https://www.reddit.com/r/learnmachinelearning/comments/bdts7u/does_ai_have_a_dirty_mind_too/"
@@ -77,7 +77,7 @@
     "href": "https://deepsense.ai/keras-or-pytorch/",
     "date": "2018-06-27T00:00:00.000Z",
     "tags": ["tech", "deep learning"],
-    "extras": [
+    "mentions": [
       {
         "title": "Hacker News front page with an inflamatory title \"Don't learn TensorFlow! Start with Keras or PyTorch instead\"",
         "href": "https://news.ycombinator.com/item?id=17415321"
@@ -123,7 +123,7 @@
     "href": "http://crastina.se/theres-no-projects-like-side-projects/",
     "date": "2015-01-02T00:00:00.000Z",
     "tags": ["personal"],
-    "extras": [
+    "mentions": [
       {
         "title": "Hacker News front page",
         "href": "https://news.ycombinator.com/item?id=8826890"

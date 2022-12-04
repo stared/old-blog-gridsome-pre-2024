@@ -8,7 +8,7 @@ tags:
   - soft skills
 slug: dont-fight-flight-or-freeze-your-body-and-emotions
 medium_url: https://pmigdal.medium.com/dont-fight-flight-or-freeze-your-body-and-emotions-96f5aa30b299
-extras:
+mentions:
   - text: Hacker News front page as "Procrastination is flight, deadline is fight, freeze is staring at the screen"
     href: https://news.ycombinator.com/item?id=26371848
 views_k: 42

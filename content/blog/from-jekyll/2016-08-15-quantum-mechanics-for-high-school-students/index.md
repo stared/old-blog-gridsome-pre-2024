@@ -11,7 +11,7 @@ tags:
 mathjax: false
 description: "Outlines and materials related to my basics courses, with light polarization as the quantum information carrier."
 image: ./2016-08-15-quantum-whiteboard-julia.jpg
-extras:
+mentions:
   - text: "shared on r/Physics with over 300 upvotes"
     href: https://www.reddit.com/r/Physics/comments/5o3g7i/quantum_mechanics_for_highschool_students/
   - text: Listed in QTEdu Quantum Flagship resources

@@ -65,8 +65,8 @@ import 'vue-slider-component/theme/antd.css'
 import { socialMeta } from '@/scripts/helpers';
 import externalPosts from '@/../content/external-articles.json';
 
-const isHN = (extras) => {
-  return !!extras && extras.some((extras) => extras.href.includes("news.ycombinator"));
+const isHN = (mentions) => {
+  return !!mentions && mentions.some((mentions) => mentions.href.includes("news.ycombinator"));
 };
 
 export default {
@@ -99,21 +99,21 @@ export default {
   },
   computed: {
     allPosts: function () {
-      const localPosts = this.$page.allBlogPost.edges.map((edge) => edge.node).map(({ title, path, tags, date, dateDisplay, extras, views_k, migdal_score }) => {
-        const hn = isHN(extras);
-        return { title, path, date, dateDisplay, hn, tags, views_k, extras, migdal_score, isExternal: false };
+      const localPosts = this.$page.allBlogPost.edges.map((edge) => edge.node).map(({ title, path, tags, date, dateDisplay, mentions, views_k, migdal_score }) => {
+        const hn = isHN(mentions);
+        return { title, path, date, dateDisplay, hn, tags, views_k, mentions, migdal_score, isExternal: false };
       });
-      const externalPostsProcessed = externalPosts.map(({ title, source, href, date, tags, extras, views_k, migdal_score }) => {
-        const hn = isHN(extras);
+      const externalPostsProcessed = externalPosts.map(({ title, source, href, date, tags, mentions, views_k, migdal_score }) => {
+        const hn = isHN(mentions);
         const dateDisplay = new Date(date).toLocaleDateString('en-us', { year: "numeric", month: "short" });
-        return { title, source, href, date, dateDisplay, tags, hn, views_k, extras, migdal_score, isExternal: true };
+        return { title, source, href, date, dateDisplay, tags, hn, views_k, mentions, migdal_score, isExternal: true };
       })
       return localPosts.concat(externalPostsProcessed);
     },
     filteredPosts: function () {
       const postValue = (post) => {
         const popularity = post.views_k ? Math.log2(post.views_k) : 0;
-        const mentions = Math.sqrt(post.extras ? post.extras?.length : 0);
+        const mentions = Math.sqrt(post.mentions ? post.mentions?.length : 0);
         const now = new Date();
         const postDate = new Date(post.date);
         const yearsSince = (now - postDate) / (1000 * 60 * 60 * 24 * 365.25);
@@ -155,7 +155,7 @@ query {
         tags
         dateDisplay: date(format: "MMM YYYY")
         date
-        extras {
+        mentions {
           href
         }
         views_k

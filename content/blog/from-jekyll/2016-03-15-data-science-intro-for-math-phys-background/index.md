@@ -11,7 +11,7 @@ tags:
 mathjax: false
 description: "Academia to data science? Learn Python (or R), machine learning and other stuff."
 image: ./2016-03-15-dark-side-of-science-meme.jpg
-extras:
+mentions:
   - text: reprinted to KDnuggets
     href: http://www.kdnuggets.com/2016/04/data-science-comprehensive-guide-transition.html
 views_k: 31

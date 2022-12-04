@@ -8,8 +8,8 @@
           &nbsp;| <a :href="$page.blogPost.medium_url">orginally posted at Medium</a>
         </span>
         | {{ $page.blogPost.timeToRead }} min read
-      <ul v-if="$page.blogPost.extras.length > 0" class="header-extras">
-        <li v-for="extra in $page.blogPost.extras">
+      <ul v-if="$page.blogPost.mentions.length > 0" class="header-mentions">
+        <li v-for="extra in $page.blogPost.mentions">
           <a :href="extra.href">{{ extra.text }}</a>
         </li>
       </ul>
@@ -63,7 +63,7 @@ query BlogPost ($path: String!) {
     image
     author
     medium_url
-    extras {
+    mentions {
       text
       href
     }
@@ -72,7 +72,7 @@ query BlogPost ($path: String!) {
 </page-query>
 
 <style>
-.markdown-header .header-extras {
+.markdown-header .header-mentions {
   font-size: 0.8em;
 }
 
