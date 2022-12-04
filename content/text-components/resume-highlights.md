@@ -1,5 +1,5 @@
 ---
-name: resume-highlights
+id: resume-highlights
 ---
 
 ## A few highlights

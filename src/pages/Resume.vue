@@ -26,7 +26,7 @@
             </li>
         </ul>
 
-        <div class="markdown" v-html="mdText"></div>
+        <div class="markdown" v-html="$page.textComponent.content"></div>
 
     </Layout>
 </template>
@@ -84,28 +84,15 @@ export default {
     data: function () {
         return { experiences };
     },
-    computed: {
-        mdText() {
-            return this.$page.allTextComponent.edges
-                .map((edge) => edge.node)
-                .filter((node) => node.name === 'resume-highlights')[0].content;
-        }
-    },
 };
 </script>
-  
 
 <page-query>
-query {
-  allTextComponent {
-    edges {
-      node {
+query TextComponent {
+    textComponent (id: "resume-highlights") {
         id
-        name
         content
-      }
     }
-  }
 }
 </page-query>
 

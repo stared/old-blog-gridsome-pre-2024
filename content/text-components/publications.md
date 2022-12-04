@@ -1,5 +1,5 @@
 ---
-name: publications
+id: publications
 ---
 
 # Research publications

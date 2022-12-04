@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="markdown" v-html="mdText"></div>
+    <div class="markdown" v-html="$page.textComponent.content"></div>
 
     <ul class="publications">
       <li v-for="(publication, index) in publications" :key="index" class="publication">
@@ -32,13 +32,6 @@ export default {
     return socialMeta(title, description, url, image);
   },
   data() { return { publications } },
-  computed: {
-    mdText() {
-      return this.$page.allTextComponent.edges
-        .map((edge) => edge.node)
-        .filter((node) => node.name === 'publications')[0].content;
-    }
-  },
   methods: {
     publicationHref(publication) {
       if (publication.doi) {
@@ -50,30 +43,15 @@ export default {
   }
 };
 </script>
-  
-<page-query>
-query {
-  allTextComponent {
-    edges {
-      node {
-        id
-        name
-        content
-      }
-    }
-  }
-}
-</page-query>
 
-<!-- <page-query>
-  # no idea what this does not work - no name or content in textComponents
-  query TextComponent ($name: String!) {
-     textComponent (name: "publications") {
-      name
+<page-query>
+  query TextComponent {
+     textComponent (id: "publications") {
+      id
       content
     }
   }
-  </page-query> -->
+</page-query>
   
 <style>
 li.publication {
