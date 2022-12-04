@@ -24,6 +24,14 @@
     "migdal_score": 1
   },
   {
+    "title": "Quantum logic gates for a single qubit, interactively",
+    "source": "Quantum Flytrap",
+    "href": "https://quantumflytrap.com/blog/2021/qubit-interactively/",
+    "date": "2021-04-10T00:00:00.000Z",
+    "tags": ["physics", "maths", "data viz", "tech"],
+    "migdal_score": 1
+  },
+  {
     "title": "Support my open-source work and blog posts",
     "source": "GitHub Sponsors",
     "href": "https://github.com/sponsors/stared/",
@@ -200,7 +208,7 @@
   {
     "title": "Mafia, zdradziecka parzystość oraz pi",
     "source": "Popularnonaukowy miesięcznika \"Delta\"",
-    "href": "http://www.mimuw.edu.pl/delta/artykuly/delta2010-07/2010-07-6.pdf",
+    "href": "https://web.archive.org/web/20160817100338/http://www.mimuw.edu.pl/delta/artykuly/delta2010-07/2010-07-6.pdf",
     "date": "2010-07-06T00:00:00.000Z",
     "tags": ["maths", "po polsku"],
     "migdal_score": 0
@@ -211,7 +219,7 @@
     "href": "https://warsztatywww.pl/article/drogowskaz/",
     "date": "2011-02-21T00:00:00.000Z",
     "tags": ["education", "po polsku"],
-    "migdal_score": 1
+    "migdal_score": 2
   },
   {
     "title": "Two heads are better than one. How about more?",
@@ -243,6 +251,6 @@
     "href": "http://migdal.wikidot.com/zapalency-i-wypalency",
     "date": "2010-02-26T00:00:00.000Z",
     "tags": ["soft skills", "academia", "personal", "po polsku"],
-    "migdal_score": 1
+    "migdal_score": 2
   }
 ]

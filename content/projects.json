@@ -14,6 +14,10 @@
       {
         "text": "r/Physics",
         "href": "https://www.reddit.com/r/Physics/comments/tqicf5/visualizing_quantum_mechanics_in_an_interactive/"
+      },
+      {
+        "text": "Hossenfelder",
+        "href": "https://www.reddit.com/r/Physics/comments/tqicf5/visualizing_quantum_mechanics_in_an_interactive/"
       }
     ],
     "status": "released, maintained"
@@ -128,6 +132,12 @@
     "dateStart": "2018-03-18T00:00:00.000Z",
     "dateEnd": null,
     "tags": ["python", "deep-learning", "pip-installable"],
+    "mentions": [
+      {
+        "text": "Reddit",
+        "href": "https://www.reddit.com/r/learnmachinelearning/comments/fm44js/livelossplot_keras_and_pytorch_training_charts_in/"
+      }
+    ],
     "status": "in progress (active!)"
   },
   {
@@ -158,6 +168,10 @@
       {
         "text": "VICE",
         "href": "https://www.vice.com/en_us/article/a3jkya/quantum-game-physics-computer-puzzle"
+      },
+      {
+        "text": "Aaronson",
+        "href": "https://scottaaronson.blog/?p=3597"
       }
     ],
     "status": "done"
