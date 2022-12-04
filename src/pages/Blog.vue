@@ -112,7 +112,6 @@ export default {
     },
     filteredPosts: function () {
       const postValue = (post) => {
-        console.log(post);
         const popularity = post.views_k ? Math.log2(post.views_k) : 0;
         const mentions = Math.sqrt(post.extras ? post.extras?.length : 0);
         const now = new Date();
