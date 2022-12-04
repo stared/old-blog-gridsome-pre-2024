@@ -1,22 +1,6 @@
 <template>
     <Layout>
-        <h2>Public projects</h2>
-
-        <p>
-            My public projects with a certain overrepresentation of data visualizations (easy to share, easy to explain,
-            eye-candy). For more open-source projects, see <a href="https://github.com/stared/">my repos at
-                github.com/stared</a>. My professional projects are <g-link to="/resume">here</g-link>.
-        </p>
-
-        <p>
-            More on <a href="https://github.com/stared">my GitHub account</a>. Other are mentioned in <g-link
-                to="/resume">my blog posts</g-link>.
-            For professional work, take a look at my <g-link to="/resume">Resume</g-link>.
-        </p>
-
-        <p>If you like these, <a href="https://github.com/sponsors/stared/">consider supporting me on GitHub</a>! I will
-            feel appreciated and have more time to polish the existing, and start more.
-        </p>
+        <div class="markdown" v-html="$page.textComponent.content"></div>
 
         <ul class="projects">
             <li v-for="(project, index) in projects" :key="index" class="project">
@@ -60,7 +44,15 @@ export default {
     }
 };
 </script>
-    
+
+<page-query>
+query TextComponent {
+    textComponent (id: "projects") {
+        id
+        content
+    }
+}
+</page-query>
   
     
 <style>
