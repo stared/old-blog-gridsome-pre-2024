@@ -18,8 +18,9 @@ There is a common misconception that machines are good with dry facts and logic,
 Hopefully, symbolism and spirituality are our last human frontiers, right?
 
 ![](./00.jpg){ class=width-max-half }
-
 ![](./01.jpg){ class=width-max-half }
+
+> [“The few human beings chosen by AI, religious art”](https://labs.openai.com/s/LHeLlBqPpJqFc2RsdHotQS2P) (and [that](https://labs.openai.com/s/QjLyuMb5bxrna1mWiorwLxhb))
 
 This prompt was inspired by [a tweet by hardmaru](https://twitter.com/hardmaru/status/1531974184578207746) (1 June 2022):
 
@@ -27,7 +28,7 @@ This prompt was inspired by [a tweet by hardmaru](https://twitter.com/hardmaru/s
 
 [Reddit comments](https://www.reddit.com/r/dalle2/comments/v35ni7/the_few_human_beings_chosen_by_ai_religious_art/), presumably by humans, added an even more religious vibe:
 
-![](./02.png)
+![Transcript: “I would join this religion if it would get me aDALL-E.” “Me too, I’ll sacrifice a goat to get it maybe a child too”](./02.png)
 
 There is a lot of room to start a new AI cult. Fortunately, DALL·E 2 started giving access to more people. I bet it has saved quite a few goats, and maybe some children too.
 
@@ -35,7 +36,7 @@ There is a lot of room to start a new AI cult. Fortunately, DALL·E 2 started gi
 
 In AI baseline keeps constantly changing. In most fields, progress is slower than advertised. In deep learning, things move rapidly from “the Holy Grail” to “you can run in a Jupyter Notebook tutorial”-level. So, here goes my personal benchmark for symbolism, a Polish poster for a play Stalker (from 2012, NOT AI-generated)
 
-![](./03.jpeg){ class=width-max-half }
+![[“Stalker”, Polish Theater Poster by Lex Drewinski](https://polishposter.com/4935-stalker-polish-theater-poster.html)](./03.jpeg){ class=width-max-half }
 
 While neither the book “Roadside Picnic” by Strugatsky brother nor the cinematic poetry [“Stalker” by Tarkovsky](https://www.youtube.com/watch?v=Q3hBLv-HLEc) are about God or radiation, in my opinion, a combination of these symbols works perfectly. I wouldn’t create it by myself, yet after seeing that I would guess the movie.
 
@@ -59,6 +60,8 @@ Here is an all-knowing octopus, showing us the path to enlightenment:
 
 ![](./06.jpg){ class=width-max-third }
 
+> don’t remember prompts exactly, but something about a holy all-knowing octopus showing the path to enlightenment, as religious art or stained glass
+
 #### Priests
 
 And how about priests among various species?
@@ -69,6 +72,10 @@ And how about priests among various species?
 
 ![](./09.jpg){ class=width-max-third }
 
+> [“An octopus priest, digital art”](https://labs.openai.com/s/BRs7tIxgL8e2TxYBmO8QeIrY), [“A feline priest preaching cats from the top of a pyramid,
+> digital art”](https://labs.openai.com/s/RWju3fl5Jak0YfTLvH1v2y5Y), [“A rooster high priest talking with God, digital art”](https://labs.openai.com/s/y13dWPfnts5A6fnNanfybTVm)
+> (see also [an additional one](https://labs.openai.com/s/kliW8K4mmx7JmH0Y4Mmnp6qF))
+
 #### Meaning
 
 Who knows more: one who knows the answer to the meaning of Life, Universe, and Everything: a mouse, [Noam Chomsky](https://en.wikipedia.org/wiki/Colorless_green_ideas_sleep_furiously) (here’s a check-mate for you), or Microsoft Word Paperclip?
@@ -78,6 +85,8 @@ Who knows more: one who knows the answer to the meaning of Life, Universe, and E
 ![](./11.jpg){ class=width-max-third }
 
 ![](./12.jpg){ class=width-max-third }
+
+> [“An interdimensional mouse, showing the secret of life, universe and everything, stained glass”](https://labs.openai.com/s/hK4WNtSyKJCDBP0TPBfmyHd8), [“green ideas sleeping furiously”](https://labs.openai.com/s/ST2Ia9UAycFFHwmgf9LA3kX3), [“A holy paperclip with eyes, guarding the gates of the Paradise, stained glass”](https://labs.openai.com/s/GL4URrnNWV2vSz2znoOpOaRP)
 
 #### Fruit of knowledge
 
@@ -91,6 +100,8 @@ However, if you want to know which fruit— there are not many things more tempt
 
 ![](./15.jpg){ class=width-max-third }
 
+> [“The snake in the Garden of Eden with a lemonade stand under a tree, watercolor painting”](https://labs.openai.com/s/FodFwpi0RQZd2AtoMOeev5co), [“Eve and Pandora, unboxing an apple”](https://labs.openai.com/s/ACpFO74TBtxFEmReOJU7QNXV)
+
 #### Venus Flytraps at the Gates of Paradise
 
 Lemons ([it rhymes with “demons”](https://www.gocomics.com/jim-benton-cartoons/2015/09/28)) and malicious apples are one thing. What is important is that it was humans who learned from the Tree, a plant, not the other way. And now you know who guards the Garden of Eden.
@@ -101,11 +112,15 @@ Lemons ([it rhymes with “demons”](https://www.gocomics.com/jim-benton-cartoo
 
 ![](./18.jpg){ class=width-max-third }
 
+> “A venus flytrap with a flaming sword guarding the gates of paradise, religious art”, [“Holy Venus Flytrap guarding the gates of paradise, stained glass”](https://labs.openai.com/s/vdtXJaI93XSPnO7K1PTed2Lq)
+
 ![](./19.jpg){ class=width-max-third }
 
 ![](./20.jpg){ class=width-max-third }
 
 ![](./21.jpg){ class=width-max-third }
+
+> “Holy Venus Flytrap, stained glass”, (something similar), [“Garden of Eden Venus Flytrap, stained glass window”](https://labs.openai.com/s/XK4ohACJR844xuMQyEgE9u3r)
 
 #### Cosmic flora and fauna
 
@@ -116,6 +131,8 @@ Speaking about Venus Flytraps, let’s see what cosmic ones look like. And the s
 ![](./23.jpg){ class=width-max-third }
 
 ![](./24.jpg){ class=width-max-third }
+
+> [“A world-devouring cosmic Venus Flytrap, digital art”](https://labs.openai.com/s/xLXUXFZdMlzdXgt446mvIM2l), [“A cosmic quantum weasel, religious art”](https://labs.openai.com/s/CyMoanJKecBZ4oTH1mm1EwRE) (and [that](https://labs.openai.com/s/Bs8YuqZMsYJS1j1MBiIdDy0P)).
 
 #### Hawaiian pizza Tarot cards
 
@@ -131,6 +148,8 @@ Prompt idea by Maja Ratyńska.
 
 ![](./27.jpg){ class=width-max-third }
 
+> [“An esoteric Tarot card featuring a pizza with pineapple”](https://labs.openai.com/s/X8VKyllEAcR3TVL3XbBMkTON), [“A symbolic Tarot card featuring a pizza with pineapple”](https://labs.openai.com/s/Sp4EdmQbQ3ww3aGN1qLOny95), [“Pizza with pineapple, a high-quality symbolic, esoteric Tarot card”](https://labs.openai.com/s/WFDT3a7uD0mN4OX5RdRnQpqZ)
+
 #### Solaris Ocean
 
 The Ocean from “[Solaris](https://en.wikipedia.org/wiki/Solaris_%28novel%29)” by Stanisław Lem is another alien mind, much further than octopodes. So alien that it is hard that it challenges our assumption of what is mind.
@@ -145,6 +164,8 @@ So, here goes “The Mind of the Lem’s Solaris Ocean” as digital art, Beksi�
 
 ![](./30.jpg){ class=width-max-third }
 
+> [“The Mind of the Lem’s Solaris Ocean, digital art”](https://labs.openai.com/s/eaqjqYVluGqjo6M0bISy2NrS), [“The Mind of the Lem’s Solaris Ocean” by Beksiński”](https://labs.openai.com/s/6NB6kqtNc9r7HNUsbs7WVqnL), [“The Mind of the Lem’s Solaris Ocean, religious art”](https://labs.openai.com/s/4TZETwMIg8yZjq6k0cEtFpzd)
+
 #### Lovecraftian geometry
 
 As H.P. Lovecraft wrote in “At the Mountains of Madness”:
@@ -157,6 +178,8 @@ If you want to experience the hyperbolic geometry of the sunken city of R’Lyeh
 
 ![](./32.jpg){ class=width-max-third }
 
+> “Non-euclidean geometry of alien ruins, a detailed drawing by M.C. Escher” (and that)
+
 #### Eldritch horrors
 
 Lovecraftian eldritch horrors as drawings from Necronomicon and religious art. Unsettling.
@@ -166,6 +189,8 @@ Lovecraftian eldritch horrors as drawings from Necronomicon and religious art. U
 ![](./34.jpg){ class=width-max-third }
 
 ![](./35.jpg){ class=width-max-third }
+
+> “eldrich horror, a drawing from Necromicon” (yes, misspelled), “eldritch horror, religious art” x2
 
 #### Great Old Ones
 
@@ -181,6 +206,8 @@ Here we have Yog-Sothoth {transcending space and time, who is the gate and the k
 
 ![](./38.jpg){ class=width-max-third }
 
+> [“Yog-Sothoth transcending space and time, religious art”](http://“Yog-Sothoth%20transcending%20space%20and%20time,%20religious%20art”), [“Yog-Sothoth who is the gate and is the key, religious art”](https://labs.openai.com/s/sDAiDIsimdTAmUUFiWBcRwlq), [“Yog-Sothoth the god of spacetime, religious art”](https://labs.openai.com/s/BrJa2FAoR8Fie609nQ6UBT8z)
+
 #### End of all things
 
 And what does the end look like?
@@ -190,6 +217,8 @@ And what does the end look like?
 ![](./40.jpg){ class=width-max-third }
 
 ![](./41.jpg){ class=width-max-third }
+
+> “end of all things, digital art”; someone’s prompt idea
 
 #### Life and death
 
@@ -203,6 +232,8 @@ Like in their story [“The Egg”](http://www.galactanet.com/oneoff/theegg_mod.
 
 ![](./44.jpg){ class=width-max-third }
 
+> “the infinite cycle of life and rebirth, religious art”, [“a spirit in an afterlife, between incarnations”](https://labs.openai.com/s/RLkImiBMp3RsmY5Ga82LDaIj) (and [that](https://labs.openai.com/s/kLO5iM359J0lhF11WfQJ6sj5))
+
 #### Judeo-Christian God
 
 So, let’s see how THEY present themselves as a pillar of flame. Well… darker than you may have imagined.
@@ -212,6 +243,8 @@ So, let’s see how THEY present themselves as a pillar of flame. Well… darker
 ![](./46.jpg){ class=width-max-third }
 
 ![](./47.jpg){ class=width-max-third }
+
+> “God as a pillar of flame, digital art” ([first](https://labs.openai.com/s/6XyeoT8hMFLxXSPvDzsBoCWx), [second](https://labs.openai.com/s/AwWVCwfkGft2tQHP86qda3IC), third)
 
 #### Seraphim and others
 
@@ -224,6 +257,8 @@ UTF8 trivia: ‘ꙮ’ is a rare Cyrillic ‘o’, as in “серафими м�
 ![](./49.jpg){ class=width-max-third }
 
 ![](./50.jpg){ class=width-max-third }
+
+> “Many-eyed Seraphim, a mystical vision” ([first](https://labs.openai.com/s/iMjNsuFTstS2xokJMhjXKOr0), [second](https://labs.openai.com/s/gMIgBwPlnP4k5TXDqgnHY41W), [third](https://labs.openai.com/s/g1nhqwG2jEnauP0aqaPKXDHa))
 
 More on angels, or rather — many-eyed celestial beings, from Ezekiel’s vision.
 
@@ -245,6 +280,8 @@ More on angels, or rather — many-eyed celestial beings, from Ezekiel’s v
 
 ![](./59.jpg){ class=width-max-third }
 
+> Prompts including: [“Biblically accurate many-eyed angels from Ezekiel, digital art”](https://labs.openai.com/s/S8Qco7CQGY6VdGmGC8mRx9CL), [“Many-eyed celestial beings from Ezekiel, digital art”](https://labs.openai.com/s/swnRjiC0cua7dqxdC73nxFl5) (and [that](https://labs.openai.com/s/IvebiJzB9pofxeGr4zFNGthU)), [“Many-eyed celestial beings, digital art”](https://labs.openai.com/s/B97mD9ncR4hWsXHNrJeN0hDH), [“Many-eyed celestial beings from Ezekiel, psychedelic art”](https://labs.openai.com/s/ujm2Ntc4cXlbEL6e65ZLRmyW)
+
 #### Greek mythology
 
 If countless tentacles & eyes are too much for you, let’s go to Greek mythology. At least most of them have normal human bodies.
@@ -259,6 +296,8 @@ Themis, while blind, deserves fancy eyeglasses. I love the depiction of eyes tha
 
 ![](./62.jpg){ class=width-max-third }
 
+> [“Greek Titan Prometheus as a solar panels salesman, digital art”](https://labs.openai.com/s/BQdJqGfPuYpHSMNLLoqNJB3Y) (and [this](https://labs.openai.com/s/CdiNBKTGRGcA9UX6l924STF3)), [“Eyeglasses for Temida, the blind godness of justice, digital art”](https://labs.openai.com/s/jkFigkbwqaVv7K3UlZNTSGbR) (spelling as here)
+
 #### Tolkien
 
 Let’s not forget about Middle-earth. Not many know that Sauron's private life differs from his public image. Also — what if Galadriel took the ring?
@@ -268,6 +307,8 @@ Let’s not forget about Middle-earth. Not many know that Sauron's private life 
 ![](./64.jpg){ class=width-max-third }
 
 ![](./65.jpg){ class=width-max-third }
+
+> [“Lord Sauron, laying relaxed on a blossoming meadow, digital art”](https://labs.openai.com/s/MeCBCVsdfAFUo2e4EtIaER9U) (and [that](https://labs.openai.com/s/sTRcS7XOufPT0NTLlhqAc6Pt)), [“Flam[e]y Galadriel wearing Sauron’s Ring, digital art”](https://labs.openai.com/s/dMHoTLQDaomfPfFJgToYvjad)
 
 #### Gender
 
@@ -279,11 +320,17 @@ Personally, I am far from any kind of spiritual male/female essentialism. When i
 
 ![](./68.jpg){ class=width-max-third }
 
+> [“male and female energy, religious art”](https://labs.openai.com/s/f2SuTOWQi7fwpA9VzY3KIboZ),
+> [“male and female energy, abstract art”](https://labs.openai.com/s/W4qsuEWCrNJ4BPIFlbJKGOPc),
+> [“male and female spectrum, abstract art”](https://labs.openai.com/s/OE6aLPfQzFEvqID8JUOq14am)
+
 #### Spirits
 
 So, what set me on the path of generating such images? I got curious about how DALL·E 2 melds ideas and asked to generate “A spirit in a waterfall of hearts”, specifying that it should be “digital art”. I got something I really liked:
 
 ![](./69.jpg){ class=width-max-third }
+
+> [“A spirit in a waterfall of hearts, digital art”](https://labs.openai.com/s/7XOFHB6MRPonvS4nZgx0ldnx)
 
 Moreover, all other creations were both on point and interesting. I was both impressed and mesmerized.
 
@@ -319,6 +366,18 @@ Quite a few stories mention that people need to collect this flower naked… Wel
 
 ![](./82.jpg){ class=width-max-third }
 
+> “Female spirits dancing around the fern flower, digital art”
+> ([first](https://labs.openai.com/s/39tcdcvvdG5JpLdiSuhsNx8q),
+> [second](https://labs.openai.com/s/5WFBfqD53wJsO0egFvYB4HLV),
+> [third](https://labs.openai.com/s/0kZoKRmUu1k4w4YxC6aMO4TU)),
+> [“Female silhouettes dancing around the fern flower, digital art”](https://labs.openai.com/s/PPdodem4Cce1DFM1pVRaieDT)
+> (and [that](https://labs.openai.com/s/THKNAH58ZU2pRgohx4uhGXnc)),
+> “Female silhouettes dancing around the fern flower in a sauna, religious art”,
+> “Female silhouettes dancing around the fern flower, joyful psychedelic art”,
+> “Female silhouettes dancing around the fern flower, colorful symbolic religious art” (x2),
+> [“Beautiful naturist female silhouettes dancing around summer solstice bonfire with a fern flower above, colorful watercolor painting”](https://labs.openai.com/s/TkTChI2igAOudvFWitvoQIyr)
+> (and [that](https://labs.openai.com/s/hzv5lkiDSYrOV9zaNCepMNfD))
+
 #### A few extra
 
 Here is Cthulhu’s romantic side, a concept of a qubit, and once again venus flytrap, this time — a photorealistic one. Believe me or not, this plant is my “spirit ‘animal’”.
@@ -329,6 +388,10 @@ Here is Cthulhu’s romantic side, a concept of a qubit, and once again venus fl
 
 ![](./85.jpg){ class=width-max-third }
 
+> [“Cthulhu on a date, digital art”](https://labs.openai.com/s/n2azyWClECDurejHzEqqzy2O),
+> [“Single bit of quantum information, digital art”](https://labs.openai.com/s/reSPsR9VTyCh24n8lcMWc5S4),
+> [“Happy anthropomorphic venus flytrap, studio, portrait, dark bg, detailed”](https://labs.openai.com/s/As4BFWLOXitUu4cNsrisXcUH)
+
 I went a bit over the edge with the last one, with a version for Pride Month 2022:
 
 ![](./86.jpg){ class=width-max-third }
@@ -336,6 +399,10 @@ I went a bit over the edge with the last one, with a version for Pride Month 202
 ![](./87.jpg){ class=width-max-third }
 
 ![](./88.jpg){ class=width-max-third }
+
+> [“Joyful anthropomorphic venus flytrap, studio, portrait, rainbow bg, detailed”](https://labs.openai.com/s/7u7lSb2FoXqhiELbMdhFrECs)
+> (and [that](https://labs.openai.com/s/yvtA9sC1rJtMxj67jBs3NU2n)),
+> [“Happy anthropomorphic venus flytrap, studio, portrait, rainbow bg, detailed”](https://labs.openai.com/s/KryB0yVPV6PWQpE8yR1X4aa2)
 
 I even got [a wonderful review](https://www.reddit.com/r/dalle2/comments/v44mn5/joyful_anthropomorphic_venus_flytrap_studio/) on the last one:
 
