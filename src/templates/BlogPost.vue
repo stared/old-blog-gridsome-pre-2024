@@ -37,8 +37,8 @@ export default {
       // this is dirty and I am aware of that
       // it wraps all consequtive images in an div.images block
       // a cilvilized way is my writing a remark plugin
-      return this.$page.blogPost.content
-        .replaceAll(/<img(?:(?!<p>)(?!<h\d).*\n)+/g, '<div class="images">\n$&</div>');
+      return this.$page.blogPost.content;
+      // .replaceAll(/<img(?:(?!<p>)(?!<h\d).*\n)+/g, '<div class="images">\n$&</div>');
     }
   },
   methods: {
