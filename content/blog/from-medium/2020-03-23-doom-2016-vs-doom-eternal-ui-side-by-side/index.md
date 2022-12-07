@@ -29,7 +29,7 @@ But all of it is bleak when you compare that to XPs, 1UPs, and Candy Crush-esque
 
 #### A few more of my biases
 
-To be clear, while I do like the challenge, I care even more about immersion. [I am totally into atmospheric “walk simulators” like Amnesia or SOMA](https://medium.com/@pmigdal/games-in-which-you-walk-and-get-immersed-a80ad2bcfa7f). I couldn’t play most “free to play” games if they instead paid to play them. With a few exceptions (e.g. The Dark Knight, Dr. Strange), I don’t like superhero movies. I did enjoy Diablo 2, but after seeing the graphics (and cinematics) of Diablo 3 I never ever got tempted to play this.
+To be clear, while I do like the challenge, I care even more about immersion. [I am totally into atmospheric “walk simulators” like Amnesia or SOMA](https://p.migdal.pl/blog/2019/06/games-in-which-you-walk-and-get-immersed/). I couldn’t play most “free to play” games if they instead paid to play them. With a few exceptions (e.g. The Dark Knight, Dr. Strange), I don’t like superhero movies. I did enjoy Diablo 2, but after seeing the graphics (and cinematics) of Diablo 3 I never ever got tempted to play this.
 
 ### In-game screenshots side-by-side
 

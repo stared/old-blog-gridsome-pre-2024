@@ -35,7 +35,7 @@ We can notice that nodes tend to cluster. Two people who have mutual friends are
 
 ![](./04.jpg)
 
-Various things start during high school (OK, [for brainy kids they often start later](https://www.gnxp.com/blog/2007/04/intercourse-and-intelligence.php); discussed and hopefully remedied in my [Dating for Nerds](https://medium.com/@pmigdal/dating-for-nerds-part-1-problem-diagnosis-c9bfac104c7)).
+Various things start during high school (OK, [for brainy kids they often start later](https://www.gnxp.com/blog/2007/04/intercourse-and-intelligence.php); discussed and hopefully remedied in my [Dating for Nerds](https://p.migdal.pl/blog/2017/07/dating-for-nerds/)).
 
 ![](./05.jpeg)
 

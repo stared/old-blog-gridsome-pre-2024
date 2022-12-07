@@ -44,7 +44,7 @@ Identifying the source of fear is important. What are we afraid of — disap
 - [Why Is It So Hard to Do Something That Should Be Easy?](https://www.youtube.com/watch?v=Uo08uS904Rg&ab_channel=HowtoADHD) — How to ADHD video by Jessica McCabe and Brendan Mahan on “the wall of awful” metaphor (it directly inspired this section, and maybe the whole blog post in general)
 - [Negative Emotions Today Predict Procrastination Tomorrow](https://www.psychologytoday.com/us/blog/dont-delay/202003/negative-emotions-today-predict-procrastination-tomorrow) — Psychology Today
 - [You Procrastinate Because Of Emotions, Not Laziness. Regulate Them To Stop Procrastinating!](https://cognitiontoday.com/you-procrastinate-because-of-emotions-not-laziness-regulate-them-to-stop-procrastinating/)
-- [ADHD tech stack: auto time tracking](https://medium.com/@pmigdal/adhd-tech-stack-auto-time-tracking-b8ff5b6bc888) — my text on practical tools
+- [ADHD tech stack: auto time tracking](https://p.migdal.pl/blog/2020/05/adhd-tech-stack-auto-time-tracking/) — my text on practical tools
 
 ### Attachment style
 
@@ -136,4 +136,4 @@ I would like to thank Joanna Jasińska, Marcin Kotowski, Kasia Kańska, and Sara
 
 I hope that it helps you, at least a tiny bit. :)
 
-A follow-up post: [**Embodiment for nerds** — or how you can learn to get in touch with your body and emotions](https://pmigdal.medium.com/embodiment-for-nerds-27e25f295908)_._
+A follow-up post: [**Embodiment for nerds** — or how you can learn to get in touch with your body and emotions](https://p.migdal.pl/blog/2021/09/embodiment-for-nerds/).
