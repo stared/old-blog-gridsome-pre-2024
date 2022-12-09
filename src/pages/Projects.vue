@@ -19,18 +19,16 @@
 </template>
     
 <script>
-import { socialMeta } from '@/scripts/helpers';
+import { SocialMeta } from '@/scripts/helpers';
 import projects from '@/../content/projects.json'
 
 export default {
     metaInfo() {
-        const title = "Projects";
-        const description = `Numerous projects by Piotr Migdał.`;
-        const baseUrl = "https://p.migdal.pl/"
-        const url = `${baseUrl}/projects/`;
-        const image = baseUrl + require("~/imgs/piotr-migdal-direct-smiling-2022-by-cytacka-thumbnail.jpg");
-
-        return socialMeta(title, description, url, image);
+        return SocialMeta.defaultMigdal()
+            .setTitle("Projects")
+            .setDescription("Numerous projects by Piotr Migdał.")
+            .setRelativeURL("/projects/")
+            .getMeta();
     },
     data() { return { projects } },
     methods: {

@@ -20,17 +20,16 @@
 </template>
 
 <script>
-import { socialMeta } from '@/scripts/helpers';
+import { SocialMeta } from '@/scripts/helpers';
 
 export default {
   metaInfo() {
-    const title = this.$page.blogPost.title;
-    const description = this.$page.blogPost.description;
-    const baseUrl = "https://p.migdal.pl"
-    const url = `${baseUrl}${this.$page.blogPost.path}`;
-    const imgRelPath = !!this.$page.blogPost.image ? this.$page.blogPost.image.src : require("~/imgs/piotr-migdal-direct-smiling-2022-by-cytacka-thumbnail.jpg");
-
-    return socialMeta(title, description, url, baseUrl + imgRelPath);
+    return SocialMeta.defaultMigdal()
+      .setTitle(this.$page.blogPost.title)
+      .setDescription(this.$page.blogPost.description)
+      .setRelativeURL(this.$page.blogPost.path)
+      .maybeSetRelativeImage(this.$page.blogPost.image.src)
+      .getMeta();
   },
   computed: {
     htmlCollectedImages() {

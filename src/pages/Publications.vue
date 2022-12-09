@@ -18,18 +18,16 @@
 </template>
   
 <script>
-import { socialMeta } from '@/scripts/helpers';
+import { SocialMeta } from '@/scripts/helpers';
 import publications from '@/../content/publications.json'
 
 export default {
   metaInfo() {
-    const title = "Publications";
-    const description = `Dr. Piotr Migdał wrote ${publications.length} publications.`;
-    const baseUrl = "https://p.migdal.pl/"
-    const url = `${baseUrl}/publications/`;
-    const image = baseUrl + require("~/imgs/piotr-migdal-direct-smiling-2022-by-cytacka-thumbnail.jpg");
-
-    return socialMeta(title, description, url, image);
+    return SocialMeta.defaultMigdal()
+      .setTitle("Publications")
+      .setDescription(`Dr. Piotr Migdał wrote ${publications.length} publications.`)
+      .setRelativeURL("/publications/")
+      .getMeta();
   },
   data() { return { publications } },
   methods: {

@@ -25,7 +25,7 @@
 </template>
   
 <script>
-import { socialMeta } from '@/scripts/helpers';
+import { SocialMeta } from '@/scripts/helpers';
 
 const experiences = [
     {
@@ -99,13 +99,11 @@ const experiences = [
 
 export default {
     metaInfo() {
-        const title = "Resume";
-        const description = "Piotr Migdał's career.";
-        const baseUrl = "https://p.migdal.pl/"
-        const url = `${baseUrl}/career/`;
-        const image = baseUrl + require("~/imgs/piotr-migdal-direct-smiling-2022-by-cytacka-thumbnail.jpg");
-
-        return socialMeta(title, description, url, image);
+        return SocialMeta.defaultMigdal()
+            .setTitle("Resume")
+            .setDescription("Piotr Migdał's career.")
+            .setRelativeURL("/resume/")
+            .getMeta();
     },
     data: function () {
         return { experiences };

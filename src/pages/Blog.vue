@@ -62,7 +62,7 @@ import VueSlider from 'vue-slider-component/dist-css/vue-slider-component.umd.mi
 import 'vue-slider-component/dist-css/vue-slider-component.css'
 import 'vue-slider-component/theme/antd.css'
 
-import { socialMeta } from '@/scripts/helpers';
+import { SocialMeta } from '@/scripts/helpers';
 import externalPosts from '@/../content/external-articles.json';
 
 const isHN = (mentions) => {
@@ -74,13 +74,11 @@ export default {
     VueSlider,
   },
   metaInfo() {
-    const title = "Blog";
-    const description = "Read blog posts by Piotr Migdał.";
-    const baseUrl = "https://p.migdal.pl/"
-    const url = `${baseUrl}/blog/`;
-    const image = baseUrl + require("~/imgs/piotr-migdal-direct-smiling-2022-by-cytacka-thumbnail.jpg");
-
-    return socialMeta(title, description, url, image);
+    return SocialMeta.defaultMigdal()
+      .setTitle("Blog")
+      .setDescription("Read blog posts by Piotr Migdał.")
+      .setRelativeURL("/blog/")
+      .getMeta();
   },
   data: function () {
     return {
