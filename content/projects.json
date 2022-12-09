@@ -23,6 +23,15 @@
     "status": "released, maintained"
   },
   {
+    "title": "Tensor diagrams - Penrose graphical notation in D3.js ",
+    "desc": "Visualization of tensor diagrams - useful for quantum computing, deep learning, Markov chains. With Claudia Zendejas-Morales.",
+    "href": "https://github.com/Quantum-Flytrap/tensor-diagrams",
+    "dateStart": "2021-06-13T00:00:00.000Z",
+    "dateEnd": "2021-07-29T00:00:00.000Z",
+    "tags": ["javascript", "quantum", "visualization"],
+    "status": "as it is"
+  },
+  {
     "title": "Quantum Tensors JS",
     "desc": "TypeScript package for sparse tensor operations on complex numbers. With Philippe Cochin.",
     "href": "https://github.com/Quantum-Flytrap/quantum-tensors",
@@ -175,6 +184,15 @@
       }
     ],
     "status": "done"
+  },
+  {
+    "title": "Matrix factorization viz",
+    "desc": "Interactive exploration various SVD and other matrix decomposition.",
+    "href": "https://p.migdal.pl/matrix-decomposition-viz/",
+    "dateStart": "2017-08-13T00:00:00.000Z",
+    "dateEnd": "2017-10-28T00:00:00.000Z",
+    "tags": ["visualization"],
+    "status": "as it is"
   },
   {
     "title": "Science-based games",
