@@ -28,7 +28,7 @@ export default {
       .setTitle(this.$page.blogPost.title)
       .setDescription(this.$page.blogPost.description)
       .setRelativeURL(this.$page.blogPost.path)
-      .maybeSetRelativeImage(this.$page.blogPost.image.src)
+      .maybeSetRelativeImage(this.$page.blogPost.image?.src)
       .getMeta();
   },
   computed: {
