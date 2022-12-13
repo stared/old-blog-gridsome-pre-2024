@@ -79,7 +79,13 @@ query BlogPost ($path: String!) {
   font-style: italic;
 }
 
-.markdown .images {
+.markdown img {
+  max-width: 100%;
+  margin: auto;
+  display: block;
+}
+
+/* .markdown .images {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -95,5 +101,5 @@ query BlogPost ($path: String!) {
 
 .markdown .images img.width-max-third {
   max-width: 33.33%;
-}
+} */
 </style>
