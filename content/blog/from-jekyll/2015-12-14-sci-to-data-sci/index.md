@@ -51,9 +51,9 @@ Right now, I love it! Here is why:
 - I interact with various people (IT, marketing, management and scientists) rather than only with fellow scientists.
 - I still travel a lot (mostly to lead my trainings).
 
-The overall difference is tremendous - from swings between depression and frustration (with occasional rays of hope) and a very unproductive state by default, to feeling great and learning a lot. Of course, it is also a function on my personal traits (chaotic, hot-headed, multidisciplinary, loving data, disliking hierarchy, a bit narcissistic[^1]) and my particular experience of academia.
+The overall difference is tremendous - from swings between depression and frustration (with occasional rays of hope) and a very unproductive state by default, to feeling great and learning a lot. Of course, it is also a function on my personal traits (chaotic, hot-headed, multidisciplinary, loving data, disliking hierarchy, a bit narcissistic¹) and my particular experience of academia.
 
-I was afraid that the escape from academia would burn bridges, especially as I was openly saying I wanted to move out straight after my PhD defense[^2]. Yet, from time to time I am being invited for scientific talks or collaboration, even when I make it explicit that I am no longer in academia (or aim to be again). Furthermore, I feel that it's easier for me to contribute to education as an independent freelancer than from within the system[^3].
+I was afraid that the escape from academia would burn bridges, especially as I was openly saying I wanted to move out straight after my PhD defense². Yet, from time to time I am being invited for scientific talks or collaboration, even when I make it explicit that I am no longer in academia (or aim to be again). Furthermore, I feel that it's easier for me to contribute to education as an independent freelancer than from within the system³.
 
 Very often I am being asked by academics how to make the transition from physics or mathematics to data science or programming. I do my best to give as detailed, personal and practical answers as possible. When I get such emails, it's flattering when it comes from undergraduate students, I feel sympathetic when it's from PhD students, and it is sad - when from people, who have invested in academia a number of years after their PhDs. Especially ones that love academia with its quirks, but have family to support and cannot bear the lack of security and constant move.
 
@@ -82,6 +82,8 @@ If you like to hear about one of these topics, mail me! :)
 
 I would like to thank [Michał Kotowski](http://www.math.toronto.edu/~michal/), [Marta Czarnocka-Cieciura](http://martaczc.deviantart.com/) and [Jacek Migdał](http://jacek.migdal.pl/) for comments on the draft. This blog post started as an email to [Artem Kaznatcheev](https://plus.google.com/101780559173703781847) entitled _"what I do"_ I wrote when flying from Dublin to NYC. Credit for the doge PhD picture goes to [Ryszard Paweł Kostecki](http://www.fuw.edu.pl/~kostecki/).
 
-[^1]: Sometimes I say that _freelancing is a way to monetize one's narcissism_: advertising oneself is a part of this job.
-[^2]: To be absolutely fair, I did apply to a single postdoc. But even then I collected notes in a file entitled [Stockholm syndrome](https://en.wikipedia.org/wiki/Stockholm_syndrome).
-[^3]: I still volunteer for the [Polish Children's Fund](https://en.wikipedia.org/wiki/Polish_Children%27s_Fund) - not less compared to when I was in academia. I already created from scratch and conducted a one-week intensive introduction to data analysis in Python for social scientists ([github.com/DELabUW/szkola-letnia-2015](https://github.com/DELabUW/szkola-letnia-2015), in Polish). It would be hard to have such freedom as a young lecturer.
+### Footnotes
+
+1. Sometimes I say that _freelancing is a way to monetize one's narcissism_: advertising oneself is a part of this job.
+2. To be absolutely fair, I did apply to a single postdoc. But even then I collected notes in a file entitled [Stockholm syndrome](https://en.wikipedia.org/wiki/Stockholm_syndrome).
+3. I still volunteer for the [Polish Children's Fund](https://en.wikipedia.org/wiki/Polish_Children%27s_Fund) - not less compared to when I was in academia. I already created from scratch and conducted a one-week intensive introduction to data analysis in Python for social scientists ([github.com/DELabUW/szkola-letnia-2015](https://github.com/DELabUW/szkola-letnia-2015), in Polish). It would be hard to have such freedom as a young lecturer.

@@ -22,9 +22,9 @@ migdal_score: 4
 
 After posting [What I do or: science to data science]({{site.url}}/2015/12/14/sci-to-data-sci.html) I got a lot of emails on how to make this transition.
 
-In this post I try to summarize my advice. I don't intend to write a complete _walkthrough_, but to provide a starting point, with links to further materials. I target it at people with academic, quantitative background (e.g. physics, mathematics, statistics), regardless if they are undergraduate students, PhDs or after a few postdocs. Some points may be valid for other backgrounds[^1] (but then - use it at your own risk).
+In this post I try to summarize my advice. I don't intend to write a complete _walkthrough_, but to provide a starting point, with links to further materials. I target it at people with academic, quantitative background (e.g. physics, mathematics, statistics), regardless if they are undergraduate students, PhDs or after a few postdocs. Some points may be valid for other backgrounds¹ (but then - use it at your own risk).
 
-Here and everywhere else: please don't take approach of _learn book[s] then play_ - start with playing!
+Here and everywhere else: please don't take approach of _learn books then play_ - start with playing!
 
 ## My story
 
@@ -55,7 +55,7 @@ From my perspective the whole process looks that way:
 - present results (a report, plot, interactive data visualization)
 
 And everything needs to be done in a reproducible way - so others can interact with your code, or even run it on a server. Depending on the job, there may be more emphasis on one part or the other.
-Or even look at [this tweet](https://twitter.com/JennyBryan/status/688866722980364289) - while humorous[^6], it shows a balanced list of typical skills and activities of a data scientist:
+Or even look at [this tweet](https://twitter.com/JennyBryan/status/688866722980364289) - while humorous⁶, it shows a balanced list of typical skills and activities of a data scientist:
 
 ![a data scientist should be able to (by Joel Grus)](./2016-03-15-a-data-scientist-should.png)
 
@@ -89,7 +89,7 @@ In academia, you are allowed to cherry-pick an artificial problem and work on it
 
 In industry, you should solve a given problem end-to-end. Things need to work, and there is little difference if it is based on an academic paper, usage of an existing library, your own code or an impromptu hack. The solution needs to be on time, even if just _good enough_ and based on shady and poorly understood assumptions.
 
-So, contrary to its name, it's rarely _science_[^2]. That is, in data science the emphasis is on practical results (like in engineering) - not proofs, mathematical purity or rigor characteristic to academic science.
+So, contrary to its name, it's rarely *science*². That is, in data science the emphasis is on practical results (like in engineering) - not proofs, mathematical purity or rigor characteristic to academic science.
 
 ### Resume vs academic CV
 
@@ -268,11 +268,11 @@ It’s totally fine to learn things on your own. But doing on a boot camp may be
 
 ## Internships
 
-If you are still a student - doing an internship may be a great way to get a lot of experience, feedback, confidence and contacts. I did mine during my PhD studies (in Europe it is not common to take a break, and a lot of people in academia dissuaded me, but I consider it a wonderful, life-changing experience)[^3].
+If you are still a student - doing an internship may be a great way to get a lot of experience, feedback, confidence and contacts. I did mine during my PhD studies (in Europe it is not common to take a break, and a lot of people in academia dissuaded me, but I consider it a wonderful, life-changing experience)³.
 
 To search for offers try googling `data science/scientist intern/internship` and visit some job listings (e.g. [Indeed](http://www.indeed.com/jobs?q=data+science+intern&l=)).
 Sometimes it makes sense to mail a company even if they don't use words `intern` or `internship` - especially smaller ones may be flexible.
-Some bigger tech companies (Facebook, Google, IBM, Microsoft) offer internships[^4], see:
+Some bigger tech companies (Facebook, Google, IBM, Microsoft) offer internships⁴, see:
 
 - [What companies have data science internships? - Quora](https://www.quora.com/What-companies-have-data-science-internships)
 
@@ -290,7 +290,7 @@ Once on-site, start look for various meeting and hackathons, especially via [Mee
 
 Never stop learning. Some feeds:
 
-- [Hacker News](https://news.ycombinator.com/)[^5] - startups, tech; data science is one of its topics
+- [Hacker News](https://news.ycombinator.com/)⁵ - startups, tech; data science is one of its topics
 - [DataTau](http://www.datatau.com/)
 - [reddit.com/r/MachineLearning](https://www.reddit.com/r/MachineLearning/)
 - [KDnuggets](http://www.kdnuggets.com/)
@@ -323,9 +323,11 @@ I would love to hear your feedback! Did you find it useful? Or maybe you would r
 
 Or maybe your company needs a data science training? I would be happy to provide it! See [http://deepsense.ai](http://deepsense.ai/) for the menu (and we are happy to make custom workshops) and fill the form or contact me directly!
 
-[^1]: For instance, if you don't have a quantitative background, you need to focus on it (and it may be the hardest part). Since it was not my path, I can't help.
-[^6]: In particular, _hacking p-value_ is wrong. But you should be aware what is [p-value](https://en.wikipedia.org/wiki/P-value) and why it can be hacked (accidentally or purposefully).
-[^2]: But if you come from a non-academic background (e.g. web dev), then from your perspective data science is science. Or to make it precise - it is engineering, but more like designing new engines, than building a house.
-[^3]: Great thanks to Adam Zadrożny for showing me this possibility (he interned at Facebook while doing his PhD in gravity waves) and to [Jacek Migdał](http://jacek.migdal.pl/) for convincing me to apply to the Bay Area, rather than somewhere else.
-[^4]: If you have background in computer science, it will be like playing on the easy level (it was not my case, though). It may be possible to apply as a software engineer expressing interest in data - and learn from that point.
-[^5]: [Hacker News](http://news.ycombinator.com/) is my best general-purpose non-personal feed, complemented by [The Economist](http://www.economist.com/).
+### Footnotes
+
+1. For instance, if you don't have a quantitative background, you need to focus on it (and it may be the hardest part). Since it was not my path, I can't help.
+2. But if you come from a non-academic background (e.g. web dev), then from your perspective data science is science. Or to make it precise - it is engineering, but more like designing new engines, than building a house.
+3. Great thanks to Adam Zadrożny for showing me this possibility (he interned at Facebook while doing his PhD in gravity waves) and to [Jacek Migdał](http://jacek.migdal.pl/) for convincing me to apply to the Bay Area, rather than somewhere else.
+4. If you have background in computer science, it will be like playing on the easy level (it was not my case, though). It may be possible to apply as a software engineer expressing interest in data - and learn from that point.
+5. [Hacker News](http://news.ycombinator.com/) is my best general-purpose non-personal feed, complemented by [The Economist](http://www.economist.com/).
+6. In particular, _hacking p-value_ is wrong. But you should be aware what is [p-value](https://en.wikipedia.org/wiki/P-value) and why it can be hacked (accidentally or purposefully).
