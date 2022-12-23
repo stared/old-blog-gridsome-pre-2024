@@ -129,14 +129,14 @@ It appears it is true, with the factor of two favoring the cubs - compare [pairs
 
 By proposing ratios for word analogies we implicitly assume that the probabilities of words can be factorized with respect to different dimensions of a word. For the discussed case it would be:
 
-$$
-P(w\vert dog) = f(w\vert species=dog) \times f(w\vert age=adult) \times P(w\vert is\_a\_pet) \\
-P(w\vert puppy) = f(w\vert species=dog) \times f(w\vert age=cub) \times P(w\vert is\_a\_pet) \\
-P(w\vert cat) = f(w\vert species=cat) \times f(w\vert age=adult) \times P(w\vert is\_a\_pet) \\
-P(w\vert kitten) = f(w\vert species=cat) \times f(w\vert age=cub) \times P(w\vert is\_a\_pet) $$
+$$P(w\vert dog) = f(w\vert species=dog) \times f(w\vert age=adult) \times P(w\vert is\_a\_pet)$$
+$$P(w\vert puppy) = f(w\vert species=dog) \times f(w\vert age=cub) \times P(w\vert is\_a\_pet)$$
+$$P(w\vert cat) = f(w\vert species=cat) \times f(w\vert age=adult) \times P(w\vert is\_a\_pet)$$
+$$P(w\vert kitten) = f(w\vert species=cat) \times f(w\vert age=cub) \times P(w\vert is\_a\_pet)$$
 
 So, in particular:
-$$
+
+$$ \frac{P(w|dog)}{P(w|puppy)} = \frac{f(w\vert age=adult)}{f(w\vert age=cub)} = \frac{P(w|cat)}{P(w|kitten)}. $$
 
 How does the equality of conditional probability ratios translate to the word vectors?
 If we express it as mutual information (again, _P(w)_ and logarithms) we get
@@ -169,15 +169,13 @@ are not words vectors by themselves.
 However, it is interesting to project a word on this axis.
 We can see that the projection
 
-$$
-= \log\left[ P(w|a) \right] - \log\left[ P(w|b) \right]$$
+$$ \vec{v}_w \cdot \left( \vec{v}_a - \vec{v}_b \right)= \log\left[ P(w|a) \right] - \log\left[ P(w|b) \right]$$
 
 is exactly a relative occurrence of a word within different contexts.
 
 Bear in mind that when we want to look at common aspects of a word it is more natural to average two vectors rather than take their sum. While people use it interchangeably, it only works because cosine distance ignores the absolute vector length. So, for a gender neutral pronoun use $$ (\vec{v}_{she} + \vec{v}_{he})/2 $$ rather than their sum.
 
 Just looking at the word co-locations can give interesting results, look at these artistic projects - [Word Spectrum](http://www.chrisharrison.net/index.php/Visualizations/WordSpectrum) and [Word Associations](http://www.chrisharrison.net/index.php/Visualizations/WordAssociations) from Visualizing Google's Bi-Gram Data by [Chris Harrison](http://www.chrisharrison.net/).
-
 
 ## I want to play!
 
@@ -196,61 +194,59 @@ If you want to create it **from scratch**, the most convenient way is to start w
 
 If you want to **learn** how it works, I recommend the following materials:
 
-* [A Word is Worth a Thousand Vectors](http://multithreaded.stitchfix.com/blog/2015/03/11/word-is-worth-a-thousand-vectors/) by Chris Moody
-* Daniel Jurafsky, James H. Martin, [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/) (2015):
-  * [Chapter 15: Vector Semantics](https://web.stanford.edu/~jurafsky/slp3/15.pdf) (and [slides](https://web.stanford.edu/~jurafsky/slp3/slides/vector1.pdf))
-  * [Chapter 16: Semantics with Dense Vectors](https://web.stanford.edu/~jurafsky/slp3/16.pdf) (and [slides](https://web.stanford.edu/~jurafsky/slp3/slides/vector2.pdf))
-* [Distributional approaches to word meanings](http://web.stanford.edu/class/linguist236/materials/ling236-handout-05-09-vsm.pdf) from [Seminar: Representations of Meaning course at Stanford by Noah D. Goodman and Christopher Potts](http://web.stanford.edu/class/linguist236/)
-* [GloVe: Global Vectors for Word Representation](http://nlp.stanford.edu/projects/glove/) and paper
-  * Jeffrey Pennington, Richard Socher, Christopher D. Manning, [GloVe: Global Vectors for Word Representation](http://nlp.stanford.edu/pubs/glove.pdf) (2014)
-  * it's great, except for its claims for greatness, see: [GloVe vs word2vec](https://rare-technologies.com/making-sense-of-word2vec) by Radim Rehurek
-* [On Chomsky and the Two Cultures of Statistical Learning](http://norvig.com/chomsky.html) by Peter Norvig
+- [A Word is Worth a Thousand Vectors](http://multithreaded.stitchfix.com/blog/2015/03/11/word-is-worth-a-thousand-vectors/) by Chris Moody
+- Daniel Jurafsky, James H. Martin, [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/) (2015):
+  - [Chapter 15: Vector Semantics](https://web.stanford.edu/~jurafsky/slp3/15.pdf) (and [slides](https://web.stanford.edu/~jurafsky/slp3/slides/vector1.pdf))
+  - [Chapter 16: Semantics with Dense Vectors](https://web.stanford.edu/~jurafsky/slp3/16.pdf) (and [slides](https://web.stanford.edu/~jurafsky/slp3/slides/vector2.pdf))
+- [Distributional approaches to word meanings](http://web.stanford.edu/class/linguist236/materials/ling236-handout-05-09-vsm.pdf) from [Seminar: Representations of Meaning course at Stanford by Noah D. Goodman and Christopher Potts](http://web.stanford.edu/class/linguist236/)
+- [GloVe: Global Vectors for Word Representation](http://nlp.stanford.edu/projects/glove/) and paper
+  - Jeffrey Pennington, Richard Socher, Christopher D. Manning, [GloVe: Global Vectors for Word Representation](http://nlp.stanford.edu/pubs/glove.pdf) (2014)
+  - it's great, except for its claims for greatness, see: [GloVe vs word2vec](https://rare-technologies.com/making-sense-of-word2vec) by Radim Rehurek
+- [On Chomsky and the Two Cultures of Statistical Learning](http://norvig.com/chomsky.html) by Peter Norvig
 
 ![](./queen-julia-vectors.jpg)
 
 > Julia Bazińska, at the rooftop garden of the [Warsaw University Library](https://en.wikipedia.org/wiki/Warsaw_University_Library) - the building in which we worked
 
-
 ## Technicalities
 
 I tried to give some insight into algorithms transforming words into vectors. Every practical approach needs a bit more tweaking. Here are a few clarifications:
 
-* word2vec is not a single task or algorithm; popular ones are:
-  * Skip-Gram Negative-Sampling (implicit compression of PMI),
-  * Skip-Gram Noise-Contrastive Training (implicit compression of conditional probability),
-  * GloVe (explicit compression of co-occurrences),
-* while *word* and *context* are essentially the same thing (both are words), they are being probed and treated differently (to account for different word frequencies),
-* there are two sets of vectors (each word has two vectors, one for word and the other - for context),
-* as any practical dataset of occurrences would contain PMI $$-\infty$$ for some pairs, in most cases positive pointwise mutual information (PPMI) is being used instead,
-* often pre-processing is needed (e.g. to catch phrases like *machine learning* or to distinguish words with two separate meanings),
-* linear space of meaning is a disputed concept,
-* all results are a function of the data we used to feed our algorithm, not objective truth; so it is easy to get stereotypes like `doctor - man + woman = nurse`.
+- word2vec is not a single task or algorithm; popular ones are:
+  - Skip-Gram Negative-Sampling (implicit compression of PMI),
+  - Skip-Gram Noise-Contrastive Training (implicit compression of conditional probability),
+  - GloVe (explicit compression of co-occurrences),
+- while _word_ and _context_ are essentially the same thing (both are words), they are being probed and treated differently (to account for different word frequencies),
+- there are two sets of vectors (each word has two vectors, one for word and the other - for context),
+- as any practical dataset of occurrences would contain PMI $$-\infty$$ for some pairs, in most cases positive pointwise mutual information (PPMI) is being used instead,
+- often pre-processing is needed (e.g. to catch phrases like _machine learning_ or to distinguish words with two separate meanings),
+- linear space of meaning is a disputed concept,
+- all results are a function of the data we used to feed our algorithm, not objective truth; so it is easy to get stereotypes like `doctor - man + woman = nurse`.
 
 For further reading I recommend:
 
-* [How does word2vec work?](https://www.quora.com/How-does-word2vec-work) by Omer Levy
-* Omer Levy, Yoav Goldberg, [Neural Word Embeddings as Implicit Matrix Factorization](https://levyomer.files.wordpress.com/2014/09/neural-word-embeddings-as-implicit-matrix-factorization.pdf), NIPS 2014
-* with a caveat: [Skipgram isn’t Matrix Factorisation](http://building-babylon.net/2016/05/12/skipgram-isnt-matrix-factorisation/) by Benjamin Wilson
-* [Language bias and black sheep](http://nlpers.blogspot.ie/2016/06/language-bias-and-black-sheep.html)
-* [Language necessarily contains human biases, and so will machines trained on language corpora](https://freedom-to-tinker.com/2016/08/24/language-necessarily-contains-human-biases-and-so-will-machines-trained-on-language-corpora/) by Arvind Narayanan
-* [Word Embeddings: Explaining their properties](http://www.offconvex.org/2016/02/14/word-embeddings-2/) - on word analogies by Sanjeev Arora
-* Tal Linzen, [Issues in evaluating semantic spaces using word analogies](https://arxiv.org/abs/1606.07736), arXiv:1606.07736
-* **EDIT** (Feb 2018): Alex Gittens, Dimitris Achlioptas, Michael W. Mahoney, [Skip-Gram – Zipf + Uniform = Vector Additivity](http://www.aclweb.org/anthology/P/P17/P17-1007.pdf)
+- [How does word2vec work?](https://www.quora.com/How-does-word2vec-work) by Omer Levy
+- Omer Levy, Yoav Goldberg, [Neural Word Embeddings as Implicit Matrix Factorization](https://levyomer.files.wordpress.com/2014/09/neural-word-embeddings-as-implicit-matrix-factorization.pdf), NIPS 2014
+- with a caveat: [Skipgram isn’t Matrix Factorisation](http://building-babylon.net/2016/05/12/skipgram-isnt-matrix-factorisation/) by Benjamin Wilson
+- [Language bias and black sheep](http://nlpers.blogspot.ie/2016/06/language-bias-and-black-sheep.html)
+- [Language necessarily contains human biases, and so will machines trained on language corpora](https://freedom-to-tinker.com/2016/08/24/language-necessarily-contains-human-biases-and-so-will-machines-trained-on-language-corpora/) by Arvind Narayanan
+- [Word Embeddings: Explaining their properties](http://www.offconvex.org/2016/02/14/word-embeddings-2/) - on word analogies by Sanjeev Arora
+- Tal Linzen, [Issues in evaluating semantic spaces using word analogies](https://arxiv.org/abs/1606.07736), arXiv:1606.07736
+- **EDIT** (Feb 2018): Alex Gittens, Dimitris Achlioptas, Michael W. Mahoney, [Skip-Gram – Zipf + Uniform = Vector Additivity](http://www.aclweb.org/anthology/P/P17/P17-1007.pdf)
 
 ## Some backstory
 
 I got interested in word2vec and related techniques for my general interest in machine learning and for my general appreciations of:
 
-* matrix factorization,
-* pointwise mutual information,
-* conceptual metaphors,
-* simple techniques mimicking human cognition.
+- matrix factorization,
+- pointwise mutual information,
+- conceptual metaphors,
+- simple techniques mimicking human cognition.
 
 I had an motivation to learn more on the subject as I was tutoring Julia Bazińska during a two-week summer internship at [DELab, University of Warsaw](http://www.delab.uw.edu.pl/), supported by the Polish Children's Fund. See also my blog posts:
 
-* [Helping exceptionally gifted children in Poland](http://crastina.se/gifted-children-in-poland-by-piotr-migdal/) - on the Polish Children's Fund
-* [D3.js workshop at ICM for KFnrD](http://p.migdal.pl/2016/02/09/d3js-icm-kfnrd.html) in Jan 2016, where it all started
-
+- [Helping exceptionally gifted children in Poland](http://crastina.se/gifted-children-in-poland-by-piotr-migdal/) - on the Polish Children's Fund
+- [D3.js workshop at ICM for KFnrD](http://p.migdal.pl/2016/02/09/d3js-icm-kfnrd.html) in Jan 2016, where it all started
 
 ## Thanks
 
@@ -262,6 +258,8 @@ It got some popularity, including ~20k views in the first day, and being tweeted
 
 Though, what I like the most is to see how people interact with it:
 
-* [artistic-scientific impulsive-analytical](https://twitter.com/cesifoti/status/818672972743450624) by Cesar Hidalgo from MIT Media Lab
-* [good-evil unlawful-lawful and AD&D classes](http://imgur.com/3FzX81i) from HN comment thread :)
+- [artistic-scientific impulsive-analytical](https://twitter.com/cesifoti/status/818672972743450624) by Cesar Hidalgo from MIT Media Lab
+- [good-evil unlawful-lawful and AD&D classes](http://imgur.com/3FzX81i) from HN comment thread :)
+
+$$
 $$

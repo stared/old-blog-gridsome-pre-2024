@@ -68,6 +68,7 @@ module.exports = {
         ],
         'gridsome-remark-unwrap-images',
         'remark-attr',
+        'gridsome-remark-katex',
       ],
     },
   },

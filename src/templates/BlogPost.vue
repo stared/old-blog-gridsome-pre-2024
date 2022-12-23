@@ -85,6 +85,11 @@ query BlogPost ($path: String!) {
   display: block;
 }
 
+/* displaying only .katex-mathml */
+.markdown .katex .katex-html {
+  display: none;
+}
+
 /* .markdown .images {
   display: flex;
   flex-wrap: wrap;
