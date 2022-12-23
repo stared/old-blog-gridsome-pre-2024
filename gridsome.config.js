@@ -32,6 +32,7 @@ module.exports = {
       use: 'gridsome-plugin-rss',
       options: {
         contentTypeName: 'BlogPost',
+        latest: true,
         feedOptions: {
           title: 'Piotr Migdał blog',
           feed_url: 'https://p.migdal.pl/rss.xml',
@@ -41,7 +42,7 @@ module.exports = {
           title: node.title,
           description: node.description,
           url: 'https://p.migdal.pl/' + node.path,
-          author: node.fields.author || "Piotr Migdał"
+          author: node.author || "Piotr Migdał"
         }),
         output: {
           dir: './dist',
