@@ -21,12 +21,32 @@ module.exports = {
         path: './content/text-components/**/*.md',
       }
     },
-    ,
     {
       use: 'gridsome-plugin-plausible-analytics',
       options: {
         dataDomain: 'p.migdal.pl',
         outboundLinkTracking: true
+      }
+    },
+    {
+      use: 'gridsome-plugin-rss',
+      options: {
+        contentTypeName: 'BlogPost',
+        feedOptions: {
+          title: 'Piotr Migdał blog',
+          feed_url: 'https://p.migdal.pl/rss.xml',
+          site_url: 'https://p.migdal.pl'
+        },
+        feedItemOptions: node => ({
+          title: node.title,
+          description: node.description,
+          url: 'https://p.migdal.pl/' + node.path,
+          author: node.fields.author || "Piotr Migdał"
+        }),
+        output: {
+          dir: './dist',
+          name: 'rss.xml'
+        }
       }
     }
   ],
