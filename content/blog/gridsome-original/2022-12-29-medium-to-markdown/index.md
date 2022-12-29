@@ -9,7 +9,7 @@ slug: new-blog-from-medium-to-gridsome
 migdal_score: 0
 ---
 
-Welcome to my new blog!
+Welcome to [my new blog](/)!
 
 I redesigned a few things - but the biggest change is that I moved here posts from various sources.
 
