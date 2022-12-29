@@ -46,7 +46,7 @@ module.exports = {
         }),
         output: {
           dir: './dist',
-          name: 'rss.xml'
+          name: 'feed.xml'
         }
       }
     }
