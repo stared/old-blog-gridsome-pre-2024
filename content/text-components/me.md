@@ -6,8 +6,7 @@ Piotr Migdał
 /[pjɔtr](https://en.wiktionary.org/wiki/Piotr) [ˈmig.daw](https://en.wiktionary.org/wiki/migda%C5%82)/ -
 a curious being, doctor of sorcery.
 
-**Profesionally:**
-I am looking for ambitious challenges combining
+**Professionally:** I am looking for ambitious challenges combining
 advanced data science with end-user experience.
 More in [my resume](/resume).
 
@@ -21,7 +20,7 @@ A bit more in [this post](/blog/2021/09/embodiment-for-nerds/).
 
 **Here:** I invite you to read
 [my stuff](/blog), take a look at
-[ my projects](/projects), skim abstracts of
+[my projects](/projects), skim abstracts of
 [my academic publications](/publications).
 
 **Socially:**
