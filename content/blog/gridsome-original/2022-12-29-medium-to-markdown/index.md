@@ -1,7 +1,7 @@
 ---
 title: New blog - moving from Medium to Gridsome
 description: >-
-  Sortable, put blog posts here, etc.
+  Why and how I moved from Jekyll and Medium to Gridsome.
 date: "2022-12-29T17:12:13.030Z"
 tags:
   - tech
@@ -15,7 +15,7 @@ I redesigned a few things - but the biggest change is that I moved here posts fr
 
 ## Changed
 
-- The blog post list is sortable, in a weighted way. To see how it works, pick any combination of date and popularity.
+- The [blog post list](/blog) is sortable, in a weighted way. To see how it works, pick any combination of date and popularity.
 - There used to be two lists of posts, one for posts I host, and the other for published elsewhere. It was confusing - so I created a single list. Where it is published is an "implementation detail".
 - Copied all posts from Medium here. This deserves a separate thread - which I provide below.
 - Switched from Google Analytics to [Plausible](https://plausible.io/), which is simpler and more respectful of privacy.
