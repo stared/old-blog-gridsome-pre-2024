@@ -1,11 +1,7 @@
 <template>
   <Layout>
-    <h1>Blog posts</h1>
-
-    <p>
-      Sort and filter posts according to your preferences.
-    </p>
-
+    <div class="markdown" v-html="$page.textComponent.content"></div>
+    
     <p>
 
     <div class="slider-flexbox">
@@ -160,6 +156,10 @@ query {
         migdal_score
       }
     }
+  }
+  textComponent (id: "blog") {
+        id
+        content
   }
 }
 </page-query>
