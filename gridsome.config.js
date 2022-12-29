@@ -35,7 +35,7 @@ module.exports = {
         latest: true,
         feedOptions: {
           title: 'Piotr Migdał blog',
-          feed_url: 'https://p.migdal.pl/rss.xml',
+          feed_url: 'https://p.migdal.pl/feed.xml',
           site_url: 'https://p.migdal.pl'
         },
         feedItemOptions: node => ({
