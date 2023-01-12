@@ -47,7 +47,7 @@ Analyzing real, and often - dirty, data using a mixture of programming and stati
 
 From my perspective the whole process looks that way:
 
-- ask question that is relevant to the project
+- ask questions that are relevant to the project
 - get data (CSV, SQL, plain text)
 - process it (joining, cleaning, supplementing it)
 - run analysis (statistical tests or machine learning)
@@ -113,7 +113,7 @@ and given you background you want to be a Type A Data scientist (i.e. more a sta
 
 When they consider hiring you, this piece is crucial:
 
-- [Ten Rules for Negotiating a Job Offer - Haseeb Qureshi](https://medium.freecodecamp.com/ten-rules-for-negotiating-a-job-offer-ee17cccbdab6#.rhwj57ckp)
+- [Ten Rules for Negotiating a Job Offer - Haseeb Qureshi](https://www.freecodecamp.org/news/ten-rules-for-negotiating-a-job-offer-ee17cccbdab6/)
 
 ## Programming languages
 
