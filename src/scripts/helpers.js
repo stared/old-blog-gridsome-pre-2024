@@ -137,7 +137,7 @@ export class SocialMeta {
     if (!rel_image) {
       return this;
     }
-    const image = `${this._base_image}${rel_image}`;
+    const image = `${this._base_url}${rel_image}`;
     if (provider) {
       this._image[provider] = image;
     } else {
