@@ -16,6 +16,10 @@
       </p>
     </div>
     <div class="markdown" v-html="htmlCollectedImages"></div>
+    <footer>
+      By <g-link to="/">Piotr Migdał</g-link>, a curious being, doctor of
+      sorcery. See <g-link to="/blog">my other blog posts</g-link>.
+    </footer>
   </Layout>
 </template>
 
@@ -107,4 +111,9 @@ query BlogPost ($path: String!) {
 .markdown .images img.width-max-third {
   max-width: 33.33%;
 } */
+
+footer {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
 </style>
