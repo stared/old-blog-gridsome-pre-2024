@@ -6,13 +6,11 @@ Piotr Migdał
 /[pjɔtr](https://en.wiktionary.org/wiki/Piotr) [ˈmig.daw](https://en.wiktionary.org/wiki/migda%C5%82)/ -
 a curious being, doctor of sorcery.
 
-**Professionally:** I am looking for ambitious challenges combining
-advanced data science with end-user experience.
-More in [my resume](/resume).
+**Professionally:** Just joined [Dali Games](https://dali.games/) - a startup generating games with AI, end-to-end.
 
 **Previously:**
 Co-founder & CTO of [Quantum Flytrap](https://quantumflytrap.com/),
-deep learning consultant, data viz specialist, quantum physics PhD.
+deep learning consultant, data viz specialist, quantum physics PhD. More in [my resume](/resume).
 
 **Personally:**
 I dance balfolk and fusion. I do weekly sauna rituals, among trees, ponds and streams.
