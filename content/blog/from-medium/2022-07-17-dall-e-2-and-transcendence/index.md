@@ -7,6 +7,7 @@ tags:
   - arts
   - cognition
 slug: dall-e-2-and-transcendence
+image: ./01.jpg
 medium_url: https://pmigdal.medium.com/dall-e-2-and-transcendence-3a3a404fb609
 migdal_score: 2
 ---

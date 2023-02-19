@@ -6,6 +6,7 @@ tags:
   - tech
   - games
 slug: doom-2016-vs-doom-eternal-ui-side-by-side
+image: ./24.jpeg
 medium_url: https://pmigdal.medium.com/doom-2016-vs-doom-eternal-ui-side-by-side-8058e996baae
 views_k: 5
 migdal_score: 1

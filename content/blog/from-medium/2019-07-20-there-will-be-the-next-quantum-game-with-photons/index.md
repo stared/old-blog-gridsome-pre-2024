@@ -8,6 +8,7 @@ tags:
   - games
   - personal
 slug: there-will-be-the-next-quantum-game-with-photons
+image: ./03.jpg
 medium_url: https://pmigdal.medium.com/there-will-be-the-next-quantum-game-with-photons-276568d63613
 migdal_score: 0
 ---

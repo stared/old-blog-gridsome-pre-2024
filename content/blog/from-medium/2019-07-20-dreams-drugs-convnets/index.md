@@ -8,6 +8,7 @@ tags:
   - deep learning
   - cognition
 slug: dreams-drugs-convnets
+image: ./01.jpg
 medium_url: https://pmigdal.medium.com/dreams-drugs-convnets-ae7ed6ad50a5
 views_k: 2
 migdal_score: 0

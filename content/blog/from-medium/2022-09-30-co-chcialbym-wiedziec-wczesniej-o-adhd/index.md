@@ -9,6 +9,7 @@ tags:
   - neurodiversity
   - po polsku
 slug: co-chcialbym-wiedziec-wczesniej-o-adhd
+image: ./02.jpg
 medium_url: https://pmigdal.medium.com/co-chcia%C5%82bym-wiedzie%C4%87-wcze%C5%9Bniej-o-adhd-927ef8b37de6
 migdal_score: 1
 ---

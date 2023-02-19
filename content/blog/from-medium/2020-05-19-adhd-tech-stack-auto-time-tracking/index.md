@@ -8,6 +8,7 @@ tags:
   - soft skills
   - neurodiversity
 slug: adhd-tech-stack-auto-time-tracking
+image: ./08.jpg
 medium_url: https://pmigdal.medium.com/adhd-tech-stack-auto-time-tracking-b8ff5b6bc888
 views_k: 9
 migdal_score: 1

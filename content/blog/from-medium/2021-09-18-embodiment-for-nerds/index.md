@@ -7,6 +7,7 @@ tags:
   - neurodiversity
   - personal
 slug: embodiment-for-nerds
+image: ./05.jpeg
 medium_url: https://pmigdal.medium.com/embodiment-for-nerds-27e25f295908
 mentions:
   - text: Hacker News front page
