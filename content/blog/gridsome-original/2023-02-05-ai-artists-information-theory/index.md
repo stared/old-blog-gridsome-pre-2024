@@ -10,6 +10,9 @@ tags:
   - arts
 slug: ai-arts-information-theory
 image: ./lizard-taxi-velociraptor-ceo.jpg
+mentions:
+  - text: Hacker News front page
+    href: https://news.ycombinator.com/item?id=34856326
 migdal_score: 0
 ---
 
