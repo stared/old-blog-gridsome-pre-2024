@@ -133,7 +133,7 @@ Reintegrating parts of yourself takes time. Self-compassion is crucial, as well 
 
 ![“Don’t be afraid Mithrandir, you are not alone” — [one of the most beautiful scenes from the Hobbit (movie)](https://www.youtube.com/watch?v=MU5_-lLjhQw).](./04.jpg)
 
-I would like to thank Joanna Jasińska, Marcin Kotowski, Kasia Kańska, and Sarah Martin for valuable feedback on the draft. While it benefited from many inspirations, it was prompted by recent discussions with Agata Klinger, Meggy Peplanova, Krzysztof “Stefan” Stefanek, Anna Kubasiak, Agata Strojnowska, Ernesta Malina, and well, Pola Gościńska, my therapist (who reminds me well too often that I use rationality to distance myself from emotions).
+I would like to thank Joanna Jasińska, Marcin Kotowski, Kasia Kańska, and Sarah Martin for valuable feedback on the draft. While it benefited from many inspirations, it was prompted by recent discussions with Agata Klinger, Meggy Peplanova, Krzysztof “Stefan” Stefanek, Anna Kubasiak, Agata Strojnowska, Ernesta Malina, and Pola Gościńska.
 
 I hope that it helps you, at least a tiny bit. :)
 
