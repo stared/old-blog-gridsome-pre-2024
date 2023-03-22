@@ -12,8 +12,8 @@ medium_url: https://pmigdal.medium.com/embodiment-for-nerds-27e25f295908
 mentions:
   - text: Hacker News front page
     href: https://news.ycombinator.com/item?id=28895655
-views_k: 3
-migdal_score: 3
+views_k: 4
+migdal_score: 4
 ---
 
 Or how you can learn to get in touch with your body and emotions.
@@ -28,11 +28,11 @@ It was taken as a grim joke. Yet, it was an accurate description of my relations
 
 But… my body felt as if it were something external. I felt like a ghost controlling a machine. My body was a prison, a life sentence of being bound to physical matter; an external shell containing me, rather than a part of me — as a driver perceives their car.
 
-Earlier during my best days, I felt as a _“spirit hovering over the waters”_ from Genesis, pure thought and will. On gloomier days I felt like a lich — an undead sorcerer, who choose endless loneliness to pursue knowledge and power. Both of these were highly intellectual, and ghastly disembodied.
+Earlier during my best days, I felt like a _“spirit hovering over the waters”_ from Genesis, pure thought and will. On gloomier days I felt like a lich — an undead sorcerer, who choose endless loneliness to pursue knowledge and power. Both of these were highly intellectual, and ghastly disembodied.
 
 ![Taken on a Californian desert — credits go to Marta Cz-C, a single exposure.](./01.jpg)
 
-Now it is very much different. I didn’t need to give up anything from my cerebral site to connect with my body. Quite opposite — this connection allows experiencing the world more as if I gained new senses. Here’s what my process was (**My story**), with a few general pieces (**Lessons and takeaways**).
+Now it is very much different. I didn’t need to give up anything from my cerebral site to connect with my body. Quite opposite — this connection allows to experience the world more as if I gained new senses. Here’s what my process was (**My story**), with a few general pieces (**Lessons and takeaways**).
 
 ### My story
 
@@ -50,7 +50,7 @@ It does not mean that I avoided all physical activities. I did a lot of walking 
 
 The first big moment came when I was walking in Barcelona with my friend and lover. She entered a fountain. I asked if she is not afraid of getting a fungal foot infection. She said that if she gets one, she will get treatment — but would rather risk a fungal infection than live a life without ever entering fountains.
 
-I entered the fountain as well, immersing in the experience. For a moment I was living in “now”. And the ability to be in the present stayed with me forever.
+I entered the fountain as well, immersing myself in the experience. For a moment I was living in “now”. And the ability to be in the present stayed with me forever.
 
 ![This person, this fountain.](./04.jpeg)
 
@@ -70,7 +70,7 @@ As I have an oversensitivity to light, this verse was particularly powerful.
 
 #### Free improv
 
-The next step was thanks to the Kotowski twins, my close friends. They were attending workshops that were an exploration of contact with body and emotions. I used to mock them that they were “opening their chakras”, looking down at a workshop that isn’t aimed at developing concrete skills. However, during one intense event, I heard from them:
+The next step was thanks to the Kotowski twins, my close friends. They were attending workshops that were an exploration of contact with one's body and emotions. I used to mock them that they were “opening their chakras”, looking down at a workshop that isn’t aimed at developing concrete skills. However, during one intense event, I heard from them:
 
 > If it weren’t for free improv, I’d have gone crazy stuck inside my head.
 
@@ -95,7 +95,7 @@ In particular, when you have a wonderful idea — drop it. If you want to re
 At the end of the workshop, I asked how I can build a relationship with my body. I got a few homework exercises:
 
 - Experiencing a lot of passionate sex.
-- Touching surfaces with my back (touching with palms make a fine division between “me” and “the world”).
+- Touching surfaces with my back (touching with palms makes a fine division between “me” and “the world”).
 - Getting massages often.
 
 I was slacking with the massage part for a long time. In other respects, I did my best to be a diligent student.
@@ -104,11 +104,11 @@ I was slacking with the massage part for a long time. In other respects, I did m
 
 After the dam broke, the whole process went from a small leak to an enormous wave.
 
-I participated in various events related to body and emotions. It included cuddle parties, kinky workshops, playfighting, [experience design camps](https://pmigdal.medium.com/cloak-dagger-creativity-camp-ce4a24aa6528), mindful ice bathing. Each was different — due to its form, leader, and participants. Each had a “technical part” directly related to the respective topic. Still, the best ones left a lasting, generalizable effect.
+I participated in various events related to body and emotions. It included cuddle parties, kinky workshops, playfighting, [experience design [camps](https://pmigdal.medium.com/cloak-dagger-creativity-camp-ce4a24aa6528), and mindful ice bathing. Each was different — due to its form, leader, and participants. Each had a “technical part” directly related to the respective topic. Still, the best ones left a lasting, generalizable effect.
 
-I started dancing. To some extent, dancing was much harder mentally than BDSM workshops. During the latter, it is expected that many people are new and feel awkward. There is a chasm between people how have been dancing to music since they were 3-year-old, and ones who haven’t before they turned 30. In dancing, a lot of people expect that you feel comfortable, in your body. For me, the connection between sounds and movement was as alien as relating letters to colors in synesthesia.
+I started dancing. To some extent, dancing was much harder mentally than BDSM workshops. During the latter, it is expected that many people are new and feel awkward. There is a chasm between people who have been dancing to music since they were 3-year-old, and ones who haven’t before they turned 30. In dancing, a lot of people expect that you feel comfortable, in your body. For me, the connection between sounds and movement was as alien as relating letters to colors in synesthesia.
 
-However, the Balfolk community of [Chata Numinosum in Warsaw](https://www.facebook.com/ChataNuminosum/) turned out to be particularly warm and inviting. There are always a few people dancing for the first time, joining a group from the spectrum of beginners to seasoned dancers. Balfolk is a modern version of dances from Brittanny, along with other regions of France and Europe in general. These are mostly danced in circles and chains, the setting is casual (usually t-shirts) and the focus is on moving together rather than a performance.
+However, the Balfolk community of [Chata Numinosum in Warsaw](https://www.facebook.com/ChataNuminosum/) turned out to be particularly warm and inviting. There are always a few people dancing for the first time, joining a group from the spectrum of beginners to seasoned dancers. Balfolk is a modern version of dances from Brittany, along with other regions of France and Europe in general. These are mostly danced in circles and chains, the setting is casual (usually t-shirts) and the focus is on moving together rather than a performance.
 
 ![Lovembal in Poznań — credits go to [Marianna Łakomy](https://www.facebook.com/mikromomenty/).](./05.jpeg)
 
@@ -118,15 +118,15 @@ A much higher bar was for blues dance. It is very soft, cuddly & improvised, foc
 
 And what’s now?
 
-Well, I keep regularly dancing Balfolk, including a cuddly Mazurka. I started feeling good in my own, naked skin — not ashamed or stressed, but natural and immersed in sensations ([a post in Polish on my path there](https://www.facebook.com/piotr.migdal.9/posts/10165195985655360), happy to translate it there is a need; for context: in Poland, we are raised with antinudity mindset, unlike Germany or Czechia). I learn giving experiences in Russian banyas as a sauna master. Each ritual is different, mixes an overall plan with a lot of improvisation of stimulating senses of heat, cold, smell, touch, and sometimes — taste.
+Well, I keep regularly dancing Balfolk, including a cuddly Mazurka. I started feeling good in my own, naked skin — not ashamed or stressed, but natural and immersed in sensations ([a post in Polish on my path there](https://www.facebook.com/piotr.migdal.9/posts/10165195985655360), happy to translate it if there is a need; for context: in Poland, we are raised with antinudity mindset, unlike Germany or Czechia). I learn giving experiences in Russian banyas as a sauna master. Each ritual is unique and mixes an overall plan with a lot of improvisation of stimulating senses of heat, cold, smell, touch, and sometimes — taste.
 
 ![Chilling in hot.](./06.jpeg)
 
 I try to massage and get a massage — mostly intuitively, using hands, peeling, or branches.
 
-To my surprise, relaxing some parts of my body went way beyond affecting my body. Tension in the neck relates (in me) to a barrier between mind and body. Relaxing the neck brings a tingling sensation in the whole body, making it more open, more receptive, and less stressed. Relaxing the lower back (loin and sacrum; seriously no pun there) unites my sensual and sexual energies. Releasing this tension makes one open to touch and tactile sensations but without expectations or frustration.
+To my surprise, relaxing some parts of my body went way beyond affecting my body. Tension in the neck relates (in me) to a barrier between mind and body. Relaxing the neck brings a tingling sensation to the whole body, making it more open, more receptive, and less stressed. Relaxing the lower back (loin and sacrum; seriously no pun there) unites my sensual and sexual energies. Releasing this tension makes one open to touch and tactile sensations but without expectations or frustration.
 
-![Lucjan doing wonders with an oak venik— photo by Krzyś Niemkiewicz.](./07.jpg)
+![Lucjan doing wonders with an oak venik — photo by Krzyś Niemkiewicz.](./07.jpg)
 
 ### Lessons and takeaways
 
@@ -162,19 +162,19 @@ I never finished or shared the whole part, but another fragment of the same poem
 
 Human languages compress the uniqueness and infinite details of an experience into rigid, culturally-defined, categories. They fail to express anything that is inherently subjective or deeply personal.
 
-This is one of the reasons that no matter how much you read on connecting with the body, you cannot do it in place of immersing in experiences. I often catch myself that instead of experiencing experiences, I instinctively decompose and analyze them. While it occasionally gives valuable insight, it inadvertently reduces immersion.
+This is one of the reasons that no matter how much you read about connecting with the body, you cannot do it in place of immersing in experiences. I often catch myself that instead of experiencing experiences, I instinctively decompose and analyze them. While it occasionally gives valuable insight, it inadvertently reduces immersion.
 
 Obviously, this blog post is as guilty as charged.
 
 #### Soft contact with one’s body
 
-I would like to give a distinction between two kinds of contact with one’s body: “a soft contact” (experiential, process-oriented) and a “hard contact” (instrumental, goal-oriented).
+I would like to give a distinction between two kinds of contact with one’s body: “soft contact” (experiential, process-oriented) and “hard contact” (instrumental, goal-oriented).
 
-“Soft contact” is not only about feeling or soothing one’s body. It is about making body sensations a part of one’s life experience, rather than a tool. It is even not a synonym for light and pleasant experiences. If you **experience** (but don’t resist) pain, discomfort, tiredness — it is still “soft contact”.
+“Soft contact” is not only about feeling or soothing one’s body. It is about making body sensations a part of one’s life experience, rather than a tool. It is even not a synonym for light and pleasant experiences. If you **experience** (but don’t resist) pain, discomfort, or tiredness — it is still “soft contact”.
 
-Dancing can be on any part of the spectrum, depending on whether you focus on the correct form or the experience of the movement itself. To some extent, it is a function of what you do, but mostly — on your attitude.
+Dancing can be on any part of the spectrum, depending on whether you focus on the correct form or the experience of the movement itself. To some extent, it is a function of what you do, but mostly — of your attitude.
 
-While having prior sports experience is usually a plus when it comes to the mind-body relationship, one can have as much “hard contact” as possible without a trace of “soft contact”. For example, if it is about resisting pain, discomfort, tiredness (in cardio workouts, running marathons, swimming, mountain hiking, dancing ballet, yoga, receiving massages) — it is all ”hard contact”.
+While having prior sports experience is usually a plus when it comes to the mind-body relationship, one can have as much “hard contact” as possible without a trace of “soft contact”. For example, if it is about resisting pain, discomfort, or tiredness (in cardio workouts, running marathons, swimming, mountain hiking, dancing ballet, yoga, receiving massages) — it is all ”hard contact”.
 
 #### A shell protects against all experiences — bad and good alike
 
@@ -192,19 +192,19 @@ I cover it in [Don’t fight, flight (or freeze) your body and emotions](https:/
 
 Why expose yourself if you may get hurt? Or actually — if you know that sooner or later you WILL get hurt? The answer is simple: so as to not miss out on all the good things in life.
 
-There is a silver lining: when in this “soft state”, some things hit, but surprisingly hurt much less. As it is a reactive state — much like a jelly. And if there is a cut, it regenerates well, without leaving scars. In contrast, a hard shell withstands a lot, but once it’s too much, it shatters into pieces.
+There is a silver lining: when in this “soft state”, some things hit, but surprisingly hurt much less. As it is a reactive state — much like jelly. And if there is a cut, it regenerates well, without leaving scars. In contrast, a hard shell withstands a lot, but once it’s too much, it shatters into pieces.
 
 #### Male socialization takes its toll
 
-In Western cultures, a lot of forms of soft contact are shunned down (even if not forbidden). Even handshakes and hugs between men are expected to be short and firm. Everything more delicate, sensual, or intimate is expected to be reserved for romantic and erotic activities.
+In Western cultures, a lot of forms of soft contact are shunned (even if not forbidden). Even handshakes and hugs between men are expected to be short and firm. Everything more delicate, sensual, or intimate is expected to be reserved for romantic and erotic activities.
 
 Even in sex, a lot of focus is on performance rather than experience.
 
-My ex-partner Sarah Martin put emphasis on using “experience orgasm” in the place of “achieve orgasm”. It is not about a pedantic choice of terms. It is about the focus — is it about the process or an accomplishment?
+My ex-partner Sarah Martin emphasized using “experience orgasm” in the place of “achieve orgasm”. It is not about a pedantic choice of terms. It is about the focus — is it about the process or an accomplishment?
 
-Her Master’s thesis was on “market metaphors in Pick-Up Artists handbooks”. One of her biggest surprises was that among people who aim at getting laid a lot there is almost no discussion about experiencing sex. Not even from a male pleasure perspective. Her remark was “do they even enjoy sex?”.
+Her Master’s thesis was on “market metaphors in Pick-Up Artists handbooks”. One of her biggest surprises was that among people who aim at getting laid a lot, there is almost no discussion about experiencing sex. Not even from a male pleasure perspective. Her remark was “do they even enjoy sex?”.
 
-Her advice is to read these few authors that actually love sex and love women (e.g. Mark Manson and Richard la Ruina); see also [Pickup Artists: What You Need to Know](https://medium.com/sex-coach-u-magazine/pickup-artists-what-you-need-to-know-3f95d3a54d3) by [Sarah Martin, MA, CSC](https://medium.com/u/39462454f46a). My remarks (including on toxic masculinity) are covered in the [Dating for Nerds series](https://p.migdal.pl/2017/09/30/dating-for-nerds-gender-differences.html).
+Her advice is to read these few authors who love sex and love women (e.g. Mark Manson and Richard la Ruina); see also [Pickup Artists: What You Need to Know](https://medium.com/sex-coach-u-magazine/pickup-artists-what-you-need-to-know-3f95d3a54d33) by [Sarah Martin, MA, CSC](https://medium.com/u/39462454f46a). My remarks (including on toxic masculinity) are covered in the [Dating for Nerds series](https://p.migdal.pl/2017/09/30/dating-for-nerds-gender-differences.html).
 
 For women, there is somewhat more social permission for friendly hugs or body-related self-care (visiting SPAs, cliche photos of baths with rose petals, etc). From my anecdata, significantly fewer women are disembodied. Though, many have a negative relationship with their body, mostly due to an (actual or perceived) mismatch with societal expectations.
 
@@ -214,7 +214,7 @@ Contact with your body is arational — neither rational nor irrational. Som
 
 (Over the years I got less sharp when it comes to religion, new age-y stuff, etc. If it helps someone and does not hurt others, why not? I treat these kinds of spirituality as poetry — even if on the literal level it is not true, it can still have immense value — motivational, aesthetic, meditative, etc.)
 
-While in the 60s and 70s there was a strong divide between scientific rationalism and spirituality, now the gap gets bridged e.g. by [Sam Harris](https://www.youtube.com/watch?v=HlJqez0pqhE) and [William Richards in “Sacred Knowledge”](https://www.goodreads.com/review/show/4205670187).
+While in the 60s and 70s, there was a strong divide between scientific rationalism and spirituality, now the gap gets bridged e.g. by [Sam Harris](https://www.youtube.com/watch?v=HlJqez0pqhE) and [William Richards in “Sacred Knowledge”](https://www.goodreads.com/review/show/4205670187).
 
 You can [dance Balfolk to Mario and Star Wars](https://www.youtube.com/watch?v=bloJC33pB1w). You saw the T-Rex photo.  
 I often do sauna rituals with nerdy music — including the stunningly beautiful [Ori and the Blind Forest](https://www.youtube.com/watch?v=MeVFrt7BUyw) soundtrack, Malukah singing [“Priscilla’s Song” from The Witcher](https://www.youtube.com/watch?v=eOR2QYy670k).
