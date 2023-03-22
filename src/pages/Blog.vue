@@ -65,6 +65,17 @@ const isHN = (mentions) => {
   return !!mentions && mentions.some((mentions) => mentions.href.includes("news.ycombinator"));
 };
 
+const postScores = (post) => {
+  const popularity = post.views_k ? Math.log2(post.views_k) : 0;
+  const mentions = Math.sqrt(post.mentions ? post.mentions?.length : 0);
+  const now = new Date();
+  const postDate = new Date(post.date);
+  const yearsSince = (now - postDate) / (1000 * 60 * 60 * 24 * 365.25);
+  const age = Math.log2(yearsSince);
+  const migdalBias = post.migdal_score ? post.migdal_score : 0;
+  return { popularity, mentions, age, migdalBias };
+}
+
 export default {
   components: {
     VueSlider,
@@ -105,16 +116,12 @@ export default {
       return localPosts.concat(externalPostsProcessed);
     },
     filteredPosts: function () {
+ 
       const postValue = (post) => {
-        const popularity = post.views_k ? Math.log2(post.views_k) : 0;
-        const mentions = Math.sqrt(post.mentions ? post.mentions?.length : 0);
-        const now = new Date();
-        const postDate = new Date(post.date);
-        const yearsSince = (now - postDate) / (1000 * 60 * 60 * 24 * 365.25);
-        const age = Math.log2(yearsSince);
-        const migdalBias = post.migdal_score ? post.migdal_score : 0;
+        const { popularity, mentions, age, migdalBias } = postScores(post);
         return this.weigthPopularity * popularity + this.weigthMentions * mentions + this.weigthAge * age + this.migdalWeigth * migdalBias;
-      }
+      };
+      
       const posts = this.allPosts
         .sort((a, b) => +(postValue(a) < postValue(b)) - 0.5);
       if (this.tagSelected === 'all') {
