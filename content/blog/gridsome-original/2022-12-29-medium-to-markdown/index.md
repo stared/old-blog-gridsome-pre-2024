@@ -6,7 +6,7 @@ date: "2022-12-29T17:12:13.030Z"
 tags:
   - tech
 slug: new-blog-from-medium-to-gridsome
-migdal_score: 0
+migdal_score: -1
 ---
 
 Welcome to [my new blog](/)!
