@@ -6,7 +6,7 @@ Piotr Migdał
 /[pjɔtr](https://en.wiktionary.org/wiki/Piotr) [ˈmig.daw](https://en.wiktionary.org/wiki/migda%C5%82)/ -
 a curious being, doctor of sorcery.
 
-**Professionally:** Just joined [Dali Games](https://dali.games/) - a startup generating games with AI, end-to-end.
+**Professionally:** I am open to ambitious challenges combining AI with the end-user experience.
 
 **Previously:**
 Co-founder & CTO of [Quantum Flytrap](https://quantumflytrap.com/),
