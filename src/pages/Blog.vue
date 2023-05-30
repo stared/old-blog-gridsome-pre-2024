@@ -122,7 +122,7 @@ export default {
         return this.weigthPopularity * popularity + this.weigthMentions * mentions + this.weigthAge * age + this.migdalWeigth * migdalBias;
       };
       
-      const posts = this.allPosts
+      const posts = [...this.allPosts]
         .sort((a, b) => +(postValue(a) < postValue(b)) - 0.5);
       if (this.tagSelected === 'all') {
         return posts;
