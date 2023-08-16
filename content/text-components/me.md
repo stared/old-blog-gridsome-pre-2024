@@ -6,7 +6,7 @@ Piotr Migdał
 /[pjɔtr](https://en.wiktionary.org/wiki/Piotr) [ˈmig.daw](https://en.wiktionary.org/wiki/migda%C5%82)/ -
 a curious being, doctor of sorcery.
 
-**Professionally:** I am open to ambitious challenges combining AI with the end-user experience.
+**Professionally:** CTO at a semi-stealth startup. We make journaling as easy as it is taking a photo with a smartphone. If you are a fullstack or backend developer, [we are hiring](https://gist.github.com/stared/0cecd3b0059481bbd8330196d907b12f).
 
 **Previously:**
 Co-founder & CTO of [Quantum Flytrap](https://quantumflytrap.com/),
