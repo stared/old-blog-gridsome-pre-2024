@@ -237,6 +237,6 @@ If you want to grow that way — I hope I gave a bit of inspiration.
 
 #### Acknowledgments
 
-Many people helped me on this path, with a special thanks to Marcin & Michał Kotowski, Anna “Melisandre”, Rysiek, Sarah, Seani, Seth, Sofi, Stefan, and the Ojrzanów/Parostacja team.
+Many people helped me on this path, with a special thanks to Marcin & Michał Kotowski, Anna “Melisandre”, Sarah, Seani, Seth, Sofi, Stefan, and the Ojrzanów/Parostacja team.
 
 This text benefited from discussions with [Meggy Pepelanova](https://twitter.com/pepelanova), [Marcin Kotowski](https://www.math.toronto.edu/~marcin/), and [Sarah Martin](https://medium.com/@SexCoachSarah).
