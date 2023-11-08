@@ -30,11 +30,11 @@ migdal_score: 2
 
 ## Intro
 
-**word2vec** is an algorithm that transforms words into vectors, so that words with similar meaning end up laying close to each other. Moreover, it allows us to use vector arithmetics to work with analogies, for example the famous `king - man + woman = queen`.
+**word2vec** is an algorithm that transforms words into vectors, so that words with similar meanings end up laying close to each other. Moreover, it allows us to use vector arithmetics to work with analogies, for example, the famous `king - man + woman = queen`.
 
 I will try to explain how it works, with special emphasis on the meaning of vector differences, at the same time omitting as many technicalities as possible.
 
-If you would rather explore than read, here is an interactive exploration by my mentee Julia Bazińska, now a freshman of computer science at the University of Warsaw:
+If you would rather explore than read, here is an interactive exploration by my mentee Julia Bazińska, now a freshman in computer science at the University of Warsaw:
 
 - [Word2viz](https://lamyiowce.github.io/word2viz/) by using [GloVe](http://nlp.stanford.edu/projects/glove/) pre-trained vectors (it takes 30MB to load - please be patient)
 
@@ -49,23 +49,23 @@ Consider this sentence:
 
 > A small, fluffy roosety climbed a tree.
 
-What's a _roosety_? I would say that something like a squirrel, since the two words can be easily interchanged. Such reasoning is called the [distributional hypothesis](https://en.wikipedia.org/wiki/Distributional_semantics) and can be summarized as:
+What's a _roosety_? I would say that something like a squirrel since the two words can be easily interchanged. Such reasoning is called the [distributional hypothesis](https://en.wikipedia.org/wiki/Distributional_semantics) and can be summarized as:
 
 > a word is characterized by the company it keeps - [John Rupert Firth](https://en.wikipedia.org/wiki/John_Rupert_Firth)
 
 If we want to teach it to a computer, the simplest, approximated approach is making it look only at word pairs.
-Let _P(a|b)_ be the conditional probability that given a word _b_ there is a word _a_ within a short distance (let's say - being spaced by no more that 2 words).
+Let _P(a|b)_ be the conditional probability that given a word _b_ there is a word _a_ within a short distance (let's say - being spaced by no more than 2 words).
 Then we claim that two words _a_ and _b_ are similar if
 
 $$ P(w|a) = P(w|b) $$
 
 for every word _w_.
-In other words, if we have this equality, no matter if there is word _a_ or _b_, all other words occur with the same frequency.
+In other words, if we have this equality, no matter if there is a word _a_ or _b_, all other words occur with the same frequency.
 
-Even simple word counts, compared by source, can give interesting results, e.g. that in lyrics of metal songs words (_cries_, _eternity_ or _ashes_ are popular, while words _particularly_ or _approximately_ are not, well, particularly common), see [Heavy Metal and Natural Language Processing](http://www.degeneratestate.org/posts/2016/Apr/20/heavy-metal-and-natural-language-processing-part-1/).
+Even simple word counts, compared by source, can give interesting results, e.g. in lyrics of metal songs words (_cries_, _eternity_ or _ashes_ are popular, while words _particularly_ or _approximately_ are not, well, particularly common), see [Heavy Metal and Natural Language Processing](http://www.degeneratestate.org/posts/2016/Apr/20/heavy-metal-and-natural-language-processing-part-1/).
 See also [Gender Roles with Text Mining and N-grams](http://juliasilge.com/blog/Gender-Pronouns/) by Julia Silge.
 
-Looking at co-occurrences can provide much more information. For example, one of my projects, [TagOverflow](http://p.migdal.pl/tagoverflow/), gives insight into structure of programming, based only on the usage of [tags on Stack Overflow](http://stackoverflow.com/tags).
+Looking at co-occurrences can provide much more information. For example, one of my projects, [TagOverflow](http://p.migdal.pl/tagoverflow/), gives insight into the structure of programming, based only on the usage of [tags on Stack Overflow](http://stackoverflow.com/tags).
 It also shows that I am in love with pointwise mutual information, which brings us to the next point.
 
 [![](./word2viz-tagoverflow-english.png)](http://p.migdal.pl/tagoverflow/?site=english&size=32)
@@ -75,7 +75,7 @@ It also shows that I am in love with pointwise mutual information, which brings 
 > The Compressors: View cognition as compression. Compressed sensing, approximate matrix factorization - [The (n) Cultures of Machine Learning - HN discussion](https://news.ycombinator.com/item?id=10954508)
 
 In principle, we can compute _P(a|b)_ for every word pair.
-But even with a small dictionary of 100 000 words (bear in mind that we need to keep all declinations, proper names and things which are not in official dictionaries, yet are in use) keeping track of all pairs would require 8 gigabytes of space.
+But even with a small dictionary of 100k words (bear in mind that we need to keep all declinations, proper names and things that are not in official dictionaries, yet are in use) keeping track of all pairs would require 8 gigabytes of space.
 
 Often instead of working with conditional probabilities, we use the [pointwise mutual information](https://en.wikipedia.org/wiki/Pointwise_mutual_information) (PMI), defined as:
 
@@ -89,7 +89,7 @@ $$ PMI(a, b) = \vec{v}_a \cdot \vec{v}_b, $$
 
 where $$\vec{v}_i$$ are vectors, typically of 50-300 dimensions.
 
-At the first glance it may be strange that all words can be compressed to a space of much smaller dimensionality. But there are words that can be trivially interchanged (e.g. _John_ to _Peter_) and there is a lot of structure in general.
+At first glance, it may be strange that all words can be compressed to a space of much smaller dimensionality. But some words can be trivially interchanged (e.g. _John_ to _Peter_) and there is a lot of structure in general.
 
 The fact that this compression is lossy may give it an advantage, as it can discover patterns rather than only memorize each pair.
 For example, in recommendation systems for movie ratings, each rating is approximated by a scalar product of two vectors - a movie's content and a user's preference. This is used to predict scores for as yet unseen movies, see [Matrix Factorization with TensorFlow - Katherine Bailey](http://katbailey.github.io/post/matrix-factorization-with-tensorflow/).
@@ -115,9 +115,9 @@ If it needs to work for every $$ \vec{v}_w $$, then
 $$ \vec{v}_a = \vec{v}_b. $$
 
 Of course, in every practical case we won't get an exact equality, just words being close to each other. Words close in this space are often synonyms (e.g. _happy_ and _delighted_), antonyms (e.g. _good_ and _evil_) or other easily interchangeable words (e.g. _yellow_ and _blue_).
-In particular most of [opposing ideas](https://en.wikipedia.org/wiki/Horseshoe_theory) (e.g. _religion_ and _atheism_) will have similar context. If you want to play with that, look at this [word2sense phrase search](https://demos.explosion.ai/sense2vec/?word=machine%20learning&sense=auto).
+In particular, most [opposing ideas](https://en.wikipedia.org/wiki/Horseshoe_theory) (e.g. _religion_ and _atheism_) will have similar contexts. If you want to play with that, look at this [word2sense phrase search](https://demos.explosion.ai/sense2vec/?word=machine%20learning&sense=auto).
 
-What I find much more interesting is that words form a linear space. In particular, a zero vector represent a totally uncharacteristic word, occurring with every other word at the random chance level (as its scalar product with every word is zero, so is its PMI).
+What I find much more interesting is that words form a linear space. In particular, a zero vector represents a totally uncharacteristic word, occurring with every other word at the random chance level (as its scalar product with every word is zero, so is its PMI).
 
 It is one of the reasons why for vector similarity people often use cosine distance, i.e.
 
@@ -127,7 +127,7 @@ That is, it puts emphasis on the direction in which a given word co-occurs with 
 
 ## Analogies and linear space
 
-If we want to make word analogies (_a is to b is as A is to B_), one may argue that in can be expressed as an equality of conditional probability ratios
+If we want to make word analogies (_a is to b is as A is to B_), one may argue that it can be expressed as an equality of conditional probability ratios
 
 $$ \frac{P(w|a)}{P(w|b)} = \frac{P(w|A)}{P(w|B)} $$
 
@@ -162,7 +162,7 @@ We can use analogies for meaning (e.g. changing gender with vectors), grammar (e
 It seems that analogies are not only a computational trick - we may actually use them to think all the time, see:
 
 - George Lakoff, Mark Johnson, [Metaphors We Live By](https://www.amazon.com/Metaphors-We-Live-George-Lakoff/dp/0226468011) (1980)
-- and [their list of conceptual metaphors in English (webarchive)](http://web.archive.org/web/20080718021721/http://cogsci.berkeley.edu/lakoff/metaphors/), in particular look for _X is Up_, plotted below:
+- and [their list of conceptual metaphors in English (webarchive)](http://web.archive.org/web/20080718021721/http://cogsci.berkeley.edu/lakoff/metaphors/), in particular, look for _X is Up_, plotted below:
 
 ![](./word2viz-up-down-metaphors.png)
 
@@ -174,7 +174,7 @@ Difference of words vectors, like
 
 $$ \vec{v}_{she} - \vec{v}_{he} $$
 
-are not words vectors by themselves.
+are not word vectors by themselves.
 However, it is interesting to project a word on this axis.
 We can see that the projection
 
@@ -188,7 +188,7 @@ Just looking at the word co-locations can give interesting results, look at thes
 
 ## I want to play!
 
-If you want **explore**, there is [Word2viz](https://lamyiowce.github.io/word2viz/) by Julia Bazińska.
+If you want to **explore**, there is [Word2viz](https://lamyiowce.github.io/word2viz/) by Julia Bazińska.
 You can choose between one of several pre-defined plots, or create one from scratch (choosing words and projections).
 I've just realized that Google Research released a tool for that as well:
 [Open sourcing the Embedding Projector: a tool for visualizing high dimensional data - Google Research blog](https://research.googleblog.com/2016/12/open-sourcing-embedding-projector-tool.html) (and the actual live demo: [Embedding Projector](http://projector.tensorflow.org/)).
@@ -197,7 +197,7 @@ If you want to use **pre-trained vectors**, see [Stanford GloVe](http://nlp.stan
 Some examples in Jupyter Notebooks are in our playground [github.com/lamyiowce/word2viz](https://github.com/lamyiowce/word2viz) (warning: raw state, look at them at your own risk).
 
 If you want to train it on your **own dataset**, use a Python library [gensim: Topic modelling for humans](https://radimrehurek.com/gensim/).
-Often some preprocessing is needed, especially look at [Sense2vec with spaCy and Gensim](https://explosion.ai/blog/sense2vec-with-spacy) by Matthew Honnibal.
+Often some preprocessing is needed, especially looking at [Sense2vec with spaCy and Gensim](https://explosion.ai/blog/sense2vec-with-spacy) by Matthew Honnibal.
 
 If you want to create it **from scratch**, the most convenient way is to start with [Vector Representations of Words - TensorFlow Tutorial](https://www.tensorflow.org/versions/r0.11/tutorials/word2vec/index.html) (see also a respective [Jupyter Notebook from Udacity Course](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/udacity/5_word2vec.ipynb)).
 
@@ -232,7 +232,7 @@ I tried to give some insight into algorithms transforming words into vectors. Ev
 - linear space of meaning is a disputed concept,
 - all results are a function of the data we used to feed our algorithm, not objective truth; so it is easy to get stereotypes like `doctor - man + woman = nurse`.
 
-For further reading I recommend:
+For further reading, I recommend:
 
 - [How does word2vec work?](https://www.quora.com/How-does-word2vec-work) by Omer Levy
 - Omer Levy, Yoav Goldberg, [Neural Word Embeddings as Implicit Matrix Factorization](https://levyomer.files.wordpress.com/2014/09/neural-word-embeddings-as-implicit-matrix-factorization.pdf), NIPS 2014
@@ -245,14 +245,15 @@ For further reading I recommend:
 
 ## Some backstory
 
-I got interested in word2vec and related techniques for my general interest in machine learning and for my general appreciations of:
+I got interested in word2vec and related techniques since it combines quite a few things I appreciate
 
+- machine learning,
 - matrix factorization,
 - pointwise mutual information,
 - conceptual metaphors,
 - simple techniques mimicking human cognition.
 
-I had an motivation to learn more on the subject as I was tutoring Julia Bazińska during a two-week summer internship at [DELab, University of Warsaw](http://www.delab.uw.edu.pl/), supported by the Polish Children's Fund. See also my blog posts:
+I had a motivation to learn more on the subject as I was tutoring Julia Bazińska during a two-week summer internship at [DELab, University of Warsaw](http://www.delab.uw.edu.pl/), supported by the Polish Children's Fund. See also my blog posts:
 
 - [Helping exceptionally gifted children in Poland](http://crastina.se/gifted-children-in-poland-by-piotr-migdal/) - on the Polish Children's Fund
 - [D3.js workshop at ICM for KFnrD](http://p.migdal.pl/2016/02/09/d3js-icm-kfnrd.html) in Jan 2016, where it all started
@@ -260,4 +261,3 @@ I had an motivation to learn more on the subject as I was tutoring Julia Bazińs
 ## Thanks
 
 This draft benefited from feedback from [Grzegorz Uriasz](https://github.com/grzegorz225/) (what's simple and what isn't), [Sarah Martin](http://goodsexlifestyle.com/) (readability and grammar remarks). I want to especially thank [Levy Omer](https://levyomer.wordpress.com/) for pointing to weak points (and shady assumptions) of word vector arithmetics.
-
