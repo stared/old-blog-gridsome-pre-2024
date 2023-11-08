@@ -94,6 +94,10 @@ query BlogPost ($path: String!) {
   display: none;
 }
 
+p:has(> span.katex-display) {
+  text-align: center;
+}
+
 /* .markdown .images {
   display: flex;
   flex-wrap: wrap;
