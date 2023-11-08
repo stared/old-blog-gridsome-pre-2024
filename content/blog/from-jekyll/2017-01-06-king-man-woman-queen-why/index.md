@@ -15,6 +15,15 @@ image: ./queen-julia-vectors-facebook.jpg
 mentions:
   - text: "Hacker News discussion thread with over 250 upvotes"
     href: https://news.ycombinator.com/item?id=13346104
+  - text: "tweeted by the authors of GloVe at Stanford"
+    href: https://twitter.com/stanfordnlp/status/81888171807766118
+  - text: "tweeted by Kaggle"
+    href: https://twitter.com/kaggle/status/819258895235424258
+  - text: "artistic-scientific impulsive-analytical by MIT Media Lab"
+    href: https://twitter.com/cesifoti/status/818672972743450624
+  - text: "good-evil unlawful-lawful and ADnD classes from a HN comment"
+    href: http://imgur.com/3FzX81i
+
 views_k: 90
 migdal_score: 2
 ---
@@ -252,14 +261,3 @@ I had an motivation to learn more on the subject as I was tutoring Julia Bazińs
 
 This draft benefited from feedback from [Grzegorz Uriasz](https://github.com/grzegorz225/) (what's simple and what isn't), [Sarah Martin](http://goodsexlifestyle.com/) (readability and grammar remarks). I want to especially thank [Levy Omer](https://levyomer.wordpress.com/) for pointing to weak points (and shady assumptions) of word vector arithmetics.
 
-## EDIT
-
-It got some popularity, including ~20k views in the first day, and being tweeted by [the authors of GloVe at Stanford](https://twitter.com/stanfordnlp/status/818881718077661184) and [Kaggle](https://twitter.com/kaggle/status/819258895235424258).
-
-Though, what I like the most is to see how people interact with it:
-
-- [artistic-scientific impulsive-analytical](https://twitter.com/cesifoti/status/818672972743450624) by Cesar Hidalgo from MIT Media Lab
-- [good-evil unlawful-lawful and AD&D classes](http://imgur.com/3FzX81i) from HN comment thread :)
-
-$$
-$$
