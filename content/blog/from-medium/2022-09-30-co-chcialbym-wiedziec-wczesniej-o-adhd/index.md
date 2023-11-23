@@ -100,7 +100,7 @@ Typowe listy TODO rzadko działają. Przynajmniej u mnie — zawsze zaczyna�
 
 Wiele moich znajomych z ADHD robi tzw. Bullet Journal — styl planera, który z jednej strony jest b. elastyczny, z drugiej — dba, by główne rzeczy nie uciekły. Kilka osób pokazało mi swoje notesy — i to czasem były małe dzieła sztuki. Ja nie jestem pod tym względem szczególnie utalentowany — i nawet czytanie własnego pisma ręcznego to coś jak odszyfrowywanie kultysty Cthulhu. Stąd o ile wiele osób to motywuje, to nie mnie.
 
-Ale robię coś podobnego online. Piszę na komputerze na każdy dzień listę rzeczy do zrobienia, spotkań itd (lubię pisać na klawiaturze, elektronikę mam zawsze przy sobie). Jak coś więcej lub innego zrobię (choćby — przyjdzie nowy mail pracowy, na który odpisałem czy też zrobię pranie) to też dopisuję. Czasem okazuje się, że dzień, w którym “nic nie zrobiłem” jednak był taki, że może nie zrobiłem “tej głównej” rzeczy, ale było dużo pracy nad innymi ważnymi. Osobiście korzystam z Evernote’a, ale dowolny plik tekstowy działa. Do prowadzenia remontu generalnego mieszkania (tak, udaje się!) używam managera tasków LinearApp, bo lubię. Tutaj kluczowe jest dla mnie zarówno rozbijanie na najbardziej jasne podtaski (ach ta dopamina przy każdym “Done”), i dzielenia na tygodniowe sprinty (co by nie było, że wszystko naraz).
+Ale robię coś podobnego online. Piszę na komputerze na każdy dzień listę rzeczy do zrobienia, spotkań itd (lubię pisać na klawiaturze, elektronikę mam zawsze przy sobie). Jak coś więcej lub innego zrobię (choćby — przyjdzie nowy mail pracowy, na który odpisałem czy też zrobię pranie) to też dopisuję. Czasem okazuje się, że dzień, w którym “nic nie zrobiłem” jednak był taki, że może nie zrobiłem “tej głównej” rzeczy, ale było dużo pracy nad innymi ważnymi. Osobiście korzystam z Obsidian’a, ale dowolny plik tekstowy działa. Do prowadzenia remontu generalnego mieszkania (tak, udaje się!) używam managera tasków LinearApp, bo lubię. Tutaj kluczowe jest dla mnie zarówno rozbijanie na najbardziej jasne podtaski (ach ta dopamina przy każdym “Done”), i dzielenia na tygodniowe sprinty (co by nie było, że wszystko naraz).
 
 —
 
@@ -133,3 +133,4 @@ Oraz
 - [https://pinboard.in/u:pmigdal/t:modafinil](https://pinboard.in/u:pmigdal/t:modafinil)
 - [ADHD Comics by Dani Donovan](https://www.adhddd.com/comics/) — z której ilustracji nagminnie korzystałem
 - [Psycholog na spektrum/Psychologist on the spectrum | Facebook](https://www.facebook.com/Psycholognaspektrum)
+- [https://obsidian.md/](Obsidian) - całkiem fajna aplikacja do tekstowych notatek
