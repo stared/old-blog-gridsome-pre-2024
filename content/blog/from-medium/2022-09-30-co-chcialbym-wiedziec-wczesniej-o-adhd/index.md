@@ -133,4 +133,5 @@ Oraz
 - [https://pinboard.in/u:pmigdal/t:modafinil](https://pinboard.in/u:pmigdal/t:modafinil)
 - [ADHD Comics by Dani Donovan](https://www.adhddd.com/comics/) — z której ilustracji nagminnie korzystałem
 - [Psycholog na spektrum/Psychologist on the spectrum | Facebook](https://www.facebook.com/Psycholognaspektrum)
-- [https://obsidian.md/](Obsidian) - całkiem fajna aplikacja do tekstowych notatek
+- [Obsidian](https://obsidian.md/) - całkiem fajna aplikacja do tekstowych notatek
+- [LinearApp](https://linear.app/)
