@@ -104,7 +104,7 @@ I was slacking with the massage part for a long time. In other respects, I did m
 
 After the dam broke, the whole process went from a small leak to an enormous wave.
 
-I participated in various events related to body and emotions. It included cuddle parties, kinky workshops, playfighting, [experience design camps](https://pmigdal.medium.com/cloak-dagger-creativity-camp-ce4a24aa6528), and mindful ice bathing. Each was different — due to its form, leader, and participants. Each had a “technical part” directly related to the respective topic. Still, the best ones left a lasting, generalizable effect.
+I participated in various events related to body and emotions. It included cuddle parties, kinky workshops, playfighting, [experience design camps](https://p.migdal.pl/blog/2019/06/cloak-dagger-creativity-camp/), and mindful ice bathing. Each was different — due to its form, leader, and participants. Each had a “technical part” directly related to the respective topic. Still, the best ones left a lasting, generalizable effect.
 
 I started dancing. To some extent, dancing was much harder mentally than BDSM workshops. During the latter, it is expected that many people are new and feel awkward. In dancing, a lot of people assume that you feel comfortable, in your body. Yet, there is a chasm between people who have been dancing to music since they were 3-year-old, and ones who haven’t before they turned 30. For me, the connection between sounds and movement was as alien as relating letters to colors in synesthesia.
 
@@ -188,7 +188,7 @@ Most of these protection mechanics can be classified as fight, flight, and freez
 - The emotional flight is a number of dismissive approaches — distancing oneself with humor or escaping into cold rationalism.
 - The emotional fight is all struggle and frustration that the world is not as it ought to be.
 
-I cover it in [Don’t fight, flight (or freeze) your body and emotions](https://pmigdal.medium.com/dont-fight-flight-or-freeze-your-body-and-emotions-96f5aa30b299) — exploring seemingly unrelated phenomena such as procrastination, avoidant attachment style, and depression. It is a Hacker News-recognized piece, so it has to be good, right? :).
+I cover it in [Don’t fight, flight (or freeze) your body and emotions](https://p.migdal.pl/blog/2021/02/dont-fight-flight-or-freeze-your-body-and-emotions/) — exploring seemingly unrelated phenomena such as procrastination, avoidant attachment style, and depression. It is a Hacker News-recognized piece, so it has to be good, right? :).
 
 Why expose yourself if you may get hurt? Or actually — if you know that sooner or later you WILL get hurt? The answer is simple: so as to not miss out on all the good things in life.
 

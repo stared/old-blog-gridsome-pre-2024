@@ -124,8 +124,8 @@ Jessica McCabe, [HowToADHD YouTube channel](https://www.youtube.com/c/howtoadhd)
 Oraz
 
 - E. Hallowell and J. Ratey, [Driven to Distraction (Revised): Recognizing and Coping with Attention Deficit Disorder](https://www.amazon.com/Driven-Distraction-Revised-Recognizing-Attention/dp/0307743152)
-- P. Migdał, [ADHD tech stack: auto time tracking](https://pmigdal.medium.com/adhd-tech-stack-auto-time-tracking-b8ff5b6bc888)
-- P. Migdał, [Don’t fight, flight (or freeze) your body and emotions](https://pmigdal.medium.com/dont-fight-flight-or-freeze-your-body-and-emotions-96f5aa30b299) — część o prokrastynacji
+- P. Migdał, [ADHD tech stack: auto time tracking](https://p.migdal.pl/blog/2020/05/adhd-tech-stack-auto-time-tracking/)
+- P. Migdał, [Don’t fight, flight (or freeze) your body and emotions](https://p.migdal.pl/blog/2021/02/dont-fight-flight-or-freeze-your-body-and-emotions/) — część o prokrastynacji
 - [Hyperfocus — Wikipedia](https://en.wikipedia.org/wiki/Hyperfocus)
 - R. Baumeister and J. Tierney, [Willpower: Rediscovering the Greatest Human Strength](https://www.amazon.com/Willpower-Rediscovering-Greatest-Human-Strength/dp/0143122231)
 - [Armodafinil Reviews & Ratings — Drugs.com](https://www.drugs.com/comments/armodafinil/)
