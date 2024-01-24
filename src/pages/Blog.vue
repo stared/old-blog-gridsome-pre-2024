@@ -7,7 +7,7 @@
     <div class="slider-flexbox">
       <div class="slider">
         <span class="slider-label">log(popularity)</span>
-        <vue-slider v-model="weigthPopularity" :min="-5" :max="5" width="150px" :process="sliderLine" />
+        <vue-slider v-model="weigthPopularity" :min="-10" :max="10" width="150px" :process="sliderLine" />
       </div>
       <div class="slider">
         <span class="slider-label">sqrt(mentions)</span>
@@ -15,7 +15,7 @@
       </div>
       <div class="slider">
         <span class="slider-label">log(age)</span>
-        <vue-slider v-model="weigthAge" :min="-10" :max="10" width="150px" :process="sliderLine" />
+        <vue-slider v-model="weigthAge" :min="-20" :max="20" width="150px" :process="sliderLine" />
       </div>
       <div class="slider">
         <span class="slider-label">author's bias</span>
@@ -90,10 +90,10 @@ export default {
   data: function () {
     return {
       tagSelected: 'all',
-      weigthPopularity: 2,
-      weigthMentions: 1,
-      weigthAge: -4,
-      migdalWeigth: 1,
+      weigthPopularity: 4,
+      weigthMentions: 2,
+      weigthAge: -8,
+      migdalWeigth: 2,
       sliderLine: (dotPos) => [[50, dotPos[0], { backgroundColor: dotPos[0] < 50 ? 'pink' : '' }]],
     }
   },
