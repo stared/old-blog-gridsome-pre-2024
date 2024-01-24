@@ -9,7 +9,8 @@ tags:
 slug: dall-e-2-and-transcendence
 image: ./01.jpg
 medium_url: https://pmigdal.medium.com/dall-e-2-and-transcendence-3a3a404fb609
-migdal_score: 2
+migdal_score: 3
+views_k: 2
 ---
 
 Hint: end prompts with “religious art”, “stained glass”, “esoteric art”

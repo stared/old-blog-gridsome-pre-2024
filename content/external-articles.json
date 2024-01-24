@@ -5,7 +5,7 @@
     "href": "https://open.spotify.com/episode/0Xz20gnhpP06gWOmbZsbj0?si=d37cc81e280d4ed1",
     "date": "2023-04-28T00:00:00.000Z",
     "tags": ["personal", "neurodiversity", "interview", "po polsku"],
-    "migdal_score": 0
+    "migdal_score": 1
   },
   {
     "title": "Polacy walczą o „cyfrowego Oskara”",
@@ -16,7 +16,7 @@
     "migdal_score": 0
   },
   {
-    "title": "What's new in Virtual Lab - Oct 2022",
+    "title": "What's new in Virtual Lab by Quantum Flytrap - Oct 2022",
     "source": "Quantum Flytrap",
     "href": "https://quantumflytrap.com/blog/virtual-lab-updates-oct-2022",
     "date": "2022-10-19T00:00:00.000Z",
@@ -29,7 +29,7 @@
     "href": "https://quantumflytrap.com/blog/closing-quantum-flytrap/",
     "date": "2022-10-19T00:00:00.000Z",
     "tags": ["personal", "quantum"],
-    "migdal_score": 1
+    "migdal_score": 0
   },
   {
     "title": "Quantum Flytrap - Shaping the Future of Quantum DevTools",
@@ -37,7 +37,7 @@
     "href": "https://www.future-of-computing.com/quantum-flytrap-shaping-the-future-of-quantum-devtools/",
     "date": "2022-07-01T00:00:00.000Z",
     "tags": ["interview", "quantum"],
-    "migdal_score": 1
+    "migdal_score": 0
   },
   {
     "title": "Quantum logic gates for a single qubit, interactively",
@@ -61,7 +61,7 @@
     "href": "https://medium.com/quantum-photons/to-make-a-cool-game-you-first-have-to-play-other-cool-games-a1a1d45e169b",
     "date": "2019-08-26T00:00:00.000Z",
     "tags": ["quantum", "games"],
-    "migdal_score": 1
+    "migdal_score": 0
   },
   {
     "title": "Does AI have a dirty mind, too?",
@@ -84,7 +84,7 @@
     "href": "https://deepsense.ai/keras-vs-pytorch-avp-transfer-learning/",
     "date": "2018-10-03T00:00:00.000Z",
     "tags": ["tech", "deep learning"],
-    "migdal_score": 1
+    "migdal_score": 0
   },
   {
     "title": "From customer segmentation to recommendation systems",
@@ -92,7 +92,7 @@
     "href": "https://aitrends.com/machine-learning/ai-customer-targeting-levels/",
     "date": "2018-08-29T00:00:00.000Z",
     "tags": ["tech", "data science"],
-    "migdal_score": 1
+    "migdal_score": 0
   },
   {
     "title": "Keras or PyTorch as your first deep learning framework",
