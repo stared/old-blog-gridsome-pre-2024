@@ -1,6 +1,7 @@
 ---
-title: Genesis 1 but every word begins with 'a' - with GPT4
+title: Genesis 1 but every word begins with 'A' - with GPT4
 description: >-
+  "At arrival, Almighty assembled above and abyss."
   Can GPT4 write constrained poetry?
 date: "2023-05-31T18:00:00.030Z"
 tags:
