@@ -66,4 +66,4 @@ https://twitter.com/ylecun/status/1622300311573651458)), I still find it impress
 
 GPT-3.5 is stubborn - it is hard to move forward once it gets an answer (even if wildly incorrect). GPT-4 is much better at collaborating - it will try to apply your suggestions. If you point to an error, it will admit it and attempt to make suitable changes. Very often, it takes a few iterations to get a suitable result.
 
-See also my previous blog posts [DALL·E 2 and transcendence - generating esoteric images with AI](https://p.migdal.pl/blog/2022/07/dall-e-2-and-transcendence/) (2022).
+See also my previous blog post: [DALL·E 2 and transcendence - generating esoteric images with AI](https://p.migdal.pl/blog/2022/07/dall-e-2-and-transcendence/).
