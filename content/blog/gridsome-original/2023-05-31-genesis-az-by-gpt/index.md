@@ -61,8 +61,7 @@ GPT-4 turned out to be the game-changer - it works out of the box, in a zero-sho
 > 30 And animalistic animals and avians and ambulatory animals—all animated with animation—I allocate agrarian articles as aliment." And accomplished.  
 > 31 Almighty admired all assembled, and absolutely amazing. And afternoon, and aurora arrived—adjacent age.
 
-Sure, you can complain that a few words start with a different letter - the same way that [GPT-4 gets only a B on a quantum computing exam](https://scottaaronson.blog/?p=7209). While GPT4 translation skills are nowhere near that of [Yann LeCun's dog](https://twitter.com/ylecun/status/1622300311573651458) (for sure, they are [Border Collie](https://www.nationalgeographic.co.uk/animals/2021/07/some-dogs-are-geniuses-just-like-humans
-https://twitter.com/ylecun/status/1622300311573651458)), I still find it impressive.
+Sure, you can complain that a few words start with a different letter - the same way that [GPT-4 gets only a B on a quantum computing exam](https://scottaaronson.blog/?p=7209). While GPT4 translation skills are nowhere near that of [Yann LeCun's dog](https://twitter.com/ylecun/status/1622300311573651458) (for sure, they are [Border Collie](https://www.nationalgeographic.co.uk/animals/2021/07/some-dogs-are-geniuses-just-like-humans)), I still find it impressive.
 
 GPT-3.5 is stubborn - it is hard to move forward once it gets an answer (even if wildly incorrect). GPT-4 is much better at collaborating - it will try to apply your suggestions. If you point to an error, it will admit it and attempt to make suitable changes. Very often, it takes a few iterations to get a suitable result.
 
