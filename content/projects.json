@@ -2,7 +2,7 @@
   {
     "title": "Pulser Studio",
     "desc": "No-code user interface for quantum computing, developed by Quantum Flytrap for Pasqal neutral atoms hardware.",
-    "href": "https://www.pasqal.com/services/pulser-studio",
+    "href": "https://www.pasqal.com/solutions/pulser-studio",
     "dateStart": "2022-01-01T00:00:00.000Z",
     "dateEnd": "2023-01-06T00:00:00.000Z",
     "tags": ["rust", "typescript", "quantum", "simulation"],
