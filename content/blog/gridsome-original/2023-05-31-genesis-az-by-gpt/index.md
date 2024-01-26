@@ -17,12 +17,12 @@ Some time ago, [thanks to Scott Aaronson](https://www.facebook.com/scott.aaronso
 
 I got curious - which other letters work for this task? I went with 's'. Purely manually, with no help of AI or a voice from heaven.
 
-> Supreme Spirit shaped: spaces, stone.  
+> Supreme Spirit shaped: space, stone.  
 > Stone shapeless, stark, shadowed. Surface suspended Supreme Spirit.  
 > Supreme Spirit said: shine. Saw shine.
 
 I didn't bother to finish - by induction, it will work for any number of lines.
-Would it be possible to make it easy with AI?
+Still, it would be a time-consuming task. Is be possible to generate such translation with AI?
 
 At that time, GPT-3 was the best model. It didn't work at all. Neither did GPT3.5, the basis of the first ChatGPT - at least not out of the box. We can fine-tune these models, i.e. train them on additional, suitable data. See [GPT-2 Poetry](https://gwern.net/gpt-2) and [GPT-4 Creative Fiction](https://gwern.net/gpt-3) by Gwern.
 
@@ -60,6 +60,9 @@ GPT-4 turned out to be the game-changer - it works out of the box, in a zero-sho
 > 30 And animalistic animals and avians and ambulatory animals—all animated with animation—I allocate agrarian articles as aliment." And accomplished.  
 > 31 Almighty admired all assembled, and absolutely amazing. And afternoon, and aurora arrived—adjacent age.
 
-Sure, you can complain that a few words start with a different letter - the same way that [GPT-4 gets only a B on a quantum computing exam](https://scottaaronson.blog/?p=7209).
+Sure, you can complain that a few words start with a different letter - the same way that [GPT-4 gets only a B on a quantum computing exam](https://scottaaronson.blog/?p=7209). While GPT4 translation skills are nowhere near that of [Yann LeCun's dog](https://twitter.com/ylecun/status/1622300311573651458) (for sure, they are [Border Collie](https://www.nationalgeographic.co.uk/animals/2021/07/some-dogs-are-geniuses-just-like-humans
+https://twitter.com/ylecun/status/1622300311573651458)), I still find it impressive.
 
 GPT-3.5 is stubborn - it is hard to move forward once it gets an answer (even if wildly incorrect). GPT-4 is much better at collaborating - it will try to apply your suggestions. If you point to an error, it will admit it and attempt to make suitable changes. Very often, it takes a few iterations to get a suitable result.
+
+See also my previous blog posts [DALL·E 2 and transcendence - generating esoteric images with AI](https://p.migdal.pl/blog/2022/07/dall-e-2-and-transcendence/) (2022).
