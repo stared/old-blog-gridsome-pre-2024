@@ -64,6 +64,15 @@
     "status": "done, maintained a bit"
   },
   {
+    "title": "AI development policy for Poland",
+    "desc": "Coauthor. Approved by the Polish Government.",
+    "href": "https://www.gov.pl/web/govtech/polityka-rozwoju-ai-w-polsce-przyjeta-przez-rade-ministrow--co-dalej",
+    "dateStart": "2019-03-01T00:00:00.000Z",
+    "dateEnd": "2020-12-28T00:00:00.000Z",
+    "tags": ["deep-learning"],
+    "status": "done"
+  },
+  {
     "title": "bra-ket-vue",
     "desc": "A Vue-based visualization of quantum states and operations. With Klem Jankiewicz.",
     "href": "https://github.com/Quantum-Flytrap/bra-ket-vue",
