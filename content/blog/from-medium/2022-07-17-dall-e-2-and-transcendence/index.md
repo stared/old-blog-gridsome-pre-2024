@@ -220,7 +220,7 @@ And what does the end look like?
 
 ![](./41.jpg){ class=width-max-third }
 
-> “end of all things, digital art”; someone’s prompt idea
+> “end of all things, digital art”; prompt idea by Piotr Rybicki
 
 #### Life and death
 
