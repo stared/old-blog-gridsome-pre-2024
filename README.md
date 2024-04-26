@@ -1,8 +1,8 @@
-# Default starter for Gridsome
+# Default starter for Gridsome7
 
 This is the project you get when you run `gridsome create new-project`.
 
-### 1. Install Gridsome CLI tool if you don't have
+### 1grana . Install Gridsome CLI tool if you don't have
 
 `npm install --global @gridsome/cli`
 
